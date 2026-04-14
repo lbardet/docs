@@ -1,30 +1,47 @@
 # Table of contents
 
-## OVERVIEW
+## Overview
 
 * [What is idOS?](README.md)
-* [Why idOS?](why-idos.md)
-* [What is self-custodial data?](what-is-self-custodial-data.md)
-* [Market focus](market-focus.md)
+* [Architecture overview](overview/architecture.md)
+* [Key concepts](overview/key-concepts.md)
 * [Example use cases](example-use-cases/README.md)
   * [Neobank/wallet integration](example-use-cases/neobank-wallet-integration.md)
   * [Financial module integration](example-use-cases/financial-module-integration.md)
   * [TradFi → onchain integration](example-use-cases/tradfi-onchain-integration.md)
-* [The idOS Consortium](the-idos-consortium.md)
 
-## HOW IT WORKS
+## Getting Started
 
-* [System design](how-it-works/system-design.md)
-* [Key flows](how-it-works/key-flows/README.md)
-  * [Encryption flows](how-it-works/key-flows/encryption-flows.md)
-  * [Data flows](how-it-works/key-flows/data-flows.md)
-* [Biometrics & idOS FaceSign (Beta)](how-it-works/biometrics-and-idos-facesign-beta.md)
-* [MPC for encryption keys](how-it-works/mpc-for-encryption-keys.md)
-* [FAQs - Users](how-it-works/faqs-users.md)
-* [Security](how-it-works/security.md)
-* [Bug bounty program](how-it-works/bug-bounty-program.md)
+* [Getting started](getting-started/README.md)
+* [Integration overview](getting-started/integration-overview.md)
+* [Client SDK guide](getting-started/client-guide.md)
+* [Issuer SDK guide](getting-started/issuer-guide.md)
+* [Consumer SDK guide](getting-started/consumer-guide.md)
 
-## COMPLIANCE
+## How It Works
+
+* [Storage Network](how-it-works/storage-network.md)
+* [Economy Network](how-it-works/economy-network.md)
+* [Encryption and key management](how-it-works/encryption-and-key-management.md)
+* [MPC key management](how-it-works/mpc-key-management.md)
+* [Authentication and sessions](how-it-works/authentication-and-sessions.md)
+* [Data flows](how-it-works/data-flows.md)
+* [Biometrics & FaceSign](how-it-works/biometrics-and-idos-facesign-beta.md)
+
+## Security
+
+* [Security overview](security/README.md)
+* [Audits and testing](security/audits.md)
+* [Smart contract security](security/smart-contracts.md)
+* [Bug bounty program](security/bug-bounty.md)
+
+## Network & Infrastructure
+
+* [Node infrastructure](network/README.md)
+* [Performance and scalability](network/performance.md)
+* [Reliability and availability](network/reliability.md)
+
+## Compliance
 
 * [Legal Assessment](compliance/legal-assessment.md)
 * [idOS Regulatory approach](compliance/idos-regulatory-approach.md)
@@ -39,18 +56,33 @@
 
 * [Legal Considerations](legal-considerations.md)
 
-## IDOS Token Launch
+## IDOS Token
 
 * [Token Economy & Revenue Streams](idos-token-launch/token-economy-and-revenue-streams.md)
 * [Token Allocation & Distribution](idos-token-launch/token-allocation-and-distribution.md)
 * [FAQs - Token Launch](idos-token-launch/faqs-token-launch.md)
 * [Official links](idos-token-launch/official-links.md)
 
-## Integrate
+## Legal Docs
 
-* [Journey Overview](integrate/journey-overview.md)
-* [Consumer guide](integrate/consumer-guide.md)
-* [Issuer guide](integrate/issuer-guide.md)
-* [FAQs - Developers](integrate/faqs-developers.md)
-* [Copy of idOS SDKs](integrate/copy-of-idos-sdks.md)
-* [Getting Started With the SDKs](integrate/getting-started-with-the-sdks.md)
+* [Introduction](legal-docs/introduction.md)
+* [Data and concepts](legal-docs/data-and-concepts.md)
+* [idOS Software license](legal-docs/idos-software-license.md)
+* [Data privacy and protection](legal-docs/data-privacy-and-protection/README.md)
+  * [Legal basis for profile creation and management](legal-docs/data-privacy-and-protection/legal-basis-for-profile-creation-and-management.md)
+  * [Legal basis for sharing data](legal-docs/data-privacy-and-protection/legal-basis-for-sharing-data.md)
+  * [Data portability](legal-docs/data-privacy-and-protection/data-portability.md)
+  * [Data rectification](legal-docs/data-privacy-and-protection/data-rectification.md)
+  * [The right to be forgotten](legal-docs/data-privacy-and-protection/the-right-to-be-forgotten.md)
+  * [Data processing location](legal-docs/data-privacy-and-protection/data-processing-location.md)
+  * [User identification and on-chain data](legal-docs/data-privacy-and-protection/user-identification-and-on-chain-data.md)
+  * [Third-party data management policies](legal-docs/data-privacy-and-protection/third-party-data-management-policies.md)
+* [Identity data for obligated entities](legal-docs/identity-data-for-obligated-entities/README.md)
+  * [Identity verification providers as issuers](legal-docs/identity-data-for-obligated-entities/identity-verification-providers-as-issuers.md)
+  * [Data retention obligations](legal-docs/identity-data-for-obligated-entities/data-retention-obligations.md)
+
+## Resources
+
+* [FAQ](resources/faq.md)
+* [The idOS Consortium](the-idos-consortium.md)
+* [Community & Social](community-and-marketing/community-and-social.md)
