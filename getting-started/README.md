@@ -1,38 +1,46 @@
 # Getting started
 
-This section covers how to integrate idOS into your application. The path depends on your role in the ecosystem.
+This section covers how to integrate idOS into your application. Start from what you need to accomplish, then drill into the technical details.
 
-## Choose your integration path
+## What do you need to do?
 
-### I'm building a wallet or dApp (Client)
+### "I need to onboard users with KYC"
 
-Your users will connect their wallets, manage their idOS profiles, and share credentials with third parties through your UI.
+You want users to complete identity verification and store their credentials for re-use across your ecosystem.
 
-**You need**: `@idos-network/client`
+**Fastest path**: Use [idOS Relay](https://github.com/idos-network/relay) — an embeddable iframe that handles account creation, KYC provider integration, credential issuance, and access grant logic. → [Integration overview](integration-overview.md)
 
-→ [Client SDK guide](client-guide.md)
+**Full control**: Use the Issuer SDK to build your own verification flow. → [Issuer SDK guide](issuer-guide.md)
 
-### I'm a KYC/IDV provider (Issuer)
+### "I need to verify a user's existing credentials"
 
-You verify user identity and write signed credentials to idOS on the user's behalf.
-
-**You need**: `@idos-network/client` (frontend) + `@idos-network/issuer` (backend)
-
-→ [Issuer SDK guide](issuer-guide.md)
-
-### I'm a regulated service consuming identity data (Consumer)
-
-You request access to user credentials, retrieve them, and verify their authenticity.
+Your users already have KYC credentials in idOS (from another provider or service). You want to request access, retrieve, and verify them — no re-verification needed.
 
 **You need**: `@idos-network/client` (frontend) + `@idos-network/consumer` (backend)
 
 → [Consumer SDK guide](consumer-guide.md)
 
-### I want minimal integration effort
+### "I need to add identity management to my wallet or dApp"
 
-[idOS Relay](https://github.com/idos-network/relay) is a service that handles account creation, KYC provider integration, credential issuance, and access grant logic via an embeddable iframe. It is the fastest path to integration.
+Your users connect wallets, manage their idOS profiles, and share credentials with third parties through your UI.
 
-→ [Integration overview](integration-overview.md)
+**You need**: `@idos-network/client`
+
+→ [Client SDK guide](client-guide.md)
+
+### "I need to issue credentials as a KYC provider"
+
+You run an identity verification business and want to write signed credentials to idOS on behalf of your users.
+
+**You need**: `@idos-network/client` (frontend) + `@idos-network/issuer` (backend)
+
+→ [Issuer SDK guide](issuer-guide.md)
+
+### "I need to evaluate idOS for compliance"
+
+You're a compliance officer assessing whether idOS meets your regulatory requirements.
+
+→ [Compliance officer guide](../compliance/compliance-guide.md)
 
 ## SDK packages
 

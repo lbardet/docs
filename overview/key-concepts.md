@@ -2,6 +2,17 @@
 
 This page defines the core data model, actor roles, and mechanisms that underpin idOS.
 
+## Self-custodial data
+
+idOS applies the principle of self-custody — familiar from crypto wallets — to identity data. Users hold their own encryption keys, and all data is encrypted before it leaves their device. This means:
+
+- **No central data honeypot**: Even if all storage nodes are compromised, attackers get only ciphertext.
+- **User-controlled sharing**: Data is only accessible to parties the user explicitly authorizes via signed access grants.
+- **Portability**: Users can export their credentials in standard formats (W3C Verifiable Credentials) and use them outside idOS.
+- **Deletion**: Users can delete their data and it is purged from all nodes via BFT consensus.
+
+This differentiates idOS from centralized identity providers (where the provider holds your data) and from pure proof-based systems (which can attest facts but don't guarantee data availability for compliance).
+
 ## Actors
 
 ### User (Owner)

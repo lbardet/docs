@@ -52,6 +52,8 @@ See idOS in action with a [KYC re-usability demo](https://demo.idos.network/) sh
 
 ## Next steps
 
-- [Architecture overview](overview/architecture.md) — understand how the system fits together
-- [Key concepts](overview/key-concepts.md) — learn the data model and actor roles
-- [Getting started](getting-started/README.md) — integrate idOS into your application
+- **I need to onboard users** → [Getting started](getting-started/README.md) — choose your integration path
+- **I need to understand the cost** → [Pricing and costs](getting-started/pricing-and-costs.md) — what idOS costs to use
+- **I'm evaluating for compliance** → [Compliance officer guide](compliance/compliance-guide.md) — reading path for compliance teams
+- **I want to understand the architecture** → [Architecture overview](overview/architecture.md) — how the system fits together
+- **I want to see real examples** → [Example use cases](example-use-cases/README.md) — neobank, fintech, and TradFi flows

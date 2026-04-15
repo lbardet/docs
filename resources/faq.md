@@ -88,6 +88,26 @@ All credential content is encrypted with NaCl boxes (x25519-xsalsa20-poly1305) b
 
 The Client SDK has a 2 MB size limit. Core operations (profile check, credential listing, access grant creation) are subsecond.
 
+### How do I integrate idOS if I don't use TypeScript?
+
+On the browser side, you can `npm install` the idOS Client SDK regardless of your stack. On the server side, you have options: repackage the Consumer or Issuer SDK as a microservice or CLI tool and call it from your language, or re-implement the RPC calling and cryptography natively (not recommended due to complexity).
+
+### Can I access a user's credentials from a smart contract?
+
+Smart contracts cannot make external API calls, and idOS credentials contain personal data that should not be on a public chain. If you need on-chain authorization, maintain an address allowlist: when you successfully receive an access grant to a valid credential, add the user's wallet address(es) to the allowlist.
+
+### What are the ongoing costs of integrating idOS?
+
+Currently there are no ongoing costs — gas fees are set to zero during early adoption. See [Pricing and costs](../getting-started/pricing-and-costs.md) for the full cost model including future gas fees, KYC provider costs, and node operator economics.
+
+### How does credential revocation work?
+
+Issuers cannot delete a credential from a user's profile without permission. They can update the credential's metadata to mark it as revoked. Consumers checking the credential will see the revocation status and can reject it. The user retains the credential data but it is no longer considered valid by consumers who check revocation status.
+
+### How do timelocks work?
+
+A timelock is an optional add-on to an access grant. When a consumer requests access, they can specify a retention period. If the user accepts, they cannot revoke that specific access grant or delete the underlying credential until the timelock expires. This supports AML regulations that require obliged entities to maintain access to KYC data for a defined period.
+
 ## For compliance teams
 
 ### What is idOS's GDPR role?

@@ -13,6 +13,7 @@
 ## Getting Started
 
 * [Getting started](getting-started/README.md)
+* [Pricing and costs](getting-started/pricing-and-costs.md)
 * [Integration overview](getting-started/integration-overview.md)
 * [Client SDK guide](getting-started/client-guide.md)
 * [Issuer SDK guide](getting-started/issuer-guide.md)
@@ -43,6 +44,7 @@
 
 ## Compliance
 
+* [Compliance officer guide](compliance/compliance-guide.md)
 * [Legal Assessment](compliance/legal-assessment.md)
 * [idOS Regulatory approach](compliance/idos-regulatory-approach.md)
 * [KYC Re-usability](compliance/kyc-re-usability/README.md)
