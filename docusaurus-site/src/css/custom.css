@@ -1,0 +1,251 @@
+/* GitBook-inspired theme for idOS Docs */
+
+/* ── Color palette ──────────────────────────────────────────────────────── */
+:root {
+  /* Primary: GitBook-style blue */
+  --ifm-color-primary: #3f8cff;
+  --ifm-color-primary-dark: #1f75ff;
+  --ifm-color-primary-darker: #0f68ff;
+  --ifm-color-primary-darkest: #0050e0;
+  --ifm-color-primary-light: #5f9fff;
+  --ifm-color-primary-lighter: #6fa8ff;
+  --ifm-color-primary-lightest: #9fc6ff;
+
+  /* Typography */
+  --ifm-font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, sans-serif;
+  --ifm-font-size-base: 15px;
+  --ifm-line-height-base: 1.7;
+  --ifm-heading-font-weight: 600;
+
+  /* Content width — GitBook uses a narrower reading column */
+  --ifm-container-width: 1280px;
+  --ifm-container-width-xl: 1280px;
+
+  /* Sidebar */
+  --ifm-sidebar-width: 280px;
+  --doc-sidebar-width: 280px;
+
+  /* Backgrounds */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fa;
+
+  /* Borders */
+  --ifm-toc-border-color: #e8eaed;
+  --ifm-hr-border-color: #e8eaed;
+
+  /* Code */
+  --ifm-code-font-size: 90%;
+  --ifm-code-border-radius: 4px;
+  --ifm-code-background: #f0f2f5;
+
+  --docusaurus-highlighted-code-line-bg: rgba(63, 140, 255, 0.08);
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #5ea8ff;
+  --ifm-color-primary-dark: #3f8cff;
+  --ifm-color-primary-darker: #2f7fff;
+  --ifm-color-primary-darkest: #1065e0;
+  --ifm-color-primary-light: #7dbfff;
+  --ifm-color-primary-lighter: #8dc8ff;
+  --ifm-color-primary-lightest: #b3d9ff;
+
+  --ifm-background-color: #1a1b1e;
+  --ifm-background-surface-color: #25262b;
+  --ifm-navbar-background-color: #1a1b1e;
+
+  --ifm-code-background: #2d2e32;
+  --ifm-toc-border-color: #373a40;
+  --ifm-hr-border-color: #373a40;
+
+  --docusaurus-highlighted-code-line-bg: rgba(94, 168, 255, 0.1);
+}
+
+/* ── Navbar ─────────────────────────────────────────────────────────────── */
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  padding: 0 1.5rem;
+  height: 56px;
+}
+
+.navbar__title {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.navbar__logo {
+  height: 24px;
+  margin-right: 8px;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────────────────── */
+.theme-doc-sidebar-container {
+  border-right: 1px solid var(--ifm-toc-border-color) !important;
+}
+
+/* Sidebar background slightly off-white (light) / dark (dark) */
+:root .theme-doc-sidebar-menu {
+  background: var(--ifm-background-surface-color);
+}
+
+[data-theme="dark"] .theme-doc-sidebar-menu {
+  background: #1e1f22;
+}
+
+[data-theme="dark"] .theme-doc-sidebar-container {
+  background: #1e1f22;
+  border-right-color: #373a40 !important;
+}
+
+/* Category labels */
+.menu__list-item-collapsible .menu__link--sublist {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ifm-color-content-secondary);
+  padding-top: 1rem;
+}
+
+/* Active sidebar item */
+.menu__link--active:not(.menu__link--sublist) {
+  background: rgba(63, 140, 255, 0.1);
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .menu__link--active:not(.menu__link--sublist) {
+  background: rgba(94, 168, 255, 0.12);
+}
+
+.menu__link {
+  border-radius: 6px;
+  font-size: 0.875rem;
+  padding: 5px 10px;
+}
+
+.menu__link:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .menu__link:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ── Content area ────────────────────────────────────────────────────────── */
+.theme-doc-markdown {
+  max-width: 780px;
+}
+
+article {
+  padding: 2rem 2rem 3rem;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+/* ── Table of Contents (right sidebar) ──────────────────────────────────── */
+.table-of-contents {
+  font-size: 0.8rem;
+  border-left: 2px solid var(--ifm-toc-border-color);
+}
+
+.table-of-contents__link {
+  color: var(--ifm-color-content-secondary);
+}
+
+.table-of-contents__link--active,
+.table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* ── Callout blocks (GitBook hints) ─────────────────────────────────────── */
+/* GitBook > 🚧 style blocks render as blockquotes — style them */
+blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  background: rgba(63, 140, 255, 0.06);
+  border-radius: 0 6px 6px 0;
+  padding: 0.75rem 1rem;
+  margin: 1.25rem 0;
+  color: var(--ifm-color-content);
+}
+
+[data-theme="dark"] blockquote {
+  background: rgba(94, 168, 255, 0.08);
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+/* ── Admonitions (:::note, :::warning, etc.) ─────────────────────────────── */
+.admonition {
+  border-radius: 6px;
+}
+
+/* ── Code blocks ─────────────────────────────────────────────────────────── */
+.prism-code {
+  border-radius: 8px;
+  font-size: 0.875rem;
+}
+
+code {
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+/* ── Images ──────────────────────────────────────────────────────────────── */
+img {
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+/* ── Footer ──────────────────────────────────────────────────────────────── */
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+  padding: 2rem 0;
+}
+
+/* ── Pagination ──────────────────────────────────────────────────────────── */
+.pagination-nav__link {
+  border-radius: 8px;
+  border: 1px solid var(--ifm-toc-border-color);
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+/* ── Search (if using local search plugin) ───────────────────────────────── */
+.navbar__search-input {
+  border-radius: 20px;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-toc-border-color);
+}
+
+/* ── Mobile ──────────────────────────────────────────────────────────────── */
+@media (max-width: 996px) {
+  article {
+    padding: 1.25rem 1rem 2rem;
+  }
+}

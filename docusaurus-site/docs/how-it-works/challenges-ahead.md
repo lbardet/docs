@@ -1,0 +1,15 @@
+# Challenges ahead
+
+The following, is a list of technical challenges that we see ahead and few words on how do we plan to approach them. Building idOS is not an easy endeavor, and we will continuously seek to attract the best teams to build with us. in the spirit of decentralization and 'open-sourceness' (is that a word?), if you think you can contribute to any of these challenges, or if you see any other important ones, please do not hesitate to [reach to us](../community-and-marketing/community-and-social.md).
+
+#### Enhanced privacy-preserving data sharing
+
+idOS puts a high emphasis on user's privacy. Using the idOS SDK, user data is always encrypted and only shared under users' agreement. While there is no personal information publicly displayed, it is possible to see on-chain transactions for data grants showing that a certain wallet address has shared encrypted data with another one (like with any on-chain transaction). While this doesn't really expose user's personally identifiable information (PII), it could be possible to find out that a user has shared information for a specific request (e.g. prove that you are older than 18 years old). There are many solutions in web3 that look after user's privacy beyond their identity data, and we have been exploring and looking to implement several ones, such as **selective disclosure** (allowing user's to break 1 credential into several credentials when sharing data, e.g. don't share your full passport, just that you are not a resident from a specific country), **Zero-Knowledge Proofs**, **Secure Multi-Party Computation (SMPC)** and **homomorphic encryption.**
+
+#### Ensuring global uniqueness for all idOS user profiles
+
+The quest for global uniqueness is one of the main challenges that decentralized identity systems face. In its final state, idOS will be a permissionless protocol, that will allow multiple credential issuers/attesters to onboard user data. There are multiple ways to identify uniqueness (e.g. different biometrics - face, fingerprint, iris, trust-based social methods, unique documents), and not all issuers use the same ones. Therefore, without a single standard for uniqueness, there is a risk of generating duplicated 'unique' profiles for the same user coming from reputable issuers. Nevertheless, this doesn't pose a major risk to the network, as the amount of profiles that a human will likely be able to create will be limited to a handful.
+
+#### Profile and password recovery
+
+Users use their wallet's private key to interact with idOS (e.g. see data, sign messages). Therefore, losing access to their connected wallets would also mean losing access to managing their data. Moreover, losing their idOS password would also stop them from being able to decrypt their own data. 'Your keys, your data' is a mantra of web3, but forcing users to remember and store several passwords to interact with different parts of web3 doesn't offer the best UX. We don't see relying on centralized password back-up to be a feasible solution, and are exploring new solutions.
