@@ -1,251 +1,550 @@
-/* GitBook-inspired theme for idOS Docs */
+/*
+ * GitBook-faithful theme for idOS Docs
+ * Targets Docusaurus 3 classic theme (Infima)
+ */
 
-/* ── Color palette ──────────────────────────────────────────────────────── */
+/* ── Design tokens ─────────────────────────────────────────────────────── */
 :root {
-  /* Primary: GitBook-style blue */
-  --ifm-color-primary: #3f8cff;
-  --ifm-color-primary-dark: #1f75ff;
-  --ifm-color-primary-darker: #0f68ff;
-  --ifm-color-primary-darkest: #0050e0;
-  --ifm-color-primary-light: #5f9fff;
-  --ifm-color-primary-lighter: #6fa8ff;
-  --ifm-color-primary-lightest: #9fc6ff;
+  /* Primary: GitBook blue */
+  --ifm-color-primary: #346df1;
+  --ifm-color-primary-dark: #1a5ae8;
+  --ifm-color-primary-darker: #1052de;
+  --ifm-color-primary-darkest: #0d44bf;
+  --ifm-color-primary-light: #4d7ef3;
+  --ifm-color-primary-lighter: #6090f5;
+  --ifm-color-primary-lightest: #8aaef9;
 
-  /* Typography */
+  /* Typography — Inter matches GitBook exactly */
   --ifm-font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen, Ubuntu, sans-serif;
+    Roboto, sans-serif;
+  --ifm-font-family-monospace: "JetBrains Mono", "Fira Code", ui-monospace,
+    "Cascadia Code", monospace;
   --ifm-font-size-base: 15px;
-  --ifm-line-height-base: 1.7;
+  --ifm-line-height-base: 1.75;
   --ifm-heading-font-weight: 600;
 
-  /* Content width — GitBook uses a narrower reading column */
-  --ifm-container-width: 1280px;
+  /* Layout */
+  --ifm-navbar-height: 56px;
+  --ifm-sidebar-width: 272px;
+  --doc-sidebar-width: 272px;
   --ifm-container-width-xl: 1280px;
-
-  /* Sidebar */
-  --ifm-sidebar-width: 280px;
-  --doc-sidebar-width: 280px;
 
   /* Backgrounds */
   --ifm-background-color: #ffffff;
-  --ifm-background-surface-color: #f8f9fa;
+  --ifm-background-surface-color: #f8fafc;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: none;
 
-  /* Borders */
-  --ifm-toc-border-color: #e8eaed;
-  --ifm-hr-border-color: #e8eaed;
+  /* Borders & dividers */
+  --ifm-toc-border-color: #e2e8f0;
+  --ifm-hr-border-color: #e2e8f0;
+  --ifm-color-emphasis-200: #e2e8f0;
+  --ifm-color-emphasis-300: #cbd5e1;
+
+  /* Text */
+  --ifm-color-content: #1e293b;
+  --ifm-color-content-secondary: #64748b;
+  --ifm-link-color: #346df1;
+  --ifm-link-hover-color: #1a5ae8;
 
   /* Code */
-  --ifm-code-font-size: 90%;
-  --ifm-code-border-radius: 4px;
-  --ifm-code-background: #f0f2f5;
+  --ifm-code-font-size: 87.5%;
+  --ifm-code-background: #f1f5f9;
+  --ifm-code-border-radius: 5px;
+  --ifm-pre-background: #f8fafc;
+  --docusaurus-highlighted-code-line-bg: rgba(52, 109, 241, 0.07);
 
-  --docusaurus-highlighted-code-line-bg: rgba(63, 140, 255, 0.08);
+  /* Sidebar tokens */
+  --gb-sidebar-bg: #ffffff;
+  --gb-sidebar-border: #e2e8f0;
+  --gb-sidebar-category-color: #94a3b8;
+  --gb-sidebar-item-color: #374151;
+  --gb-sidebar-item-hover-bg: #f1f5f9;
+  --gb-sidebar-item-active-bg: #eff4fe;
+  --gb-sidebar-item-active-color: #346df1;
 }
 
 [data-theme="dark"] {
-  --ifm-color-primary: #5ea8ff;
-  --ifm-color-primary-dark: #3f8cff;
-  --ifm-color-primary-darker: #2f7fff;
-  --ifm-color-primary-darkest: #1065e0;
-  --ifm-color-primary-light: #7dbfff;
-  --ifm-color-primary-lighter: #8dc8ff;
-  --ifm-color-primary-lightest: #b3d9ff;
+  --ifm-color-primary: #6899f8;
+  --ifm-color-primary-dark: #4d7ef3;
+  --ifm-color-primary-darker: #346df1;
+  --ifm-color-primary-darkest: #1a5ae8;
+  --ifm-color-primary-light: #83a9fa;
+  --ifm-color-primary-lighter: #9dbafb;
+  --ifm-color-primary-lightest: #c2d4fd;
 
-  --ifm-background-color: #1a1b1e;
-  --ifm-background-surface-color: #25262b;
-  --ifm-navbar-background-color: #1a1b1e;
+  --ifm-background-color: #0f1117;
+  --ifm-background-surface-color: #161b22;
+  --ifm-navbar-background-color: #161b22;
 
-  --ifm-code-background: #2d2e32;
-  --ifm-toc-border-color: #373a40;
-  --ifm-hr-border-color: #373a40;
+  --ifm-color-content: #e6edf3;
+  --ifm-color-content-secondary: #8b949e;
+  --ifm-link-color: #6899f8;
+  --ifm-link-hover-color: #83a9fa;
 
-  --docusaurus-highlighted-code-line-bg: rgba(94, 168, 255, 0.1);
+  --ifm-code-background: #1c2128;
+  --ifm-pre-background: #161b22;
+  --ifm-toc-border-color: #30363d;
+  --ifm-hr-border-color: #30363d;
+  --ifm-color-emphasis-200: #30363d;
+  --ifm-color-emphasis-300: #3d444d;
+
+  --gb-sidebar-bg: #161b22;
+  --gb-sidebar-border: #30363d;
+  --gb-sidebar-category-color: #6e7681;
+  --gb-sidebar-item-color: #cdd5df;
+  --gb-sidebar-item-hover-bg: #1c2128;
+  --gb-sidebar-item-active-bg: #1a2d4a;
+  --gb-sidebar-item-active-color: #6899f8;
+
+  --docusaurus-highlighted-code-line-bg: rgba(104, 153, 248, 0.1);
 }
 
-/* ── Navbar ─────────────────────────────────────────────────────────────── */
+/* ── Base & Reset ──────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Navbar ────────────────────────────────────────────────────────────── */
 .navbar {
-  box-shadow: none;
   border-bottom: 1px solid var(--ifm-toc-border-color);
-  padding: 0 1.5rem;
-  height: 56px;
+  height: var(--ifm-navbar-height);
+  padding: 0 1.25rem;
+  box-shadow: none !important;
 }
 
-.navbar__title {
-  font-weight: 700;
-  font-size: 1rem;
-  letter-spacing: -0.01em;
+.navbar__brand {
+  gap: 10px;
 }
 
 .navbar__logo {
-  height: 24px;
-  margin-right: 8px;
+  height: 28px;
+  width: auto;
 }
 
-/* ── Sidebar ─────────────────────────────────────────────────────────────── */
-.theme-doc-sidebar-container {
-  border-right: 1px solid var(--ifm-toc-border-color) !important;
-}
-
-/* Sidebar background slightly off-white (light) / dark (dark) */
-:root .theme-doc-sidebar-menu {
-  background: var(--ifm-background-surface-color);
-}
-
-[data-theme="dark"] .theme-doc-sidebar-menu {
-  background: #1e1f22;
-}
-
-[data-theme="dark"] .theme-doc-sidebar-container {
-  background: #1e1f22;
-  border-right-color: #373a40 !important;
-}
-
-/* Category labels */
-.menu__list-item-collapsible .menu__link--sublist {
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--ifm-color-content-secondary);
-  padding-top: 1rem;
-}
-
-/* Active sidebar item */
-.menu__link--active:not(.menu__link--sublist) {
-  background: rgba(63, 140, 255, 0.1);
-  border-radius: 6px;
+.navbar__title {
+  font-size: 0.9375rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--ifm-color-content);
 }
 
-[data-theme="dark"] .menu__link--active:not(.menu__link--sublist) {
-  background: rgba(94, 168, 255, 0.12);
+.navbar__item {
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
+.navbar__link {
+  color: var(--ifm-color-content-secondary);
+  font-weight: 500;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-content);
+}
+
+/* Navbar toggle (mobile) */
+.navbar__toggle {
+  color: var(--ifm-color-content-secondary);
+}
+
+/* ── Sidebar ───────────────────────────────────────────────────────────── */
+.theme-doc-sidebar-container {
+  background: var(--gb-sidebar-bg) !important;
+  border-right: 1px solid var(--gb-sidebar-border) !important;
+}
+
+/* Remove the thin top border Docusaurus adds */
+.theme-doc-sidebar-container > div {
+  background: var(--gb-sidebar-bg);
+}
+
+.menu {
+  background: var(--gb-sidebar-bg) !important;
+  padding: 0.75rem 0 2rem;
+  font-size: 0.875rem;
+}
+
+.menu__list {
+  padding-left: 0;
+}
+
+/* Nested list indentation */
+.menu__list .menu__list {
+  padding-left: 0.75rem;
+  border-left: 1px solid var(--gb-sidebar-border);
+  margin-left: 0.75rem;
+}
+
+/* All sidebar links */
 .menu__link {
   border-radius: 6px;
+  color: var(--gb-sidebar-item-color);
   font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
   padding: 5px 10px;
+  transition: background 0.1s, color 0.1s;
 }
 
 .menu__link:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: var(--gb-sidebar-item-hover-bg);
+  color: var(--ifm-color-content);
 }
 
-[data-theme="dark"] .menu__link:hover {
-  background: rgba(255, 255, 255, 0.06);
+/* Active doc link */
+.menu__link--active:not(.menu__link--sublist) {
+  background: var(--gb-sidebar-item-active-bg);
+  color: var(--gb-sidebar-item-active-color);
+  font-weight: 500;
 }
 
-/* ── Content area ────────────────────────────────────────────────────────── */
-.theme-doc-markdown {
-  max-width: 780px;
+.menu__link--active:not(.menu__link--sublist):hover {
+  background: var(--gb-sidebar-item-active-bg);
+  color: var(--gb-sidebar-item-active-color);
+}
+
+/* Category toggle (section header) */
+.menu__link--sublist {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--gb-sidebar-category-color) !important;
+  padding: 5px 10px;
+  margin-top: 1.25rem;
+}
+
+.menu__link--sublist:hover {
+  background: transparent;
+  color: var(--ifm-color-content-secondary) !important;
+}
+
+.menu__link--sublist:first-child,
+.menu__list > .menu__list-item:first-child > .menu__link--sublist {
+  margin-top: 0.25rem;
+}
+
+/* Caret icon */
+.menu__caret {
+  padding: 2px 4px;
+}
+
+.menu__caret::before {
+  border-color: var(--gb-sidebar-category-color);
+}
+
+/* ── Content layout ────────────────────────────────────────────────────── */
+.main-wrapper {
+  background: var(--ifm-background-color);
+}
+
+/* Content column */
+.container.padding-top--md {
+  padding-top: 2rem !important;
 }
 
 article {
-  padding: 2rem 2rem 3rem;
+  padding: 2rem 2.5rem 4rem;
+  max-width: 100%;
 }
 
-/* Headings */
+/* Constrain the readable content width like GitBook */
+.theme-doc-markdown {
+  max-width: 720px;
+}
+
+/* ── Typography ────────────────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ifm-color-content);
+  font-family: var(--ifm-font-family-base);
+}
+
 h1 {
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 0.5rem;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+/* Page description line (GitBook shows it below the title) */
+article > header ~ p:first-of-type,
+.theme-doc-markdown > p:first-child {
+  color: var(--ifm-color-content-secondary);
+  font-size: 1rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.375rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.35;
   margin-top: 2.5rem;
-  padding-bottom: 0.4rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--ifm-toc-border-color);
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
   margin-top: 2rem;
 }
 
-/* ── Table of Contents (right sidebar) ──────────────────────────────────── */
+h4 {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+p {
+  color: var(--ifm-color-content);
+  font-size: var(--ifm-font-size-base);
+  line-height: var(--ifm-line-height-base);
+  margin-bottom: 1rem;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+  line-height: var(--ifm-line-height-base);
+}
+
+/* Inline code */
+code {
+  background: var(--ifm-code-background);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-code-border-radius);
+  color: var(--ifm-color-content);
+  font-family: var(--ifm-font-family-monospace);
+  font-size: var(--ifm-code-font-size);
+  padding: 1px 5px;
+}
+
+/* ── Code blocks ──────────────────────────────────────────────────────── */
+.prism-code {
+  border-radius: 8px;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+pre {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+}
+
+pre > code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* ── Blockquotes — GitBook hint blocks ────────────────────────────────── */
+blockquote {
+  background: var(--gb-sidebar-item-active-bg);
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: 0 6px 6px 0;
+  color: var(--ifm-color-content);
+  margin: 1.5rem 0;
+  padding: 0.875rem 1.125rem;
+}
+
+[data-theme="dark"] blockquote {
+  background: rgba(104, 153, 248, 0.07);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Tables ────────────────────────────────────────────────────────────── */
+table {
+  border-collapse: collapse;
+  display: block;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  width: 100%;
+}
+
+th {
+  background: var(--ifm-background-surface-color);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--ifm-color-content-secondary);
+}
+
+th, td {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  padding: 0.625rem 0.875rem;
+  text-align: left;
+}
+
+tr:nth-child(2n) td {
+  background: var(--ifm-background-surface-color);
+}
+
+/* ── Images ────────────────────────────────────────────────────────────── */
+img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* ── Table of Contents (right) ─────────────────────────────────────────── */
 .table-of-contents {
-  font-size: 0.8rem;
-  border-left: 2px solid var(--ifm-toc-border-color);
+  border-left: 1px solid var(--ifm-toc-border-color);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  padding-left: 1rem;
 }
 
 .table-of-contents__link {
   color: var(--ifm-color-content-secondary);
+  display: block;
+  padding: 2px 0;
+  transition: color 0.1s;
 }
 
-.table-of-contents__link--active,
-.table-of-contents__link:hover {
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
   color: var(--ifm-color-primary);
+  text-decoration: none;
 }
 
-/* ── Callout blocks (GitBook hints) ─────────────────────────────────────── */
-/* GitBook > 🚧 style blocks render as blockquotes — style them */
-blockquote {
-  border-left: 4px solid var(--ifm-color-primary);
-  background: rgba(63, 140, 255, 0.06);
-  border-radius: 0 6px 6px 0;
-  padding: 0.75rem 1rem;
-  margin: 1.25rem 0;
-  color: var(--ifm-color-content);
+/* ── Breadcrumbs ───────────────────────────────────────────────────────── */
+.breadcrumbs {
+  font-size: 0.8125rem;
+  margin-bottom: 1.5rem;
 }
 
-[data-theme="dark"] blockquote {
-  background: rgba(94, 168, 255, 0.08);
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: var(--ifm-color-content-secondary);
+  background: none;
 }
 
-blockquote p {
-  margin-bottom: 0;
+.breadcrumbs__link {
+  color: var(--ifm-color-content-secondary);
+  padding: 0.2rem 0.4rem;
 }
 
-/* ── Admonitions (:::note, :::warning, etc.) ─────────────────────────────── */
-.admonition {
-  border-radius: 6px;
+.breadcrumbs__link:hover {
+  color: var(--ifm-color-primary);
+  background: none;
+  text-decoration: none;
 }
 
-/* ── Code blocks ─────────────────────────────────────────────────────────── */
-.prism-code {
-  border-radius: 8px;
-  font-size: 0.875rem;
-}
-
-code {
-  padding: 2px 5px;
-  border-radius: 4px;
-}
-
-/* ── Images ──────────────────────────────────────────────────────────────── */
-img {
-  border-radius: 6px;
-  max-width: 100%;
-}
-
-/* ── Footer ──────────────────────────────────────────────────────────────── */
-.footer {
+/* ── Pagination (prev/next) ────────────────────────────────────────────── */
+.pagination-nav {
   border-top: 1px solid var(--ifm-toc-border-color);
-  padding: 2rem 0;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
 }
 
-/* ── Pagination ──────────────────────────────────────────────────────────── */
 .pagination-nav__link {
+  border: 1px solid var(--ifm-color-emphasis-200);
   border-radius: 8px;
-  border: 1px solid var(--ifm-toc-border-color);
+  padding: 0.875rem 1.125rem;
+  transition: border-color 0.15s, background 0.15s;
 }
 
 .pagination-nav__link:hover {
-  border-color: var(--ifm-color-primary);
-}
-
-/* ── Search (if using local search plugin) ───────────────────────────────── */
-.navbar__search-input {
-  border-radius: 20px;
   background: var(--ifm-background-surface-color);
-  border: 1px solid var(--ifm-toc-border-color);
+  border-color: var(--ifm-color-primary);
+  text-decoration: none;
 }
 
-/* ── Mobile ──────────────────────────────────────────────────────────────── */
+.pagination-nav__sublabel {
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.pagination-nav__label {
+  color: var(--ifm-color-content);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+/* ── Admonitions ───────────────────────────────────────────────────────── */
+.admonition {
+  border-radius: 6px;
+  font-size: 0.9375rem;
+}
+
+/* ── Footer ────────────────────────────────────────────────────────────── */
+.footer {
+  background: var(--ifm-background-surface-color);
+  border-top: 1px solid var(--ifm-toc-border-color);
+  padding: 2.5rem 0;
+}
+
+[data-theme="dark"] .footer {
+  background: #161b22;
+  border-top-color: #30363d;
+}
+
+.footer__title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ifm-color-content-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.footer__link-item {
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.footer__copyright {
+  color: var(--ifm-color-content-secondary);
+  font-size: 0.8125rem;
+  margin-top: 2rem;
+  opacity: 0.7;
+}
+
+/* ── Doc edit/feedback row ─────────────────────────────────────────────── */
+.theme-doc-footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+/* ── Sidebar hide button ───────────────────────────────────────────────── */
+button.collapseSidebarButton_PEFL {
+  border-top: 1px solid var(--gb-sidebar-border);
+}
+
+/* ── Mobile ────────────────────────────────────────────────────────────── */
 @media (max-width: 996px) {
   article {
-    padding: 1.25rem 1rem 2rem;
+    padding: 1.25rem 1rem 2.5rem;
+  }
+
+  .navbar {
+    padding: 0 1rem;
   }
 }
