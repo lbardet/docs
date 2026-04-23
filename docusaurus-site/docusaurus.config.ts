@@ -64,7 +64,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "idOS Docs",
+      title: "idOS Documentation",
       logo: {
         alt: "idOS Logo",
         src: "img/logo.svg",
