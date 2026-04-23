@@ -57,6 +57,16 @@ function transformMarkdown(content, relativeToRoot) {
     "![$1](/assets/$2)"
   );
 
+  // 1b. Decode HTML entities in asset paths (e.g. &#x26; → &)
+  content = content.replace(
+    /(!\[[^\]]*\]\(\/assets\/[^)]+)\)/g,
+    (match) => match.replace(/&#x26;/g, '&').replace(/&#x20;/g, ' ')
+  );
+  content = content.replace(
+    /(src="\/assets\/[^"]+)"/g,
+    (match) => match.replace(/&#x26;/g, '&').replace(/&#x20;/g, ' ')
+  );
+
   // 2. Convert GitBook <figure> tags to plain markdown images
   // <figure><img src="..." alt="text"><figcaption>caption</figcaption></figure>
   content = content.replace(

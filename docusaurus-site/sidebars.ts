@@ -5,6 +5,7 @@ const sidebars: SidebarsConfig = {
   {
     "type": "category",
     "label": "Overview",
+    "customProps": { "icon": "🌐" },
     "items": [
       {
         "type": "doc",
@@ -61,6 +62,7 @@ const sidebars: SidebarsConfig = {
   {
     "type": "category",
     "label": "How It Works",
+    "customProps": { "icon": "⚙️" },
     "items": [
       {
         "type": "doc",
@@ -117,6 +119,7 @@ const sidebars: SidebarsConfig = {
   {
     "type": "category",
     "label": "Compliance",
+    "customProps": { "icon": "⚖️" },
     "items": [
       {
         "type": "doc",
@@ -178,6 +181,7 @@ const sidebars: SidebarsConfig = {
   {
     "type": "category",
     "label": "Idos Token Launch",
+    "customProps": { "icon": "🪙" },
     "items": [
       {
         "type": "doc",
@@ -204,6 +208,7 @@ const sidebars: SidebarsConfig = {
   {
     "type": "category",
     "label": "Integrate",
+    "customProps": { "icon": "🔗" },
     "items": [
       {
         "type": "doc",

@@ -59,7 +59,7 @@ Protocol fees are directly generated, captured, and distributed at the protocol 
 
 * **Gas fees** capture the value of ‘compute’ and ‘storage’. Write and read actions to the idOS Storage Network carry a gas fee. This gas fee is based on the amount of compute needed to carry out an action plus the amount of data that is stored. 100% of these fees go to Storage Network node operators. To become node operators, verified entities need to stake a minimum amount of IDOS tokens - users can also delegate their IDOS to node operators.
 
-![](/assets/IDOS Token diagram - Staking &#x26; Gas fees.jpg)
+![](/assets/IDOS Token diagram - Staking & Gas fees.jpg)
 
 * **Access Grant** **fees** (paid in stablecoins) capture the value of the ‘content’. Through idOS, Data Consumers can request Data Owners (Users) to share access to a Verifiable Credential they hold in their idOS profile. When Data Issuers issue a credential for a user, they can set a price to access the credential. Data Consumer pay this price upon receiving a (read) Access Grant from a user. There is a protocol-defined mark-up (25% at inception) on the price of each credential that is allocated to the idOS Association to support the protocol, its development, and ecosystem sustainability.
 
