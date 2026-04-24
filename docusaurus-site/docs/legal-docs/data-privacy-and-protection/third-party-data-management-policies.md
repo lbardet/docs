@@ -1,7 +1,7 @@
 
 # Third-party data management policies
 
-### Identity verification providers
+## Identity verification providers
 
 During the idOS initial phase, where Fractal ID acts as the issuer for users’ data being stored on the idOS, Fractal ID will store such users’ data. However, once the initial phase is completed, existing users at that point in time will be able to choose to store their information in the idOS network or not, at their will, within their Fractal ID user dashboard, and all new users’ information will be stored on the idOS and not live within Fractal ID systems.
 
@@ -11,7 +11,7 @@ For users’ data being stored on the idOS where another issuer is responsible f
 
 Such issuers may have their own policies and procedures in place, meaning the type and amount of data they may centrally store, outside of the idOS, can vary accordingly and is outside of the idOS' control. Their corresponding retention or deletion practices are governed by their own policies and any applicable regulations. 
 
-### Node operators 
+## Node operators 
 
 One of the security features of the idOS is that data is replicated across multiple nodes, ensuring that even if one node is compromised, the availability of the data across the network remains intact. 
 
@@ -21,7 +21,7 @@ They play a crucial role in storing and replicating encrypted user data, but the
 
 As mentioned under the [Data processing location](data-processing-location.md) section, node providers in the context of the idOS federation at launch will adhere to standard terms for alignment with data protection laws. 
 
-### dApps (and other third parties)
+## dApps (and other third parties)
 
 Third parties, like dApps, can access the idOS' user data through [access grants](../../how-it-works/functionality/granting-data-access.md). These permissions given by the user are stored on a smart contract across any blockchain and the idOS monitors these contracts for when a valid access grant is detected, it shares the corresponding encrypted data with the authorized party. Upon an access grant, a copy of the users' data being shared is created and re-encrypted with the dApp's key, ensuring that only the authorized dApp can decrypt it and only for as long as the grant is valid.
 

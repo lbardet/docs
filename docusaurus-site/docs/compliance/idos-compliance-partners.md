@@ -2,7 +2,7 @@
 
 We recognize that compliance in web3 is a collective effort, and we are not working in isolation. We are partnering with different organizations and counting on various legal professionals who share our vision of building a secure, privacy-preserving, and regulation-aligned decentralized identity system. Through strategic collaborations, assessments, and community-driven discussions, we aim to actively shape the regulatory framework for self-sovereign identity reusability in web3.
 
-#### Ongoing Collaboration & Industry Engagement
+## Ongoing Collaboration & Industry Engagement
 
 idOS is a proud member of the [**European Crypto Initiative (EUCI)**](https://eu.ci/), a non-profit association committed to fostering a balanced and innovation-friendly regulatory environment for the crypto industry across the EU. 
 
@@ -14,4 +14,4 @@ We also engage with legal, compliance, and regulatory experts through strategic 
 
 Our goal is to build a strong community of compliance professionals who can drive innovation while ensuring that decentralized identity remains secure, transparent, and legally sound. **If you're a legal professional, compliance expert, or industry stakeholder looking to engage in these discussions, we invite you to be part of the movement**. Reach out to legal@idos.network. 
 
-_For those seeking a more detailed understanding of our compliance work, we also offer access the in-depth assessment on our KYC Re-usability frameworks upon request._ 
+_For those seeking a more detailed understanding of our compliance work, we also offer access to the in-depth assessment on our KYC Re-usability frameworks upon request._ 

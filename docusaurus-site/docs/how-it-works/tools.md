@@ -6,7 +6,7 @@ The idOS JavaScript SDK enables dApp frontends to easily work with the idOS. It 
 
 ## Command Line Interface (CLI)
 
-The idOS command-line tool empowers developers with a convenient interface to the idOS, and can be easily integrated by the backend of any dapp. We are loooking to release it later this year.
+The idOS command-line tool empowers developers with a convenient interface to the idOS, and can be easily integrated by the backend of any dApp. We are looking to release it later this year.
 
 ## User Data Dashboard
 

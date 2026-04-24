@@ -26,11 +26,11 @@ Effectively bring financial applications and users onchain requires a self-custo
 
 ## An easy way to onboard users for the onchain economy 
 
-Don't take our word for it: idOS is live and you can go though a demo [here](https://consumer-and-issuer-demo.playground.idos.network/) to see a KYC re-usability flow for a stablecoin neobank that offers a self-custodial banking product as well as a third party self-custodial card. 
+Don't take our word for it: idOS is live and you can [try this demo](https://consumer-and-issuer-demo.playground.idos.network/) to see a KYC re-usability flow for a stablecoin neobank that offers a self-custodial banking product as well as a third party self-custodial card. 
 
 ![KYC Re-usability flow](/assets/idOS_KYC_Reusability-1.jpg)
 
-Onchain financial fintechs and neobanks (i.e. stablecoin applications) are bringing open source, permissionless infrastructure that relays on stablecoin rails into our daily financial transactions. Our [thesis](market-focus.md) is that for decentralized identity to finally pick up, we need to solve the hardest, most pressing problem: KYC-reusability. 
+Onchain financial fintechs and neobanks (i.e. stablecoin applications) are bringing open source, permissionless infrastructure that relies on stablecoin rails into our daily financial transactions. Our [thesis](market-focus.md) is that for decentralized identity to finally pick up, we need to solve the hardest, most pressing problem: KYC-reusability. 
 
 ## A different approach to making decentralized identity (finally) happen
 
@@ -38,6 +38,6 @@ The team behind idOS has been working on compliance, identity and data storage i
 
 The need for decentralized identity and storage went from 'nice to have' to 'crucial for businesses'. We are seeing an advent of a global open source financial modularized vertical that will require a common identity stack. AI is breaching traditional measures to keep misinformation at bay. As our lives become digital, our governance systems should also do, but today we don't have the notion of 'a human' online. The need is pressing. 
 
-idOS has a radical different approach, puts user data availability front and center. idOS was built to work under the scrutiny of compliance officers, security researchers and product designers. The idOS main feature is to align data privacy, financial regulation and decentralized storage in an elegant way by having a holistic product approach that includes legal as an engineering function.
+idOS has a radically different approach, puts user data availability front and center. idOS was built to work under the scrutiny of compliance officers, security researchers and product designers. The idOS main feature is to align data privacy, financial regulation and decentralized storage in an elegant way by having a holistic product approach that includes legal as an engineering function.
 
 The idOS Storage Network is built to work in the real world, to help builders bring open source modules onchain, and help real users onboard and be in control. 

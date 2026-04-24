@@ -10,7 +10,7 @@ The idOS utilizes Kwil to offer unparalleled privacy and compliance.
 
 While there’s no technical argument against running a permissionless network of such nodes, we’re choosing to move carefully to ensure GDPR compliance. This means that idOS will run a dStorage Network of Nodes at launch.
 
-![](/assets/image-3.png)
+![idOS decentralized storage network of nodes](/assets/image-3.png)
 
 ## Authentication
 
@@ -77,6 +77,11 @@ On this table, we will execute the following statements in order:
 
 The resulting ordered changeset would be:
 
-<table><thead><tr><th width="126.33333333333331">Operation</th><th width="133">Primary Key</th><th>Column_Position_1</th><th>Column_Position_2</th></tr></thead><tbody><tr><td>UPDATE</td><td>1</td><td></td><td>33</td></tr><tr><td>DELETE</td><td>2</td><td></td><td></td></tr><tr><td>DELETE</td><td>3</td><td></td><td></td></tr><tr><td>INSERT</td><td>4</td><td>eth_maxi</td><td>44</td></tr></tbody></table>
+| Operation | Primary Key | Column_Position_1 | Column_Position_2 |
+| --------- | ----------- | ----------------- | ----------------- |
+| UPDATE    | 1           |                   | 33                |
+| DELETE    | 2           |                   |                   |
+| DELETE    | 3           |                   |                   |
+| INSERT    | 4           | eth_maxi          | 44                |
 
 The simple example above illustrates that, in order for an idOS node to generate a valid changeset (and therefore be a validator), it has to have the previous set of data.  If the validator chose to either include their own records, or not delete specific records, they would likely be unable to generate valid changesets for future blocks.

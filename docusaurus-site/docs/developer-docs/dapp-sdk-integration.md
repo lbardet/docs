@@ -87,7 +87,7 @@ const { content } = await idos.data.get("credentials", id);
 const isValid = await idos.verifiableCredentials.verify(content).catch(e => false)
 ```
 
-Each identity verifier may use a different credential schema. A more comprehensive list of attributes from credentials issued by Fractal ID can be found [here](https://github.com/trustfractal/claim-schemas/blob/master/verifiable\_credential/fractal\_id.json-ld).
+Each identity verifier may use a different credential schema. A more comprehensive list of attributes from credentials issued by Fractal ID can be found in the [Fractal ID credential schema](https://github.com/trustfractal/claim-schemas/blob/master/verifiable\_credential/fractal\_id.json-ld).
 
 ## Additional reading
 

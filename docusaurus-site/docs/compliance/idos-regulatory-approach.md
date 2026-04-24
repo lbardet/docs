@@ -4,7 +4,7 @@ The development of web3 and decentralized technologies has brought about signifi
 
 Decentralized, self-custodial identity data sharing and reusability allow individuals to have complete control over their identity data. It offers convenience as users can reuse verified identity information across multiple platforms and jurisdictions while usually presenting better security and privacy since decentralized approaches minimize reliance on centralized systems prone to breaches. It can also be cost-efficient as businesses can build leaner, safer infrastructure that focuses on interoperability and user-centricity.
 
-#### The Regulatory Landscape: Complex but Essential
+## The Regulatory Landscape: Complex but Essential
 
 From a legal standpoint, decentralized, self-custodial identity reusability introduces unique challenges, particularly around compliance with global regulations. Some of the key issues include:
 
@@ -17,7 +17,7 @@ From a legal standpoint, decentralized, self-custodial identity reusability intr
 
 These complexities may create barriers to innovation but also present opportunities for transformative solutions.
 
-#### Decentralized Identity Solutions and idOS
+## Decentralized Identity Solutions and idOS
 
 As decentralized identity solutions gain traction, ensuring compliance and usability in highly regulated financial environments can still be considered a critical challenge. idOS has been designed with compliance at its core, aiming to be used for such highly regulated financial use cases.
 
@@ -36,6 +36,6 @@ idOS addresses these challenges by offering a decentralized identity solution th
 
 See a like-for-like comparison between idOS and other identity solutions below:
 
-![](/assets/idOS_Gitbook_comparison.jpg)
+![Comparison of idOS with other decentralized identity solutions](/assets/idOS_Gitbook_comparison.jpg)
 
 While various decentralized identity solutions offer valuable features, idOS combines user-centric control, data availability, and robust regulatory compliance. Its design ensures that data owners, data issuers, and data consumers can operate within a secure, flexible, and compliant framework, addressing the limitations observed in other approaches. 

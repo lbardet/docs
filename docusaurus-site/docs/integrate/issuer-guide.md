@@ -69,7 +69,7 @@ Get our NPM packages
 
 and their dependencies with pnpm (or your package manager of choice)
 
-```
+```bash
 pnpm add @idos-network/client
 pnpm add @idos-network/issuer
 ```
@@ -184,7 +184,7 @@ const wallet = {
   message: ownershipProofMessage,
   signature: ownershipProofSignature,
   public_key: ethers.SigningKey.recoverPublicKey(
-    ethers.id(ownershipProofMessage)
+    ethers.id(ownershipProofMessage),
     ownershipProofSignature,
   ),
 };
@@ -197,7 +197,7 @@ await idOSIssuer.createUser(user, wallet);
 Pass your user’s signer to the SDK, so it knows where to send signature requests to.
 
 ```js
-idOSClient = await idOSClient.withUserSigner(signer);
+const idOSClientWithSigner = await idOSClient.withUserSigner(signer);
 ```
 
 ### \[ frontend ] Checking for issued credential

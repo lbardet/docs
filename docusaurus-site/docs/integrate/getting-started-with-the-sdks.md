@@ -437,7 +437,7 @@ const CHAIN_TYPE = "NEAR";
 
 const selector = await setupWalletSelector({
   network,
-  modules: [setupMeteorWallet(), setupMeteorWallet()],
+  modules: [setupMeteorWallet()],
 });
 
 !selector.isSignedIn() &&

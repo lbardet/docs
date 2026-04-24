@@ -16,7 +16,7 @@ description: Introducing the Identity Operating System
 * **dApps** (and other third parties) request read or write access to user data/credentials
 * **Identity verification providers** check user data, issue credentials and may add them to their idOS profile
 
-![](/assets/idOS_Gitbook_Identity_Layer_Web3.png)
+![idOS as the identity layer of web3](/assets/idOS_Gitbook_Identity_Layer_Web3.png)
 
 ## How is idOS different from existing identity solutions? 
 

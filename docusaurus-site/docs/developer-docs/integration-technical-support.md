@@ -4,7 +4,7 @@
 
 Thank you for being an idOS integrator! Our team would love to know how we can help you.
 
-As an open-source project, we strive for clear and complete public documentation. If our docs don’t address your issue, we’ll make sure to update them such that they do — this will greatly help the next time someone’s on your shoes.
+As an open-source project, we strive for clear and complete public documentation. If our docs don’t address your issue, we’ll make sure to update them such that they do — this will greatly help the next time someone’s in your shoes.
 
 The same rationale applies to our strong preference for public issue reports. DMs and other private synchronous communications are to be avoided, for public benefit.
 

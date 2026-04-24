@@ -2,9 +2,9 @@
 
 To help validate the compliance and regulatory suitability of the idOS infrastructure, [**Taylor Wessing**](https://www.taylorwessing.com/), a leading international law firm, conducted an independent legal assessment of our system.
 
-![](/assets/GsvuKMnXcAArxDk.jpeg)
+![Taylor Wessing legal assessment of idOS](/assets/GsvuKMnXcAArxDk.jpeg)
 
-The review was conducted mainly from the perspective of obliged entities looking to integrate idOS, including for KYC/AML purposes. It focused on evaluating whether the platform effectively meets the legal and corresponding operational requirements that such entities must follow under the UK framework, considering also the aligment with EU and international regulatory standards.
+The review was conducted mainly from the perspective of obliged entities looking to integrate idOS, including for KYC/AML purposes. It focused on evaluating whether the platform effectively meets the legal and corresponding operational requirements that such entities must follow under the UK framework, considering also the alignment with EU and international regulatory standards.
 
 Key areas of the assessment included:
 

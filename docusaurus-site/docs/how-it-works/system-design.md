@@ -35,7 +35,7 @@ These are other parties that bear influence in the system, even though they're n
 
 ### idOS Storage Network
 
-User data in idOS is stored the idOS Storage Network, a decentralized layer 1 blockchain secured and run by the idOS Operators to ensure data privacy, security, and availability. The storage network handles authentication, consensus, data storage, encryption & signing and RPC load balancing for idOS, and consists of two major core components: 
+User data in idOS is stored in the idOS Storage Network, a decentralized layer 1 blockchain secured and run by the idOS Operators to ensure data privacy, security, and availability. The storage network handles authentication, consensus, data storage, encryption & signing and RPC load balancing for idOS, and consists of two major core components: 
 
 * **idOS Storage Network Nodes**: These nodes form the backbone of the idOS system, providing decentralized storage and retrieval of user data. They are built on [Kwil](https://www.kwil.com/), a decentralized database platform, and include idOS-specific extensions to support the system's unique requirements. These nodes operate according to a predefined schema, ensuring data consistency and integrity. Deployed behind a KGW controlled by the idOS Association, node operators talk to each other through AWS VPC peering. We're also open to supporting WireGuard.
   * **Relevant repos**:
@@ -174,7 +174,7 @@ The idOS SDKs provide developers with a comprehensive toolkit for interacting wi
   * [https://www.npmjs.com/package/@idos-network/client](https://www.npmjs.com/package/@idos-network/client)
 * **idOS Consumer Server SDK**: helps a consumer integrate their backend with idOS.
   * [https://www.npmjs.com/package/@idos-network/consumer](https://www.npmjs.com/package/@idos-network/consumer)
-* **idOS Issuer Server SDK**: helps a consumer integrate their backend with idOS.
+* **idOS Issuer Server SDK**: helps an issuer integrate their backend with idOS.
   * [https://www.npmjs.com/package/@idos-network/issuer](https://www.npmjs.com/package/@idos-network/issuer)
 
 ### Direct RPC calls

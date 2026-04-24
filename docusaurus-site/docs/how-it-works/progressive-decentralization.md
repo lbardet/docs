@@ -1,6 +1,6 @@
 # Progressive decentralization
 
-We see decentralization as an ethos and an ongoing journey, rather than a binary state. The building partners are committed to [progressively decentralize](https://a16zcrypto.com/posts/article/progressive-decentralization-a-high-level-framework/) idOS as much as possible, while making sure we don't rush important decisions that could hurt its success.
+We see decentralization as an ethos and an ongoing journey, rather than a binary state. The building partners are committed to [progressively decentralizing](https://a16zcrypto.com/posts/article/progressive-decentralization-a-high-level-framework/) idOS as much as possible, while making sure we don't rush important decisions that could hurt its success.
 
 Details are coming soon!
 

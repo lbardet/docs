@@ -1,7 +1,7 @@
 
 # Legal basis for profile creation and management
 
-### Profile creation
+## Profile creation
 
 Within the dStorage Network of Nodes, the users are the ones who actively push their data into the idOS, in line with self-sovereignty principles built in the idOS: initially, a “human” record is created on the idOS by user action and instruction, only with the assistance of the identity verification provider, and the idOS is merely the interface that allows such operation to take place.
 
@@ -11,7 +11,7 @@ Additionally, when data is stored on the idOS using the idOS SDK, such data is e
 
 Encryption is also explicitly mentioned as one possible technical and organizational measure to secure data under the GDPR (see [Art. 32(1)](https://gdpr-info.eu/art-32-gdpr/) of the GDPR).
 
-### User private profile management
+## User private profile management
 
 After a “human” record is created, associated with a wallet address, users can freely manage their data as they choose, directly through the User Data Dashboard. This implies users can add, edit, or delete new wallet addresses, attributes, or credentials into their idOS records, as further detailed under the [Data rectification](data-rectification.md) section. Moreover, the idOS is built on the principle of users’ self-sovereignty, meaning they have full control over their data, and also decide with whom to share it. This aligns with data protection laws' emphasis on user control over personal data and is developed further in the section [Data and concepts](../data-and-concepts.md).
 

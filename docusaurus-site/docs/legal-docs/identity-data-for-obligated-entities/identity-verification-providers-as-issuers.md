@@ -8,4 +8,4 @@ Fractal ID is the identity provider facilitating the initial integration for ide
 
 In a later phase of the idOS' [progressive decentralization](../../how-it-works/progressive-decentralization.md), it is intended that other identity verification providers join and participate in the idOS as issuers. As a result, third parties (e.g. dApps) will have the freedom to choose the identity provider that better suits their compliance and internal specific needs for their user's onboarding while using the idOS to access the underlying AML-related data. 
 
-The above means it becomes possible to have identity providers in the role of issues within the idOS that can allow third-party compliance with AML regulations.
+The above means it becomes possible to have identity providers in the role of issuers within the idOS that can allow third-party compliance with AML regulations.

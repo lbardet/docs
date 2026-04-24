@@ -1,6 +1,6 @@
 # The idOS Consortium
 
-![](/assets/idOS-Consortium-December-2025.jpg)
+![idOS Consortium member logos](/assets/idOS-Consortium-December-2025.jpg)
 
 ## Introducing the idOS Consortium
 
@@ -12,7 +12,7 @@ The idOS Consortium brings together leading ecosystems and projects ([Arbitrum](
 
 * **Product:** dedicated to developing and refining idOS's core product and network functionalities, from data storage and security to compliant access management. It ensures these components are scalable and user-friendly while supporting broader ecosystem needs like interoperability with OpenFi tools and services.
 * **Growth**: focuses on expanding awareness and adoption of idOS as the identity layer of the internet. Through joint initiatives, publications, and events, the Consortium positions idOS as a trusted and essential component across web3.
-* **Compliance:** idOS is committed to becomes a usable solution to store and manage access to data, in line with data handling, financial and AML regulations across the world. This includes addressing challenges in data storage and deletion, KYC reusability, and jurisdiction-specific needs to build a truly compliant identity framework that can scale globally.
+* **Compliance:** idOS is committed to becoming a usable solution to store and manage access to data, in line with data handling, financial and AML regulations across the world. This includes addressing challenges in data storage and deletion, KYC reusability, and jurisdiction-specific needs to build a truly compliant identity framework that can scale globally.
 
 idOS Consortium members will be the first node operators upon the idOS' Storage Network launch.
 

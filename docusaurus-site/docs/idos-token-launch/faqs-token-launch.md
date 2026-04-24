@@ -1,11 +1,11 @@
 # FAQs - Token Launch
 
-Everything you need to know for the IDOS Token Launch. If you happen to have any other questions, feel free to join our Telegram Group to talk directly you our team. Please check out [official-links.md](official-links.md "mention").
+Everything you need to know for the IDOS Token Launch. If you happen to have any other questions, feel free to join our Telegram Group to talk directly to our team. Please check out [official-links.md](official-links.md "mention").
 
 This is an evolving page, and more FAQs will be added on an ongoing basis.
 
 :::info
-This is a marketing communication. White Paper [here](https://www.idos.network/blog/token-legal-white-paper). Not reviewed or approved by any EU authority. Issuer solely responsible. [Terms](https://www.idos.network/legal/user-agreement) apply to community incentives.
+This is a marketing communication. Read the [White Paper](https://www.idos.network/blog/token-legal-white-paper). Not reviewed or approved by any EU authority. Issuer solely responsible. [Terms](https://www.idos.network/legal/user-agreement) apply to community incentives.
 :::
 
 ## IDOS Token

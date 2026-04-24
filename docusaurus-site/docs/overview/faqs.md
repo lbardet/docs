@@ -12,7 +12,7 @@ In practice, idOS can hold any types of data the user wants, but it is specifica
 
 User identity data is user-encrypted before being added to idOS. idOS distributes all encrypted data among its node providers in the dStorage Network of Nodes and uses a [consensus mechanism](../how-it-works/system-architecture/decentralized-storage/#consensus) to harmonize the dataset state. This way, only the user can access the actual information stored, and the data is always available as long as any node is live.
 
-_**How can idOS be accessed / how can dApps integrate with it?**_ 
+#### _**How can idOS be accessed / how can dApps integrate with it?**_
 
 idOS is an open-source, composable, and chain-agnostic identity management infrastructure. While anyone can build tools on top of it, on its inception idOS offers a [User Data Dashboard](../how-it-works/functionality/user-data-dashboard.md) for users to manage their private idOS profile, and an [SDK for dApps](../developer-docs/dapp-sdk-integration.md) to easily connect to idOS.  
 

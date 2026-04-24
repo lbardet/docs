@@ -232,8 +232,8 @@ const sidebars: SidebarsConfig = {
       },
       {
         "type": "doc",
-        "id": "integrate/copy-of-idos-sdks",
-        "label": "Copy of idOS SDKs"
+        "id": "integrate/idos-sdks-overview",
+        "label": "idOS SDKs Overview"
       },
       {
         "type": "doc",

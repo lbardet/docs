@@ -4,13 +4,7 @@ Compliant, decentralized storage to store identity information is one of the two
 
 ## Tackling the compliance challenge
 
-Compliance with data protection laws has been a major issue for the mainstream adoption of decentralized storage for user data. Data protection regulations that promote users' right to be forgotten have been contradictory to permanent storage and P2P node systems. The idOS is a [Network of Nodes](../system-architecture/decentralized-storage/) that runs a protocol enforcing a [state consensus](../system-architecture/decentralized-storage/#consensus) of data between nodes, which in turn assures that data deletions by the user get propagated throughout the network. 
-
- 
-
-
-
-
+Compliance with data protection laws has been a major issue for the mainstream adoption of decentralized storage for user data. Data protection regulations that promote users' right to be forgotten have been contradictory to permanent storage and P2P node systems. The idOS is a [Network of Nodes](../system-architecture/decentralized-storage/) that runs a protocol enforcing a [state consensus](../system-architecture/decentralized-storage/#consensus) of data between nodes, which in turn assures that data deletions by the user get propagated throughout the network.
 
 
 

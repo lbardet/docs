@@ -65,9 +65,9 @@ For users who have already been onboarded to idOS, the process becomes significa
 
 When another Consumer with compatible compliance needs comes along, the user only needs to:
 
-1. Logging in to idOS.
+1. Log in to idOS.
 2. Unlock the idOS Enclave.
 3. Create a re-encrypted credential copy.
 4. Create an access grant for the copy to the second Consumer.
 
-With just these four steps, the system is ready to serve the user compliantly, streamlining the process and providing the best user experience we could image. Let us know if you have any ideas on how to make it even more magical! 🧙
+With just these four steps, the system is ready to serve the user compliantly, streamlining the process and providing the best user experience we could imagine. Let us know if you have any ideas on how to make it even more magical! 🧙

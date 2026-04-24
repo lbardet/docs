@@ -10,7 +10,7 @@ Reach out, if you are an ecosystem interested in joining the idOS!
 
 ### Arbitrum
 
-[Arbitrum](https://arbitrum.io/) is the a leading Layer 2 ecosystem for scaling and empowering Ethereum with more than +600k weekly active addresses, 15bn TVL and +800 projects deployed and a strong focus on DeFi.
+[Arbitrum](https://arbitrum.io/) is a leading Layer 2 ecosystem for scaling and empowering Ethereum with more than +600k weekly active addresses, 15bn TVL and +800 projects deployed and a strong focus on DeFi.
 
 ### Circle
 
@@ -26,7 +26,7 @@ Reach out, if you are an ecosystem interested in joining the idOS!
 
 ### Gnosis
 
-[Gnosis Chain](https://www.gnosis.io/) is one of the first Ethereum side chains. Secured by over 120k validators, Gnosis prioritizes credible neutrality and resiliency. Gnosis has also developed some of the most established tools and dApps in web3 for payments and real-word adoption like [Safe](https://safe.global/), [Monerium](https://monerium.com/) and [Gnosis Pay](https://gnosispay.com/).  
+[Gnosis Chain](https://www.gnosis.io/) is one of the first Ethereum side chains. Secured by over 120k validators, Gnosis prioritizes credible neutrality and resiliency. Gnosis has also developed some of the most established tools and dApps in web3 for payments and real-world adoption like [Safe](https://safe.global/), [Monerium](https://monerium.com/) and [Gnosis Pay](https://gnosispay.com/).  
 
 ### Aleph Zero
 

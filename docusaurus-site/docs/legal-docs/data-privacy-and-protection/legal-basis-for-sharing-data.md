@@ -1,4 +1,3 @@
-
 # Legal basis for sharing data 
 
 There are two relevant concepts here: Authentication, which represents “Who are you?” and Authorization, which in turn represents “What can you do?”. Authentication means that anyone who attempts to perform any query on an idOS node must authenticate with a wallet signature. In turn, the authorization step grants permissions to authenticated parties to do something within the idOS. This means that all queries must include a wallet signature that establishes that a certain caller controls a certain wallet and in parallel, the idOS contains rules setting forth what the parties to the network can or can not do.

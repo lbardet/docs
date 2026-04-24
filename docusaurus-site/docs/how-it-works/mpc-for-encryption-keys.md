@@ -16,7 +16,7 @@ The first such process we rolled out used passwords. Passwords “just work” a
 
 Key derivation is what happens when your operating system asks you for a password to unlock your laptop, perform updates, etc. The diagram below illustrates how this process works differently for new vs existing users.
 
-![](/assets/image-7.png)
+![Key derivation process for new vs existing users](/assets/image-7.png)
 
 idOS keys are derived using [scrypt](https://en.wikipedia.org/wiki/Scrypt) (an industry standard [PBKDF](https://en.wikipedia.org/wiki/Key_derivation_function)) to derive a keypair for a user given their seed and user ID.
 
@@ -24,7 +24,7 @@ idOS keys are derived using [scrypt](https://en.wikipedia.org/wiki/Scrypt) (an i
 2. [Normalize](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize) the seed for consistency across platforms
 3. Use [scrypt-js](https://github.com/ricmoo/scrypt-js) to derive a 32-byte private key from a combination of
    1. the normalized seed
-   2. the user’s ID, which acts as a [salt](https://en.wikipedia.org/wiki/Salt_\(cryptography\)) with to help thwart [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) attacks
+   2. the user’s ID, which acts as a [salt](https://en.wikipedia.org/wiki/Salt_\(cryptography\)) to help thwart [rainbow table](https://en.wikipedia.org/wiki/Rainbow_table) attacks
 4. Use [tweetnacl-js](https://github.com/dchest/tweetnacl-js) to derive the public key from this private key
 
 Voilà, the Enclave now has an encryption keypair (private key + public key), and is now ready to serve encryption and decryption requests coming from the idOS SDK.
@@ -33,7 +33,7 @@ Passwords, however, have a nasty habit of being poorly chosen and/or forgotten. 
 
 Instead of asking users to input a password, the Enclave uses high-quality entropy to generate a random key for them. It then splits this key into several shares using Shamir's Secret Sharing (which ensures each share is not only useless but also undecipherable in isolation). These shares are distributed among several MPC nodes, along with a list of the user's wallets that can sign a message authorizing their retrieval.
 
-![](/assets/image-6.png)
+![MPC key generation and distribution process](/assets/image-6.png)
 
 1. **Key generation**
    1. A random key is generated from high quality entropy
@@ -50,12 +50,12 @@ Instead of asking users to input a password, the Enclave uses high-quality entro
 
 Afterwards, whenever the Enclave needs to retrieve the user's key for decryption operations, it asks the user to sign a message to authorize the retrieval of their key shares. These shares are then recombined into the user's decryption key.
 
-![](/assets/image-8.png)
+![MPC key recovery process](/assets/image-8.png)
 
 1. **The key recovery process is initiated**
 2. **Payload creation**
    1. One payload per MPC node is created, each requesting its key share
-   2. The user signs a message for authentication using one their authorized wallets
+   2. The user signs a message for authentication using one of their authorized wallets
    3. The node URLs and keys are discovered by querying the PBC idOS smart contract
    4. Each payload is sent to its node
 3. **Key share retrieval**

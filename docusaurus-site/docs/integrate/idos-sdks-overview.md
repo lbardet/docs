@@ -1,5 +1,5 @@
 
-# Copy of idOS SDKs
+# idOS SDKs Overview
 
 The idOS SDK provides developers with a comprehensive toolkit for interacting with the idOS node network, allowing seamless integration of identity verification, access management, and encrypted data handling into applications. It is designed to be modular and flexible, enabling developers to choose which functionalities they need without unnecessary overhead.
 
@@ -37,7 +37,7 @@ Github: [https://github.com/idos-network/idos-sdk-js/tree/main/packages/idos-sdk
 
 NPM: [https://www.npmjs.com/package/@idos-network/idos-sdk](https://www.npmjs.com/package/@idos-network/idos-sdk)
 
-```
+```bash
 pnpm add @idos-network/idos-sdk ethers near-api-js
 ```
 
@@ -63,7 +63,7 @@ Github: [https://github.com/idos-network/idos-sdk-js/tree/main/packages/consumer
 
 NPM: [https://www.npmjs.com/package/@idos-network/idos-sdk-server-dapp](https://www.npmjs.com/package/@idos-network/idos-sdk-server-dapp)
 
-```
+```bash
 pnpm add @idos-network/idos-sdk-server-dapp ethers near-api-js
 ```
 
@@ -93,7 +93,7 @@ Github: [https://github.com/idos-network/idos-sdk-js/tree/main/packages/issuer-s
 
 NPM: [https://www.npmjs.com/package/@idos-network/issuer-sdk-js](https://www.npmjs.com/package/@idos-network/issuer-sdk-js)
 
-```
+```bash
 pnpm add @idos-network/issuer-sdk-js ethers near-api-js
 ```
 
@@ -123,7 +123,7 @@ Github: [https://github.com/idos-network/idos-sdk-js/tree/main/packages/issuer-s
 
 NPM: [https://www.npmjs.com/package/@idos-network/issuer-sdk-js](https://www.npmjs.com/package/@idos-network/issuer-sdk-js)
 
-```
+```bash
 pnpm add @idos-network/issuer-sdk-js ethers near-api-js
 ```
 

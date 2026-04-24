@@ -31,7 +31,7 @@ Neobank integration allows:
 
 * Custom user onboarding flows leveraging existing wallet infrastructure.
 * Secure retrieval and management of identity credentials.
-* Self-sovereign sharing of identity data with third parties
+* Self-sovereign sharing of identity data with third parties.
 
 #### Neobank Workflow
 

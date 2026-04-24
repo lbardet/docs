@@ -23,7 +23,7 @@ Here's an abridged JSON-LD example of what a W3C VC looks like:
       {
         "currency": "",
         "verified": true,
-        "address": "",
+        "address": ""
       }
     ],
     "emails": [""],

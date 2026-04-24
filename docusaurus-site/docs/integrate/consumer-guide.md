@@ -62,7 +62,7 @@ Get our NPM packages
 
 and their dependencies with pnpm (or your package manager of choice)
 
-```
+```bash
 pnpm add @idos-network/client
 pnpm add @idos-network/consumer
 ```
@@ -100,7 +100,7 @@ await provider.send("eth_requestAccounts", []);
 const signer = await provider.getSigner();
 ```
 
-### \[ frontend ] Checking if you user has an idOS profile
+### \[ frontend ] Checking if your user has an idOS profile
 
 Get your user's address from the signer above and confirm they have an idOS profile. If not, redirect them to your Issuer. If you have an IDV integration, you can yourself be the issuer. See the Issuer Guide for more information.
 
@@ -122,7 +122,7 @@ idOSClient = await idOSClient.withUserSigner(signer);
 ### \[ frontend ] Checking for existing access grant
 
 ```js
-const grants: IdosGrant[] = await idOSClient.getGrants().grants.filter(g =>
+const grants: IdosGrant[] = (await idOSClient.getGrants()).grants.filter(g =>
   g.ag_grantee_wallet_identifier === consumerSigner.address,
 );
 ```

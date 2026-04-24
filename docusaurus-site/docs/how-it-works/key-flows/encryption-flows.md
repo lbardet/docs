@@ -26,7 +26,7 @@ The idOS provides open-source SDKs that enable third parties to securely encrypt
 
 The idOS uses **authenticated asymmetric encryption**. Encryption being **asymmetric** means that Alice can encrypt a message for Bob (and vice versa) without them having to previously agree on a shared encryption key. It being **authenticated** guarantees message authenticity and integrity, each property respectively assuring Bob that the message was indeed encrypted by Alice and wasn’t tampered with.
 
-![](/assets/lit-crypt-Page-3.png)
+![Authenticated asymmetric encryption diagram](/assets/lit-crypt-Page-3.png)
 
 To do this, we employ `x25519-xsalsa20-poly1305`: a modern and proven [ECIES Hybrid Encryption Scheme](https://cryptobook.nakov.com/asymmetric-key-ciphers/ecies-public-key-encryption). The idOS Enclave includes [tweetnacl](https://github.com/dchest/tweetnacl-js), a famous implementation of this scheme. Let’s break it down and see what it means.
 
@@ -80,7 +80,7 @@ This approach ensures that even if an attacker gains access to the raw data stor
 
 This model prevents unnecessary data duplication while keeping access control entirely in the hands of the user.
 
-![](/assets/idOS_Gitbook_Re_Encrypt_Data.jpg)
+![Encrypting data for third-party access in idOS](/assets/idOS_Gitbook_Re_Encrypt_Data.jpg)
 
 ## The Role of the idOS Enclave in Encryption
 
@@ -98,7 +98,7 @@ For more information see [https://github.com/idos-network/idos-sdk-js/blob/main/
 
 ## Encryption key storage via MPC 
 
-To improve UX and make the handling of idOS encryption keys simpler and more ergonomic, we have partnered with Partisia to add an MPC-TSS based capability for storing and retrieving idOS encryption keys with a simple wallet signature. Details on this can be found [here](../mpc-for-encryption-keys.md). 
+To improve UX and make the handling of idOS encryption keys simpler and more ergonomic, we have partnered with Partisia to add an MPC-TSS based capability for storing and retrieving idOS encryption keys with a simple wallet signature. Details on this can be found in the [MPC for encryption keys](../mpc-for-encryption-keys.md) section. 
 
 
 
