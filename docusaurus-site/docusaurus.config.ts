@@ -67,8 +67,8 @@ const config: Config = {
       title: "idOS Documentation",
       logo: {
         alt: "idOS Logo",
-        src: "img/logo.svg",
-        srcDark: "img/logo.svg",
+        src: "img/idos-logo.jpg",
+        srcDark: "img/idos-logo.jpg",
       },
       items: [
         {

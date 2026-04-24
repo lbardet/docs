@@ -1,18 +1,26 @@
 /*
- * GitBook-faithful theme for idOS Docs
- * Primary color matches idOS brand teal from docs.idos.network screenshot
+ * idOS Docs — theme derived from exact CSS variables in docs.idos.network HTML
+ *
+ * GitBook color palette (light):
+ *   --primary-9:  rgb(0,165,102)   #00A566  main interactive
+ *   --primary-10: rgb(0,153,91)    #009966  hover/darker
+ *   --primary-11: rgb(64,124,99)   #407C63  text-level
+ *   --header-background: rgb(0,255,185) #00FFB9  navbar (bold theme)
+ *   --tint-4:     rgb(239,243,241) #EFF3F1  sidebar hover bg
+ *   --tint-11:    rgb(103,113,108) #67716C  muted text
+ *   --neutral-12: rgb(29,29,29)    #1D1D1D  body text
  */
 
 /* ── Design tokens ─────────────────────────────────────────────────────── */
 :root {
-  /* idOS brand teal — matches the live GitBook site */
-  --ifm-color-primary: #3e9e82;
-  --ifm-color-primary-dark: #368b71;
-  --ifm-color-primary-darker: #31826a;
-  --ifm-color-primary-darkest: #286c57;
-  --ifm-color-primary-light: #46b193;
-  --ifm-color-primary-lighter: #4eba9b;
-  --ifm-color-primary-lightest: #6ac7ad;
+  /* Primary — #00A566 (GitBook primary-9 light) */
+  --ifm-color-primary: #00a566;
+  --ifm-color-primary-dark: #009966;       /* primary-10 */
+  --ifm-color-primary-darker: #008a5c;
+  --ifm-color-primary-darkest: #407c63;    /* primary-11 — readable on white */
+  --ifm-color-primary-light: #00b874;
+  --ifm-color-primary-lighter: #a5dbc2;    /* primary-8 */
+  --ifm-color-primary-lightest: #edf9f4;   /* primary-3 */
 
   /* Typography — Inter, same as GitBook */
   --ifm-font-family-base: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -24,79 +32,80 @@
   --ifm-heading-font-weight: 600;
 
   /* Layout */
-  --ifm-navbar-height: 56px;
-  --ifm-sidebar-width: 260px;
-  --doc-sidebar-width: 260px;
+  --ifm-navbar-height: 64px;              /* GitBook uses h-[64px] */
+  --ifm-sidebar-width: 272px;
+  --doc-sidebar-width: 272px;
   --ifm-container-width-xl: 1280px;
 
   /* Backgrounds */
-  --ifm-background-color: #ffffff;
-  --ifm-background-surface-color: #f8fafc;
-  --ifm-navbar-background-color: #ffffff;
-  --ifm-navbar-shadow: none;
+  --ifm-background-color: #ffffff;         /* neutral-1 */
+  --ifm-background-surface-color: #f7f7f7; /* neutral-3 */
+  --ifm-navbar-background-color: #00ffb9;  /* header-background — bright mint! */
+  --ifm-navbar-shadow: 0 1px 0 rgba(29,29,29,0.08);
 
   /* Borders */
-  --ifm-toc-border-color: #e8eaed;
-  --ifm-hr-border-color: #e8eaed;
-  --ifm-color-emphasis-200: #e8eaed;
-  --ifm-color-emphasis-300: #d1d5db;
+  --ifm-toc-border-color: #e5e5e5;         /* neutral-6 */
+  --ifm-hr-border-color: #e5e5e5;
+  --ifm-color-emphasis-200: #e5e5e5;
+  --ifm-color-emphasis-300: #d9d9d9;       /* neutral-7 */
 
   /* Text */
-  --ifm-color-content: #1c2025;
-  --ifm-color-content-secondary: #6b7280;
-  --ifm-link-color: #3e9e82;
-  --ifm-link-hover-color: #286c57;
+  --ifm-color-content: #1d1d1d;            /* neutral-12 */
+  --ifm-color-content-secondary: #6e6e6e;  /* neutral-11 */
+  --ifm-link-color: #00a566;
+  --ifm-link-hover-color: #009966;
   --ifm-link-decoration: none;
 
   /* Code */
   --ifm-code-font-size: 87.5%;
-  --ifm-code-background: #f3f4f6;
+  --ifm-code-background: #f7f7f7;          /* neutral-3 */
   --ifm-code-border-radius: 4px;
-  --ifm-pre-background: #f8fafc;
-  --docusaurus-highlighted-code-line-bg: rgba(62, 158, 130, 0.08);
+  --ifm-pre-background: #f7f7f7;
+  --docusaurus-highlighted-code-line-bg: rgba(0,165,102,0.08);
 
   /* Sidebar-specific */
   --gb-sidebar-bg: #ffffff;
-  --gb-sidebar-border: #e8eaed;
-  --gb-sidebar-category-color: #9ca3af;
-  --gb-sidebar-item-color: #374151;
-  --gb-sidebar-item-hover-bg: #f3f4f6;
-  --gb-sidebar-item-active-color: #3e9e82;
+  --gb-sidebar-border: #e5e5e5;            /* neutral-6 */
+  --gb-sidebar-category-color: #67716c;   /* tint-11 */
+  --gb-sidebar-item-color: #1c1e1d;       /* tint-12 — strong text */
+  --gb-sidebar-item-hover-bg: #eff3f1;    /* tint-4 */
+  --gb-sidebar-item-active-color: #00a566; /* primary-9 */
 }
 
 [data-theme="dark"] {
-  --ifm-color-primary: #4db896;
-  --ifm-color-primary-dark: #3eac8a;
-  --ifm-color-primary-darker: #3e9e82;
-  --ifm-color-primary-darkest: #368b71;
-  --ifm-color-primary-light: #5cc4a2;
-  --ifm-color-primary-lighter: #6bcbab;
-  --ifm-color-primary-lightest: #8dd8bf;
+  /* Dark mode — primary is the bright mint itself */
+  --ifm-color-primary: #00ffb9;            /* primary-9 dark */
+  --ifm-color-primary-dark: #00b272;       /* primary-10 dark */
+  --ifm-color-primary-darker: #00a566;
+  --ifm-color-primary-darkest: #009966;
+  --ifm-color-primary-light: #33ffca;
+  --ifm-color-primary-lighter: #92d0b4;    /* primary-11 dark */
+  --ifm-color-primary-lightest: #f4fff9;   /* primary-12 dark */
 
-  --ifm-background-color: #111318;
-  --ifm-background-surface-color: #1a1d23;
-  --ifm-navbar-background-color: #111318;
+  --ifm-background-color: #1d1d1d;         /* neutral-1 dark */
+  --ifm-background-surface-color: #2c2c2c; /* neutral-3 dark */
+  --ifm-navbar-background-color: #00ffb9;  /* header-background stays mint in dark too */
 
-  --ifm-color-content: #e3e8ef;
-  --ifm-color-content-secondary: #8b949e;
-  --ifm-link-color: #4db896;
-  --ifm-link-hover-color: #6bcbab;
+  --ifm-color-content: #ffffff;            /* neutral-12 dark */
+  --ifm-color-content-secondary: #c0c0c0;  /* neutral-11 dark */
+  --ifm-link-color: #00ffb9;
+  --ifm-link-hover-color: #00b272;
 
-  --ifm-code-background: #1e2228;
-  --ifm-pre-background: #1a1d23;
-  --ifm-toc-border-color: #2d3139;
-  --ifm-hr-border-color: #2d3139;
-  --ifm-color-emphasis-200: #2d3139;
-  --ifm-color-emphasis-300: #3d4450;
+  --ifm-code-background: #2c2c2c;
+  --ifm-pre-background: #2c2c2c;
+  --ifm-toc-border-color: #393939;         /* neutral-6 dark */
+  --ifm-hr-border-color: #393939;
+  --ifm-color-emphasis-200: #393939;
+  --ifm-color-emphasis-300: #434343;       /* neutral-7 dark */
 
-  --gb-sidebar-bg: #111318;
-  --gb-sidebar-border: #2d3139;
-  --gb-sidebar-category-color: #6b7280;
-  --gb-sidebar-item-color: #cdd5df;
-  --gb-sidebar-item-hover-bg: #1a1d23;
-  --gb-sidebar-item-active-color: #4db896;
+  --gb-sidebar-bg: #1d1d1d;
+  --gb-sidebar-border: #393939;
+  --gb-sidebar-category-color: #bcc2bf;   /* tint-11 dark */
+  --gb-sidebar-item-color: #fefffe;       /* tint-12 dark */
+  --gb-sidebar-item-hover-bg: #2e302f;    /* tint-4 dark */
+  --gb-sidebar-item-active-color: #00ffb9;
 
-  --docusaurus-highlighted-code-line-bg: rgba(77, 184, 150, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0,255,185,0.08);
 }
 
 /* ── Base ──────────────────────────────────────────────────────────────── */
@@ -108,37 +117,52 @@ html {
 
 /* ── Navbar ────────────────────────────────────────────────────────────── */
 .navbar {
-  border-bottom: 1px solid var(--ifm-toc-border-color);
-  box-shadow: none !important;
+  background-color: var(--ifm-navbar-background-color);
+  box-shadow: var(--ifm-navbar-shadow);
   height: var(--ifm-navbar-height);
-  padding: 0 1.25rem;
+  padding: 0 1.5rem;
 }
 
-.navbar__brand {
-  gap: 10px;
-}
-
-.navbar__logo {
-  height: 28px;
-  width: auto;
+/* Navbar text/icons should be dark (#1d1d1d) on the mint background */
+.navbar__brand,
+.navbar__link,
+.navbar__toggle {
+  color: #1d1d1d !important;
 }
 
 .navbar__title {
-  color: var(--ifm-color-content);
+  color: #1d1d1d;
   font-size: 0.9375rem;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 
-.navbar__link {
-  color: var(--ifm-color-content-secondary);
-  font-size: 0.875rem;
-  font-weight: 500;
+.navbar__logo {
+  height: 32px;
+  width: 32px;
+  border-radius: 6px;
+  object-fit: cover;
 }
 
 .navbar__link:hover,
 .navbar__link--active {
-  color: var(--ifm-color-content);
+  color: #1d1d1d !important;
+  opacity: 0.75;
+}
+
+/* Dark mode: same mint navbar, same dark text */
+[data-theme="dark"] .navbar {
+  background-color: #00ffb9;
+}
+
+[data-theme="dark"] .navbar__brand,
+[data-theme="dark"] .navbar__link,
+[data-theme="dark"] .navbar__toggle {
+  color: #1d1d1d !important;
+}
+
+[data-theme="dark"] .navbar__title {
+  color: #1d1d1d;
 }
 
 /* ── Sidebar ───────────────────────────────────────────────────────────── */
@@ -170,22 +194,22 @@ html {
 
 /* All links */
 .menu__link {
-  border-radius: 5px;
+  border-radius: 6px;
   color: var(--gb-sidebar-item-color);
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  padding: 5px 8px;
-  transition: color 0.12s;
+  padding: 5px 10px;
+  transition: background 0.1s, color 0.1s;
 }
 
 .menu__link:hover {
   background: var(--gb-sidebar-item-hover-bg);
-  color: var(--ifm-color-content);
+  color: var(--gb-sidebar-item-color);
   text-decoration: none;
 }
 
-/* Active page — color only, no background (matches GitBook) */
+/* Active page — color only, no background (matches GitBook exactly) */
 .menu__link--active:not(.menu__link--sublist) {
   background: none;
   color: var(--gb-sidebar-item-active-color);
@@ -203,14 +227,15 @@ html {
   font-size: 0.6875rem;
   font-weight: 700;
   letter-spacing: 0.07em;
-  margin-top: 1.5rem;
-  padding: 4px 8px;
+  margin-top: 1.25rem;
+  padding: 4px 10px;
   text-transform: uppercase;
 }
 
 .menu__link--sublist:hover {
-  background: transparent;
-  color: var(--ifm-color-content-secondary) !important;
+  background: transparent !important;
+  color: var(--gb-sidebar-category-color) !important;
+  opacity: 0.8;
 }
 
 /* First category — no top margin */
@@ -218,10 +243,14 @@ html {
   margin-top: 0;
 }
 
-/* Caret */
+/* Hide the caret on top-level category headers to match GitBook */
+.menu__list > .menu__list-item > .menu__list-item-collapsible > .menu__link--sublist-caret::after {
+  display: none;
+}
+
+/* Caret for sub-categories */
 .menu__caret::before {
   border-color: var(--gb-sidebar-category-color);
-  transform: rotate(0deg);
 }
 
 /* ── Content area ──────────────────────────────────────────────────────── */
@@ -325,7 +354,7 @@ pre > code {
 
 /* ── Blockquotes (GitBook hint blocks) ─────────────────────────────────── */
 blockquote {
-  background: rgba(62, 158, 130, 0.06);
+  background: rgba(0,165,102,0.05);
   border-left: 3px solid var(--ifm-color-primary);
   border-radius: 0 6px 6px 0;
   color: var(--ifm-color-content);
@@ -334,7 +363,7 @@ blockquote {
 }
 
 [data-theme="dark"] blockquote {
-  background: rgba(77, 184, 150, 0.07);
+  background: rgba(0,255,185,0.06);
 }
 
 blockquote p:last-child {
@@ -484,8 +513,7 @@ img {
 }
 
 [data-theme="dark"] .footer {
-  background: #1a1d23;
-  border-top-color: var(--gb-sidebar-border);
+  background: #2c2c2c;
 }
 
 .footer__title {
