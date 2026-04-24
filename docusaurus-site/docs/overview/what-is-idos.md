@@ -31,7 +31,7 @@ In the last decade, we have seen many projects launch decentralized identity sys
 
 Web3 requires an identity layer. It's time we adopt decentralized identity for good!
 
-## idOS in the identity value chain
+## idOS in the identity value chain {#the-idos-in-the-identity-value-chain}
 
 **The identity value chain is complex and has multiple interconnected steps**. We are referring to the process of verifying a user's identity, issuing identifiers, and allowing them to use these identifiers for authentication. 
 

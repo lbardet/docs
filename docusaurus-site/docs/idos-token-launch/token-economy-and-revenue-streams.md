@@ -1,6 +1,6 @@
 # Token Economy & Revenue Streams
 
-![](/assets/image (28).png)
+![](/assets/image-28.png)
 
 
 
@@ -37,7 +37,7 @@ The IDOS token secures the **idOS Storage Network** by coordinating participatio
 
 These interactions are depicted in the flows below:
 
-![](/assets/IDOS Token diagram - Full.jpg)
+![](/assets/IDOS-Token-diagram-Full.jpg)
 
 ### Revenue streams
 
@@ -59,17 +59,17 @@ Protocol fees are directly generated, captured, and distributed at the protocol 
 
 * **Gas fees** capture the value of ‘compute’ and ‘storage’. Write and read actions to the idOS Storage Network carry a gas fee. This gas fee is based on the amount of compute needed to carry out an action plus the amount of data that is stored. 100% of these fees go to Storage Network node operators. To become node operators, verified entities need to stake a minimum amount of IDOS tokens - users can also delegate their IDOS to node operators.
 
-![](/assets/IDOS Token diagram - Staking & Gas fees.jpg)
+![](/assets/IDOS-Token-diagram-Staking-and-Gas-fees.jpg)
 
 * **Access Grant** **fees** (paid in stablecoins) capture the value of the ‘content’. Through idOS, Data Consumers can request Data Owners (Users) to share access to a Verifiable Credential they hold in their idOS profile. When Data Issuers issue a credential for a user, they can set a price to access the credential. Data Consumer pay this price upon receiving a (read) Access Grant from a user. There is a protocol-defined mark-up (25% at inception) on the price of each credential that is allocated to the idOS Association to support the protocol, its development, and ecosystem sustainability.
 
-![](/assets/IDOS Token diagram - USDC.jpg)
+![](/assets/IDOS-Token-diagram-USDC.jpg)
 
 #### Service Fees
 
 Beyond protocol fees, other institutions, such as Data Issuers, can generate revenue from leveraging the idOS protocol. idOS Services, through its idOS Relay product, is the first organization to 1) aggregate and standardize outputs across different identity verification providers, 2) issue Verifiable Credentials for users inside idOS, and 3) enforce data deletion across verification providers.
 
-![](/assets/idOS Architecture – Simplified (1).jpg)
+![](/assets/idOS-Architecture-Simplified-1.jpg)
 
 **idOS Relay** is live and currently generating $500k+ Annual Recurring Revenue from its clients. Thanks to the idOS Economy Network architecture, products like idOS Relay can benefit from revenue models that go beyond one-off identity verification, and can progressively become on-chain revenue drivers. Some examples are:
 

@@ -4,9 +4,9 @@ The idOS uses asymmetric encryption by default to secure user data. For encrypti
 
 In the absence of a stronger, more recent recommendation, we follow [Latacora’s 2018 standards](https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html) using the asymmetric encryption methods NaCl/libsodium (Curve25519 + ChaPoly AEAD).
 
-{% hint style="info" %}
+:::info
 As users are in control of their idOS profile, they can also choose to add data without encryption, even though this is highly discouraged.
-{% endhint %}
+:::
 
 ## When is data encrypted?
 
@@ -31,8 +31,8 @@ Let us walk through two of the encryption flows:
 
 **Encryption flow #1: Using derived keys (from seed or password)**
 
-<img src="/assets/idOS_Gitbook_encryption flow 1.png" alt=""><figcaption><p>Legend: PK = Public Key   |    SK = Secret Key (AKA Private Key)</p></figcaption>
+![Legend: PK = Public Key   |    SK = Secret Key (AKA Private Key)](/assets/idOS_Gitbook_encryption-flow-1.png)
 
 **Encryption flow #2: Creating a data access grant (using re-encryption)**
 
-<img src="/assets/idOS_Gitbook_encryption flow 2.png" alt=""><figcaption><p>Legend: PK = Public Key   |    SK = Secret Key (AKA Private Key)</p></figcaption>
+![Legend: PK = Public Key   |    SK = Secret Key (AKA Private Key)](/assets/idOS_Gitbook_encryption-flow-2.png)

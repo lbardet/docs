@@ -1,5 +1,5 @@
 ---
-description: Data Issuer and Consumers without direct User Experience requirements
+description: Data issuers and consumers without direct user experience requirements
 ---
 
 # Financial module integration

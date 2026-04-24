@@ -1,11 +1,11 @@
 # Issuer guide
 
-### Required reading
+## Required reading
 
 * [System Design](../how-it-works/system-design.md)
 * [The idOS Enclave](https://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.md)
 
-### SDK feature overview
+## SDK feature overview
 
 The primary features provided by the Issuer SDK are:
 
@@ -13,15 +13,15 @@ The primary features provided by the Issuer SDK are:
 * transforming IDV results into idOS credentials;
 * issuing and managing credentials through standard idOS sharing primitives.
 
-### Getting started: what you'll need
+## Getting started: what you'll need
 
-#### Compliance guidance
+### Compliance guidance
 
 See [idOS Regulatory approach](https://docs.idos.network/compliance/idos-regulatory-approach) for more context, and discuss with your compliance officer:
 
 * what retention and credential-sharing policies your issuance flow needs to support.
 
-#### Signature and encryption keys
+### Signature and encryption keys
 
 > 🛑 DANGER 🛑
 >
@@ -44,7 +44,7 @@ console.log(key.privateKeyMultibase);  // -> z...  (multibase, multicodec-prefix
 console.log(key.publicKeyMultibase);
 ```
 
-#### A frontend
+### A frontend
 
 Your frontend (web or native app), as your user’s touch point, is where you’ll:
 
@@ -52,7 +52,7 @@ Your frontend (web or native app), as your user’s touch point, is where you’
 * find whether the user already has your credential;
 * otherwise, request write grant and take user through IDV.
 
-#### A backend
+### A backend
 
 Your backend (private server) is where you’ll:
 
@@ -60,7 +60,7 @@ Your backend (private server) is where you’ll:
 * write credentials to idOS;
 * revoking previously issued credentials.
 
-#### Our Issuer SDK
+### Our Issuer SDK
 
 Get our NPM packages
 
@@ -74,9 +74,9 @@ pnpm add @idos-network/client
 pnpm add @idos-network/issuer
 ```
 
-### Usage
+## Usage
 
-#### \[ frontend ] Importing and initializing
+### \[ frontend ] Importing and initializing
 
 ```js
 import { createIDOSClient, type idOSClient } from "@idos-network/client";
@@ -88,7 +88,7 @@ const idOSClient = createIDOSClient({
 });
 ```
 
-#### \[ backend ] Importing and initializing
+### \[ backend ] Importing and initializing
 
 ```js
 import { idOSIssuer as idOSIssuerClass } from "@idos-network/issuer";
@@ -100,7 +100,7 @@ const idOSIssuer = await idOSIssuerClass.init({
 });
 ```
 
-#### \[ frontend ] Connecting your user's wallet
+### \[ frontend ] Connecting your user's wallet
 
 Connect your user's wallet however you do it today, for example:
 
@@ -110,7 +110,7 @@ await provider.send("eth_requestAccounts", []);
 const signer = await provider.getSigner();
 ```
 
-#### \[ frontend + backend ] Ensuring your user has an idOS profile
+### \[ frontend + backend ] Ensuring your user has an idOS profile
 
 Get your user's address from the signer above and confirm they have an idOS profile. If not, redirect them to your onboarding journey.
 
@@ -192,7 +192,7 @@ const wallet = {
 await idOSIssuer.createUser(user, wallet);
 ```
 
-#### \[ frontend ] Setting signer
+### \[ frontend ] Setting signer
 
 Pass your user’s signer to the SDK, so it knows where to send signature requests to.
 
@@ -200,7 +200,7 @@ Pass your user’s signer to the SDK, so it knows where to send signature reques
 idOSClient = await idOSClient.withUserSigner(signer);
 ```
 
-#### \[ frontend ] Checking for issued credential
+### \[ frontend ] Checking for issued credential
 
 ```typescript
 const credentials: IdosCredential[] = await idOSClient.getAllCredentials();
@@ -213,7 +213,7 @@ credentials.filter(c =>
 
 If the user doesn’t already have your credential, you can proceed to requesting a write grant so you can issue and write it.
 
-#### \[ frontend ] Requesting write grant
+### \[ frontend ] Requesting write grant
 
 In order to write a credential to idOS, the issuer needs to obtain permission from the user. This can be done using a Delegated Write Grant (DWG).
 
@@ -253,7 +253,7 @@ const signature = await signer.signMessage(message);
 
 Be sure you have the DWG message parameters and its signature kept. You need to use them on server side later.
 
-#### \[ backend ] Issuing and writing credentials
+### \[ backend ] Issuing and writing credentials
 
 To issue a credential, you can use our W3C Verifiable Credentials helpers:
 
@@ -349,7 +349,7 @@ await idOSIssuer.createCredentialsByDelegatedWriteGrant(
 
 This will create a credential for the user in the idOS and a copy for you.
 
-#### \[ backend ] Revoking and editing credentials
+### \[ backend ] Revoking and editing credentials
 
 The `editCredential` function allows issuers to update the public notes associated with a credential in the idOS. This is useful for actions like marking credentials as revoked or updating metadata.
 

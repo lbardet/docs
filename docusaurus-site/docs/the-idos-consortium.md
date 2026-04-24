@@ -1,6 +1,6 @@
 # The idOS Consortium
 
-![](/assets/idOS -Consortium-December 2025.jpg)
+![](/assets/idOS-Consortium-December-2025.jpg)
 
 ## Introducing the idOS Consortium
 

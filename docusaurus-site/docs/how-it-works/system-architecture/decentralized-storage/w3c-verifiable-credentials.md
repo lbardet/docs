@@ -50,4 +50,4 @@ Here's an abridged JSON-LD example of what a W3C VC looks like:
 }
 ```
 
-Verifiable credential authenticity can be trivially determined by verifying it according it to its embedded proof, which our SDK helps you do in one line of code.
+Verifiable credential authenticity can be trivially determined by verifying it according to its embedded proof, which our SDK helps you do in one line of code.

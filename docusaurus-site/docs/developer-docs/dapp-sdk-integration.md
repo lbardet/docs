@@ -69,7 +69,7 @@ idos.data.get()
 idos.data.create()
 idos.data.update()
 idos.data.delete()
-idOS.verifiableCredentials.verify()
+idos.verifiableCredentials.verify()
 
 // see, create, revoke an access grant from the user
 idos.grants.list()
@@ -84,7 +84,7 @@ By default, idOS stores user data in the form of [W3C Verifiable Credentials](..
 const credentials = await idos.data.list("credentials");
 const { id } = credentials.find(c => c.credential_type === "basic");
 const { content } = await idos.data.get("credentials", id);
-const isValid = await idOS.verifiableCredentials.verify(content).catch(e => false)
+const isValid = await idos.verifiableCredentials.verify(content).catch(e => false)
 ```
 
 Each identity verifier may use a different credential schema. A more comprehensive list of attributes from credentials issued by Fractal ID can be found [here](https://github.com/trustfractal/claim-schemas/blob/master/verifiable\_credential/fractal\_id.json-ld).

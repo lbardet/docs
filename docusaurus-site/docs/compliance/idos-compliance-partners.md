@@ -8,7 +8,7 @@ idOS is a proud member of the [**European Crypto Initiative (EUCI)**](https://eu
 
 As a member, idOS benefits from direct engagement with policymakers and legal experts involved in shaping key frameworks in the EU. This participation allows us to stay ahead of evolving compliance standards and contribute to the development of practical, innovation-supportive rules for decentralized identity and Web3 infrastructure in Europe.
 
-{% embed url="https://www.youtube.com/watch?v=7ljycEAsJdQ" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7ljycEAsJdQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
 We also engage with legal, compliance, and regulatory experts through strategic events. One such initiative was our [**Compliance & Coffee event**](https://www.idos.network/blog/recap-compliance-and-coffee-meetup-by-idos) that took place during 2025's **Paris Blockchain Week**, where we discussed compliance in web3 alongside **EUCI**, **LexDAO**, and other key players in the space.
 

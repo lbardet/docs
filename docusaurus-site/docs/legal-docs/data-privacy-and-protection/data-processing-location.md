@@ -4,7 +4,7 @@ Moving carefully to align with data protection laws compliance means that idOS w
 
 
 
-![](/assets/idOS Network of Nodes setup.png)
+![](/assets/idOS-Network-of-Nodes-setup.png)
 
 Node providers to this Network of Nodes will need to accept standard terms, including for alignment with data protection laws (e.g. adherence to [Standard Contractual Clauses](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc\_en) (SCCs)). 
 

@@ -4,9 +4,9 @@ Everything you need to know for the IDOS Token Launch. If you happen to have any
 
 This is an evolving page, and more FAQs will be added on an ongoing basis.
 
-{% hint style="info" %}
-This is a marketing communication. White Paper [here](https://www.idos.network/blog/token-legal-white-paper). Not reviewed or approved by any EU authority. Issuer solely responsible. [Terms ](https://www.idos.network/legal/user-agreement)apply to community incentives.
-{% endhint %}
+:::info
+This is a marketing communication. White Paper [here](https://www.idos.network/blog/token-legal-white-paper). Not reviewed or approved by any EU authority. Issuer solely responsible. [Terms](https://www.idos.network/legal/user-agreement) apply to community incentives.
+:::
 
 ## IDOS Token
 

@@ -1,6 +1,6 @@
 # FAQs - Users
 
-Everything you need to know as an idOS user. If you happen to have any other questions, feel free to join our idOS Community Telegram group to talk directly you our team. Please check out [official-links.md](../idos-token-launch/official-links.md "mention").
+Everything you need to know as an idOS user. If you happen to have any other questions, feel free to join our idOS Community Telegram group to talk directly to our team. Please check out [official-links.md](../idos-token-launch/official-links.md "mention").
 
 ## General
 
@@ -241,7 +241,7 @@ idOS itself doesn’t (and can’t) arbitrate disputes about data accuracy. idOS
 
 </details>
 
-## Data Privacy & Security
+## Data Privacy & Security {#data-privacy-and-security}
 
 <details>
 
@@ -317,7 +317,7 @@ Your data is distributed among several idOS nodes, at this point primarily for r
 
 Since data is always encrypted to your idOS key before being sent to the idOS, only you as the owner of that key can decrypt it. There's no other key that the idOS could leak that would have any impact on data security and, if some other user leaks their keys, only their data is at risk — not yours. Even in that scenario, an attacker would still need a separate signing key to be able to access the encrypted data in the idOS, making attacks impossibly expensive.
 
-At the very core, this per-user encryption is likely the most powerful security guarantee in idOS. That is because, means that even if all security layers are pierced and an attacker finds a way to grab a hold of idOS data, they'll be holding on to a lot of nothing.
+At the very core, this per-user encryption is likely the most powerful security guarantee in idOS. That is because per-user encryption means that even if all security layers are breached and an attacker accesses idOS data, they'll end up with nothing useful.
 
 Furthermore, this is only one of the several layers that keep idOS secure. We believe that better security emerges from composing different layers, rather than pointlessly obsessing over making any single one ostensibly bullet-proof. This concept is called "defense in depth", and it works because different security measures fail in different ways. When one breaks, the others ensure that attacks stay small and boring.
 
@@ -339,7 +339,7 @@ We have plans to further decentralize the node operator selection process, but f
 
 <summary>Does idOS sell my data or use it for ads/AI training?</summary>
 
-No. We couldn’t even if we wanted too. Since data is always encrypted to your idOS key before being sent to the idOS, only the owner of that key — you — can decrypt it. That means the idOS has only gibberish to sell — and nobody pays for gibberish.
+No. We couldn’t even if we wanted to. Since data is always encrypted to your idOS key before being sent to the idOS, only the owner of that key — you — can decrypt it. That means the idOS has only gibberish to sell — and nobody pays for gibberish.
 
 The way idOS plans to sustain itself is by charging small protocol fees to the apps or parties transacting on the network (like a tiny fee when an issuer issues a credential or when an access grant is facilitated), not by exploiting user data. In summary, idOS is an infrastructure service, not a data broker or advertising platform.
 

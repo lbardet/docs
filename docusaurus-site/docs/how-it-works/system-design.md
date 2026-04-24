@@ -47,13 +47,13 @@ User data in idOS is stored the idOS Storage Network, a decentralized layer 1 bl
   * **Deployments**:
     * _Production_: [https://nodes.idos.network/](https://nodes.idos.network/)
     * _Playground_: [https://nodes.playground.idos.network/](https://nodes.playground.idos.network/)
-* **Native modules (**� Coming soon 🚧): idOS nodes will have specialized "sidecar" components implemented alongside the core network functionality for additional features like TSS-MPC based encryption/decryption and TEE-secured biometric authentication.  
+* **Native modules** (Coming soon 🚧): idOS nodes will have specialized "sidecar" components implemented alongside the core network functionality for additional features like TSS-MPC based encryption/decryption and TEE-secured biometric authentication.  
 
 #### **Storage Network Data Architecture**
 
 Here's an abridged visual representation of the key concepts and relationships in idOS:
 
-![](/assets/Screenshot 2025-05-05 at 18.32.01.png)
+![](/assets/Screenshot-2025-05-05-at-18.32.01.png)
 
 #### **Fundamental Data Structures**
 
@@ -141,7 +141,7 @@ For cases where regulatory compliance requires specific retention periods, acces
 The idOS Storage Network utilizes [Kwil](https://www.kwil.com/), a decentralized relational database, for storing and managing identity data, and each idOS node run a customized implementation of Kwil's storage and consensus. This design enables key features for idOS as a decentralized personal identity cloud:
 
 * **Compliance with GDPR’s Right to Be Forgotten** – Unlike traditional immutable blockchain-based storage, Kwil-powered decentralized storage on idOS enables us to operate with a limited history of nodes. This allows us to ensure that data deletion requests don't simply unincentivize the storage of data or change state on a public blockchain transparently, but that they truly and verifiably delete data from all idOS nodes, giving idOS the ability to comply with right-to-be-forgotten privacy laws like GDPR. 
-* **Performant permissioned consensus:** Because not all specialized networks need fully permissionless validator sets (idOS Association will KYB all idOS Operators for the forseeable future until we progressively decentralize), our consensus mechanism, Kwil's [Roadrunner](https://docs.kwil.com/docs/node/consensus/motivation), is tailored towards validator sets that are selected by governance mechanisms, shedding overhead that traditional blockchain BFT algorithms require. It's inspired by both CometBFT and more classical distributed system consensus algorithms, taking the best from both and tailoring it for personal storage use cases like identity. 
+* **Performant permissioned consensus:** Because not all specialized networks need fully permissionless validator sets (idOS Association will KYB all idOS Operators for the foreseeable future until we progressively decentralize), our consensus mechanism, Kwil's [Roadrunner](https://docs.kwil.com/docs/node/consensus/motivation), is tailored towards validator sets that are selected by governance mechanisms, shedding overhead that traditional blockchain BFT algorithms require. It's inspired by both CometBFT and more classical distributed system consensus algorithms, taking the best from both and tailoring it for personal storage use cases like identity. 
 
 #### Become a Node Operator
 

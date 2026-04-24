@@ -2,7 +2,7 @@
 
 #### _Is idOS live?_
 
-Yes it is! You can access your idOS profile at [dashboard.idos.network](https://dashboard.idos.network) and integrate [idOS SDK ](../developer-docs/dapp-sdk-integration.md)today. Follow us on [socials](../community-and-marketing/community-and-social.md) and visit [idos.network](https://www.idos.network) for updates!
+Yes it is! You can access your idOS profile at [dashboard.idos.network](https://dashboard.idos.network) and integrate [idOS SDK](../developer-docs/dapp-sdk-integration.md)today. Follow us on [socials](../community-and-marketing/community-and-social.md) and visit [idos.network](https://www.idos.network) for updates!
 
 #### _What types of data can be added to idOS?_
 

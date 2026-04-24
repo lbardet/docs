@@ -40,7 +40,7 @@
   /* Backgrounds */
   --ifm-background-color: #ffffff;         /* neutral-1 */
   --ifm-background-surface-color: #f7f7f7; /* neutral-3 */
-  --ifm-navbar-background-color: #00ffb9;  /* header-background — bright mint! */
+  --ifm-navbar-background-color: #ffffff;
   --ifm-navbar-shadow: 0 1px 0 rgba(29,29,29,0.08);
 
   /* Borders */
@@ -84,7 +84,7 @@
 
   --ifm-background-color: #1d1d1d;         /* neutral-1 dark */
   --ifm-background-surface-color: #2c2c2c; /* neutral-3 dark */
-  --ifm-navbar-background-color: #00ffb9;  /* header-background stays mint in dark too */
+  --ifm-navbar-background-color: #1d1d1d;
 
   --ifm-color-content: #ffffff;            /* neutral-12 dark */
   --ifm-color-content-secondary: #c0c0c0;  /* neutral-11 dark */
@@ -117,24 +117,10 @@ html {
 
 /* ── Navbar ────────────────────────────────────────────────────────────── */
 .navbar {
-  background-color: var(--ifm-navbar-background-color);
-  box-shadow: var(--ifm-navbar-shadow);
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  box-shadow: none !important;
   height: var(--ifm-navbar-height);
   padding: 0 1.5rem;
-}
-
-/* Navbar text/icons should be dark (#1d1d1d) on the mint background */
-.navbar__brand,
-.navbar__link,
-.navbar__toggle {
-  color: #1d1d1d !important;
-}
-
-.navbar__title {
-  color: #1d1d1d;
-  font-size: 0.9375rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
 }
 
 .navbar__logo {
@@ -144,25 +130,10 @@ html {
   object-fit: cover;
 }
 
-.navbar__link:hover,
-.navbar__link--active {
-  color: #1d1d1d !important;
-  opacity: 0.75;
-}
-
-/* Dark mode: same mint navbar, same dark text */
-[data-theme="dark"] .navbar {
-  background-color: #00ffb9;
-}
-
-[data-theme="dark"] .navbar__brand,
-[data-theme="dark"] .navbar__link,
-[data-theme="dark"] .navbar__toggle {
-  color: #1d1d1d !important;
-}
-
-[data-theme="dark"] .navbar__title {
-  color: #1d1d1d;
+.navbar__title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 /* ── Sidebar ───────────────────────────────────────────────────────────── */

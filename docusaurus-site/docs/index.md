@@ -14,7 +14,7 @@ idOS brings **portable identity to the stablecoin economy**. Allowing users to o
 
 [The idOS Storage Network](how-it-works/system-design.md) (L1) enables private and self-sovereign data storage, and allow users to share access to their encrypted data with applications and businesses across the internet. The idOS Economy Network (coming soon, an Arbitrum Orbit chain) implements a flexible data economy in smart contracts and meters the usage of the Storage Network. Applications can use the idOS SDK to perform all core functions they'd need to interact with idOS. 
 
-![](/assets/idOS Architecture – Simplified.jpg)
+![idOS Architecture Overview](/assets/idOS-Architecture-Simplified.jpg)
 
 ## An industry-wide effort 
 
@@ -28,9 +28,9 @@ Effectively bring financial applications and users onchain requires a self-custo
 
 Don't take our word for it: idOS is live and you can go though a demo [here](https://consumer-and-issuer-demo.playground.idos.network/) to see a KYC re-usability flow for a stablecoin neobank that offers a self-custodial banking product as well as a third party self-custodial card. 
 
-![](/assets/idOS_KYC_Reusability (1).jpg)
+![KYC Re-usability flow](/assets/idOS_KYC_Reusability-1.jpg)
 
-Onchain financial fintechs and neobanks (i.e. stablecoin applications) are bringing open source, permissionless infrastructure that relays on stablecoin rails into our daily financial transactions. Our [thesis ](market-focus.md)is that for decentralized identity to finally pick up, we need to solve the hardest, most pressing problem: KYC-reusability. 
+Onchain financial fintechs and neobanks (i.e. stablecoin applications) are bringing open source, permissionless infrastructure that relays on stablecoin rails into our daily financial transactions. Our [thesis](market-focus.md) is that for decentralized identity to finally pick up, we need to solve the hardest, most pressing problem: KYC-reusability. 
 
 ## A different approach to making decentralized identity (finally) happen
 

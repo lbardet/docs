@@ -70,7 +70,7 @@ Encryption in idOS follows well-defined processes to ensure consistent and secur
 
 This approach ensures that even if an attacker gains access to the raw data stored in the idOS, it remains unreadable without the user’s decryption key.
 
-<img src="/assets/idOS_Gitbook_Profile_Data.jpg" alt=""><figcaption><p>Profile Creation and Encryption within idOS</p></figcaption>
+![Profile Creation and Encryption within idOS](/assets/idOS_Gitbook_Profile_Data.jpg)
 
 ### Encryption Flow #2: Encrypting Data for Third-Party Access
 

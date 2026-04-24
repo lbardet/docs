@@ -16,7 +16,7 @@ The first such process we rolled out used passwords. Passwords “just work” a
 
 Key derivation is what happens when your operating system asks you for a password to unlock your laptop, perform updates, etc. The diagram below illustrates how this process works differently for new vs existing users.
 
-![](/assets/image (7).png)
+![](/assets/image-7.png)
 
 idOS keys are derived using [scrypt](https://en.wikipedia.org/wiki/Scrypt) (an industry standard [PBKDF](https://en.wikipedia.org/wiki/Key_derivation_function)) to derive a keypair for a user given their seed and user ID.
 
@@ -33,7 +33,7 @@ Passwords, however, have a nasty habit of being poorly chosen and/or forgotten. 
 
 Instead of asking users to input a password, the Enclave uses high-quality entropy to generate a random key for them. It then splits this key into several shares using Shamir's Secret Sharing (which ensures each share is not only useless but also undecipherable in isolation). These shares are distributed among several MPC nodes, along with a list of the user's wallets that can sign a message authorizing their retrieval.
 
-![](/assets/image (6).png)
+![](/assets/image-6.png)
 
 1. **Key generation**
    1. A random key is generated from high quality entropy
@@ -50,7 +50,7 @@ Instead of asking users to input a password, the Enclave uses high-quality entro
 
 Afterwards, whenever the Enclave needs to retrieve the user's key for decryption operations, it asks the user to sign a message to authorize the retrieval of their key shares. These shares are then recombined into the user's decryption key.
 
-![](/assets/image (8).png)
+![](/assets/image-8.png)
 
 1. **The key recovery process is initiated**
 2. **Payload creation**

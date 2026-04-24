@@ -1,5 +1,5 @@
 ---
-description: Please don't delete this page but exchange it's content as it's already linked
+description: Please don't delete this page but exchange its content as it's already linked
 ---
 
 # Introduction

@@ -67,7 +67,7 @@ NPM: [https://www.npmjs.com/package/@idos-network/idos-sdk-server-dapp](https://
 pnpm add @idos-network/idos-sdk-server-dapp ethers near-api-js
 ```
 
-## <mark style="color:red;">Data Issuer SDK: Frontend</mark>
+## Data Issuer SDK: Frontend
 
 The Data Issuer SDK: Frontend is designed for applications which are writing credentials into the idOS, such as regulated crypto neobanks, on-ramps, card issuers, and embedded bank account providers. 
 
@@ -97,9 +97,9 @@ NPM: [https://www.npmjs.com/package/@idos-network/issuer-sdk-js](https://www.npm
 pnpm add @idos-network/issuer-sdk-js ethers near-api-js
 ```
 
-## <mark style="color:red;">Data Issuer SDK: Server</mark>
+## Data Issuer SDK: Server
 
-The Data Issuer SDK: Server is designed for applications which are writing credentials into the idOS, such as regulated crypto neobanks, on-ramps, card issuers, and embedded bank account providers. In some flows, an identity verification provider (IVP, or otherwise just known as a KYC provider i.e. Sumsub, Veriff) will be the issuer on the backend, and so this SDK is designed for those server-side operations. 
+The Data Issuer SDK: Server is designed for applications which are writing credentials into the idOS, such as regulated crypto neobanks, on-ramps, card issuers, and embedded bank account providers. In some flows, an identity verification provider (IVP, or otherwise just known as a KYC provider i.e. Sumsub, Veriff) will be the issuer on the backend, and so this SDK is designed for those server-side operations.
 
 ### Key Features
 
@@ -115,7 +115,7 @@ The SDK encrypts credentials using randomly generated keys for issuers rather th
 
 Issuers can revoke credentials based on changes in a user’s status (e.g., expired KYC documents, employment verification updates). The SDK allows credentials to be issued with automatic expiration dates.
 
-### Data Issuer SDK: Frontend resources
+### Data Issuer SDK: Server resources
 
 Technical documentation: 
 

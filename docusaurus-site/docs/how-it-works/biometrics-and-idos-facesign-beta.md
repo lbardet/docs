@@ -1,6 +1,8 @@
 # Biometrics & idOS FaceSign (Beta)
 
-<mark style="background-color:$warning;">idOS FaceSign is currently in closed beta, available only on the idOS app while we get it ready for use by third party developers.</mark>
+:::caution
+idOS FaceSign is currently in closed beta, available only on the idOS app while we get it ready for use by third party developers.
+:::
 
 FaceSign is a wallet you can't lose. It lets you sign messages no matter where you are or what device you're using, all without needing to download and install any new apps.
 
@@ -10,7 +12,7 @@ Let's walk through it to see how it works. First, your device captures some info
 
 The first time the TEE sees your face, it uses a cryptography grade entropy source to generate a random signing key for you. This key is returned to your device, which it can then use to sign messages like a regular wallet does.
 
-![](/assets/image (3).png)
+![](/assets/image-3.png)
 
 #### ➡️ User flow
 

@@ -6,7 +6,7 @@ The following diagram describes the structure of the relational database within 
 
 
 
-![](/assets/idOS_Gitbook_Database structure.png)
+![](/assets/idOS_Gitbook_Database-structure.png)
 
 ## Data schema
 

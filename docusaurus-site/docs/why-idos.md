@@ -12,7 +12,7 @@ Self-custody of data puts user in control of what is stored and who has access t
 
 The onchain economy is finally starting to take off. Stablecoin infrastructure is the next frontier to bring user onchain. Nearly half a billion users are using crypto today, but are they onchain? [Our thesis](market-focus.md) is that we need to solve the most pressing and hardest problem first for the industry to finally switch the equilibrium to adopt decentralized identity. That problem is KYC-resharing.
 
-Centralized data/user onboarding flows also means walled gardens and platform risks. Permissionless infrastructure is the anditode that allow an open source, composable ecosystem to thrive.  Applying this concept to user data is necessary to equip builders with the same convenient user flow, with the same high level of compliance to simply connect modules. That is why we built idOS to satisfy [financial market and data privacy regulations](/broken/pages/E6SZchXwfQXVYoA83rL3), so that businesses can actually use it. 
+Centralized data/user onboarding flows also means walled gardens and platform risks. Permissionless infrastructure is the anditode that allow an open source, composable ecosystem to thrive.  Applying this concept to user data is necessary to equip builders with the same convenient user flow, with the same high level of compliance to simply connect modules. That is why we built idOS to satisfy [financial market and data privacy regulations](/compliance/compliance-overview), so that businesses can actually use it. 
 
 ## Because we need human-centered systems on the internet
 
@@ -22,7 +22,7 @@ There is no _second life_, but one life that is more and more online. We do not 
 
 In 2025 we still don't have a decentralized identity system and is not for the lack of trying. Decentralized identity only works if all parts and stakeholders come together and it is impossible to build as a standalone effort. idOS is an effort of radical cooperation even on core levels across the [idOS Consortium](the-idos-consortium.md) partners. idOS aims to become the storage and access management layer across the internet.
 
-![](/assets/image (13).png)
+![](/assets/image-13.png)
 
 We are inviting the whole industry to add applications that everyone can use, like zkProofs,  permissionless biometric systems, create more sophisticated role systems for access management and great dashboards for users and businesses. Let's stop working in isolation and build a better stack together. 
 

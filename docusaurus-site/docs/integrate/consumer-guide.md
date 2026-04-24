@@ -1,11 +1,11 @@
 # Consumer guide
 
-### Required reading
+## Required reading
 
 * [System design](../how-it-works/system-design.md)
-* [The Enclave](https://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.mdhttps://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.md)
+* [The Enclave](https://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.md)
 
-### SDK feature overview
+## SDK feature overview
 
 The primary features provided by the Consumer SDK are:
 
@@ -15,9 +15,9 @@ The primary features provided by the Consumer SDK are:
 * listing all access grants you've been given by your users;
 * building compliant credential retrieval flows around standard idOS access grants.
 
-### Getting started: what you'll need
+## Getting started: what you'll need
 
-#### Compliance guidance
+### Compliance guidance
 
 See [idOS Regulatory approach](https://docs.idos.network/compliance/idos-regulatory-approach) for more context, and discuss with your compliance officer:
 
@@ -25,7 +25,7 @@ See [idOS Regulatory approach](https://docs.idos.network/compliance/idos-regulat
 * how long, if at all, you need to retain access to user data;
 * what additional verification steps, if any, you require before accepting shared credentials.
 
-#### Signature and encryption keys
+### Signature and encryption keys
 
 > 🛑 DANGER 🛑
 >
@@ -38,7 +38,7 @@ You'll need:
 * `consumerSigner`: this can be a NEAR `KeyPair`, or an `ethers.Wallet`. This will be used to sign RPC calls to the idOS nodes.
   * see Signatures for more information
 
-#### A frontend
+### A frontend
 
 Your frontend (web or native app), as your user’s touch point, is where you’ll:
 
@@ -46,14 +46,14 @@ Your frontend (web or native app), as your user’s touch point, is where you’
 * find whether the user has an adequate credential;
 * request an access grant to user credentials.
 
-#### A backend
+### A backend
 
 Your backend (private server) is where you’ll:
 
 * retrieve user credentials you’ve been granted access to;
 * list the access grants you’ve been granted.
 
-#### Our Consumer SDK
+### Our Consumer SDK
 
 Get our NPM packages
 
@@ -67,9 +67,9 @@ pnpm add @idos-network/client
 pnpm add @idos-network/consumer
 ```
 
-### Usage
+## Usage
 
-#### \[ frontend ] Importing and initializing
+### \[ frontend ] Importing and initializing
 
 ```js
 import { createIDOSClient, type idOSClient } from "@idos-network/client";
@@ -79,7 +79,7 @@ const idOSClient = createIDOSClient({
 });
 ```
 
-#### \[ backend ] Importing and initializing
+### \[ backend ] Importing and initializing
 
 ```typescript
 import { idOSConsumer as idOSConsumerClass } from "@idos-network/consumer";
@@ -90,7 +90,7 @@ const idOSConsumer = await idOSConsumerClass.init({
 });
 ```
 
-#### \[ frontend ] Connecting your user's wallet
+### \[ frontend ] Connecting your user's wallet
 
 Connect your user's wallet however you do it today, for example:
 
@@ -100,7 +100,7 @@ await provider.send("eth_requestAccounts", []);
 const signer = await provider.getSigner();
 ```
 
-#### \[ frontend ] Checking if you user has an idOS profile
+### \[ frontend ] Checking if you user has an idOS profile
 
 Get your user's address from the signer above and confirm they have an idOS profile. If not, redirect them to your Issuer. If you have an IDV integration, you can yourself be the issuer. See the Issuer Guide for more information.
 
@@ -111,7 +111,7 @@ const hasProfile = await idOSClient.addressHasProfile(address);
 if (!hasProfile) window.location = "https://kyc-provider.example.com/enroll";
 ```
 
-#### \[ frontend ] Setting signer
+### \[ frontend ] Setting signer
 
 Pass your user’s signer to the SDK, so it knows where to send signature requests to.
 
@@ -119,7 +119,7 @@ Pass your user’s signer to the SDK, so it knows where to send signature reques
 idOSClient = await idOSClient.withUserSigner(signer);
 ```
 
-#### \[ frontend ] Checking for existing access grant
+### \[ frontend ] Checking for existing access grant
 
 ```js
 const grants: IdosGrant[] = await idOSClient.getGrants().grants.filter(g =>
@@ -144,7 +144,7 @@ const credentialContents: string = await idOSConsumer.getSharedCredentialContent
 
 If you don’t have an access grant, you can proceed to filtering the user’s credentials and requesting one or more access grants.
 
-#### \[ frontend ] Filtering credentials
+### \[ frontend ] Filtering credentials
 
 Credential filtering is done by calling the method `filterCredentials` from the `idOSClient` and passing the filtering requirements:
 
@@ -164,7 +164,7 @@ const filteredCredentials: idOSCredential[] = await idOSClient.filterCredentials
     })
 ```
 
-#### \[ frontend ] Requesting access grant
+### \[ frontend ] Requesting access grant
 
 The simplest way to do this is to ask the user to create and insert an access grant for you.
 
@@ -195,7 +195,7 @@ await idOSConsumer.createAccessGrantByDag({
 });
 ```
 
-#### \[ backend ] Retrieving and verifying credential
+### \[ backend ] Retrieving and verifying credential
 
 ```typescript
 const credentialContents: string = await idOSConsumer.getSharedCredentialContentDecrypted('GRANT_DATA_ID')

@@ -10,7 +10,7 @@ The idOS utilizes Kwil to offer unparalleled privacy and compliance.
 
 While there’s no technical argument against running a permissionless network of such nodes, we’re choosing to move carefully to ensure GDPR compliance. This means that idOS will run a dStorage Network of Nodes at launch.
 
-![](/assets/image (3).png)
+![](/assets/image-3.png)
 
 ## Authentication
 
