@@ -2,6 +2,10 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+const algoliaAppId = process.env.ALGOLIA_APP_ID;
+const algoliaApiKey = process.env.ALGOLIA_SEARCH_API_KEY;
+const algoliaIndexName = process.env.ALGOLIA_INDEX_NAME ?? "idos_docs";
+
 const config: Config = {
   title: "idOS Documentation",
   tagline: "Identity Operating System — self-custodial data for the onchain economy",
@@ -114,6 +118,17 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    ...(algoliaAppId && algoliaApiKey
+      ? {
+          algolia: {
+            appId: algoliaAppId,
+            apiKey: algoliaApiKey,
+            indexName: algoliaIndexName,
+            contextualSearch: true,
+            searchPagePath: "search",
+          },
+        }
+      : {}),
   } satisfies Preset.ThemeConfig,
 };
 

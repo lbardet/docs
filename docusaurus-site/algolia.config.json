@@ -1,0 +1,45 @@
+{
+  "index_name": "idos_docs",
+  "start_urls": ["https://docs.idos.network"],
+  "sitemap_urls": ["https://docs.idos.network/sitemap.xml"],
+  "selectors": {
+    "lvl0": {
+      "selector": ".menu__link--sublist.menu__link--active",
+      "global": true,
+      "default_value": "Documentation"
+    },
+    "lvl1": "article h1",
+    "lvl2": "article h2",
+    "lvl3": "article h3",
+    "lvl4": "article h4",
+    "text": "article p, article li, article td"
+  },
+  "selectors_exclude": [
+    ".theme-doc-breadcrumbs",
+    ".pagination-nav",
+    ".theme-last-updated",
+    "footer"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": ["type", "lang", "docusaurus_tag"],
+    "searchableAttributes": [
+      "unordered(hierarchy.lvl0)",
+      "unordered(hierarchy.lvl1)",
+      "unordered(hierarchy.lvl2)",
+      "unordered(hierarchy.lvl3)",
+      "unordered(hierarchy.lvl4)",
+      "content"
+    ],
+    "ranking": [
+      "words",
+      "filters",
+      "typo",
+      "attribute",
+      "proximity",
+      "exact",
+      "custom"
+    ]
+  },
+  "strip_chars": " .,;:#",
+  "nb_hits": 50000
+}
