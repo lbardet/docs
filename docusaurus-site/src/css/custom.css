@@ -208,14 +208,13 @@ html {
   opacity: 0.8;
 }
 
-/* Hide the caret on top-level category headers to match GitBook */
-.menu__list > .menu__list-item > .menu__list-item-collapsible > .menu__link--sublist-caret::after {
-  display: none;
-}
-
-/* Caret for sub-categories */
-.menu__caret::before {
-  border-color: var(--gb-sidebar-category-color);
+/* Discreet chevrons on all collapsible sidebar items */
+.menu__caret::before,
+.menu__link--sublist-caret::after {
+  height: 1rem;
+  min-width: 1rem;
+  opacity: 0.35;
+  width: 1rem;
 }
 
 /* ── Content area ──────────────────────────────────────────────────────── */
