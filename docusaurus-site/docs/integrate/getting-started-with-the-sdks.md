@@ -1064,15 +1064,25 @@ const credentialPayload = {
   publicNotes: JSON.stringify(credentialsPublicNotes),
 }
 
-// Prepare DWG params and the message signature got from user on previous step
+// Reconstruct DWG params sent from the client in the previous step
+const {
+  owner_wallet_identifier,
+  grantee_wallet_identifier,
+  issuer_public_key,
+  id,
+  access_grant_timelock,
+  not_usable_before,
+  not_usable_after,
+} = request.body.delegatedWriteGrant;
+
 const delegatedWriteGrant = {
-  delegatedWriteGrant.owner_wallet_identifier,
-  delegatedWriteGrant.grantee_wallet_identifier,
-  delegatedWriteGrant.issuer_public_key,
-  delegatedWriteGrant.id,
-  delegatedWriteGrant.access_grant_timelock,
-  delegatedWriteGrant.not_usable_before,
-  delegatedWriteGrant.not_usable_after,
+  owner_wallet_identifier,
+  grantee_wallet_identifier,
+  issuer_public_key,
+  id,
+  access_grant_timelock,
+  not_usable_before,
+  not_usable_after,
   signature,
 }
 
@@ -1139,7 +1149,6 @@ In order for `editCredential` to work, the credential's `public_notes` field nee
 ```
 // Server side
 import issuerConfig from "./issuer-config.js";
-const public_notes_id = crypto.randomUUID();
 await editCredential(issuerConfig, {
   public_notes_id: publicNotesId,
   public_notes: JSON.stringify({

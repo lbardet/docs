@@ -124,7 +124,7 @@ function CategoryLinkLabel({
 }) {
   return (
     <span title={label} className={styles.categoryLinkLabel}>
-      {icon && <em className={styles.categoryIcon}>{icon}</em>}
+      {icon && <span aria-hidden="true" className={styles.categoryIcon}>{icon}</span>}
       {label}
     </span>
   );

@@ -1,6 +1,6 @@
 # FAQs - Users
 
-Everything you need to know as an idOS user. If you happen to have any other questions, feel free to join our idOS Community Telegram group to talk directly to our team. Please check out [official-links.md](../idos-token-launch/official-links.md "mention").
+Everything you need to know as an idOS user. If you happen to have any other questions, feel free to join our idOS Community Telegram group to talk directly to our team. Please check out our [official links](../idos-token-launch/official-links.md).
 
 ## General
 
@@ -126,9 +126,9 @@ We don't store your idOS key anywhere. This means the Enclave must be ready to r
 
 1 -  MPC key abstraction: The first (default) mechanism uses high-quality entropy to generate a random key for you through the Enclave. It then splits this key into several shares using Shamir's Secret Sharing (which ensures each share is not only useless but also undecipherable in isolation). These shares are distributed among several MPC nodes, along with a list of your wallets that can sign a message authorizing their retrieval.
 
-Whenever the Enclave needs your idOS key for decryption operations, it will ask you to sign a message with one of those wallets to authorize the retrieval of your key shares. These shares are then recombined into your idOS key. Learn more in [mpc-for-encryption-keys.md](mpc-for-encryption-keys.md "mention")
+Whenever the Enclave needs your idOS key for decryption operations, it will ask you to sign a message with one of those wallets to authorize the retrieval of your key shares. These shares are then recombined into your idOS key. Learn more in [MPC for encryption keys](mpc-for-encryption-keys.md)
 
-Soon, users will be able to use idOS FaceSign instead of their own wallet, to authorize the retrieval of key shares using their biometrics. Learn more [biometrics-and-idos-facesign-beta.md](biometrics-and-idos-facesign-beta.md "mention")
+Soon, users will be able to use idOS FaceSign instead of their own wallet, to authorize the retrieval of key shares using their biometrics. Learn more about [Biometrics & idOS FaceSign](biometrics-and-idos-facesign-beta.md)
 
 2 - Password: A secondary method is creating a password. Passwords “just work” and are a familiar option for most users. If you choose this option, the Enclave will ask you to choose a password, and use it as input — combined with your idOS user ID — to a mechanism called key derivation. Key derivation is what happens when your operating system asks you for a password to unlock your laptop, perform updates, etc.
 
@@ -327,7 +327,7 @@ Furthermore, this is only one of the several layers that keep idOS secure. We be
 
 <summary>What happens if an idOS node is hacked or otherwise leaks data?</summary>
 
-Because of the strong per-user encryption in place, a hacked node or leaked data would not expose your personal information to anyone. All data stored in idOS nodes is encrypted at the edge (on your side) before storage (read: [encryption-flows.md](key-flows/encryption-flows.md "mention")). So if an attacker somehow gets hold of the raw database or intercepts data from a node, they would only obtain ciphertext (random-looking encrypted data). To actually read that, they would need every user’s private idOS key in addition to compromising the node: a highly unlikely combination.
+Because of the strong per-user encryption in place, a hacked node or leaked data would not expose your personal information to anyone. All data stored in idOS nodes is encrypted at the edge (on your side) before storage (read: [encryption flows](key-flows/encryption-flows.md)). So if an attacker somehow gets hold of the raw database or intercepts data from a node, they would only obtain ciphertext (random-looking encrypted data). To actually read that, they would need every user’s private idOS key in addition to compromising the node: a highly unlikely combination.
 
 Furthermore, the idOS Storage Network is today a permissioned network, meaning node operators are vetted and legally bound to operate securely. This reduces the risk of malicious operators. In the worst-case scenario of a breach, the attacker’s challenge to decrypt the stolen data is akin to breaking modern cryptography, which is considered computationally infeasible.
 

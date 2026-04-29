@@ -20,15 +20,11 @@ While there are many relevant use cases within Stablecoin apps, idOS is mainly f
 
 
 
-1\. A stablecoin neobank or wallet integration, acting as a front-end for users to interact with multiple OpenFi financial modules (e.g. self-custodial bank account, debit card, etc.) provided by different obliged entities
+1. A stablecoin neobank or wallet integration, acting as a front-end for users to interact with multiple OpenFi financial modules (e.g. self-custodial bank account, debit card, etc.) provided by different obliged entities
 
+2. A direct integration with a stablecoin financial module provider (e.g. self-custodial bank account, debit card, fiat on/off-ramp etc.), leveraging their existing verified users and connecting directly with their identity verification provider APIs
 
-
-2\. A direct integration with a stablecoin financial module provider (e.g. self-custodial bank account, debit card, fiat on/off-ramp etc.), leveraging their existing verified users and connecting directly with their identity verification provider APIs
-
-
-
-3\. A 'web2-to-web3' integration (e.g. a CEX, fintech, institution) to bring their already verified users on-chain, allowing them to own their data and re-share it across web3 apps.
+3. A 'web2-to-web3' integration (e.g. a CEX, fintech, institution) to bring their already verified users on-chain, allowing them to own their data and re-share it across web3 apps.
 
 ## Why idOS is at the Core of the Stablecoin economy
 

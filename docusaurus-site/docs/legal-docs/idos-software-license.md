@@ -6,6 +6,6 @@ dApps leveraging the idOS SDK have the freedom to use, copy, modify, merge, dist
 
 However, there are certain stipulations: all redistributed versions must retain a copy of the MIT License terms and the associated copyright notice. 
 
-This ensures that the original copyright and license details from the idOS' code version remain intact. Importantly, the license dictates that the original code authors cannot be held legally accountable for any issues arising from the code.
+This ensures that the original copyright and license details from the original idOS code remain intact. Importantly, the license dictates that the original code authors cannot be held legally accountable for any issues arising from the code.
 
 This MIT License aligns well with other licenses, such as the BSD license family. Furthermore, it generally meshes with the GNU GPL license family, ensuring broad compatibility.

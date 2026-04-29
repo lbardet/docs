@@ -13,7 +13,7 @@ idOS has been designed to store user data securely in a [distributed network of 
 Traditional identity solutions often rely on either local storage in identity wallets or centralized cloud databases. The idOS takes a different approach by using a decentralized network of nodes, offering key advantages:
 
 * **100% Data Availability** – Data is always accessible, even if a single node or service provider goes offline.
-* **Crypto Wallet Compatibility** – Users can manage access to their data using supported cryptographic wallet, ensuring seamless interaction with web3 applications without needing to download additional software.
+* **Crypto Wallet Compatibility** – Users can manage access to their data using supported cryptographic wallets, ensuring seamless interaction with web3 applications without needing to download additional software.
 * **Advanced Data-Sharing Rules** – idOS allows users to define access permissions, enabling transparent sharing with third parties while maintaining full control.
 * **Enhanced Security & Privacy** – Data is stored end-to-end encrypted with the User key pair, ensuring that even node operators cannot access user data.
 

@@ -127,7 +127,7 @@ html {
   height: 32px;
   width: 32px;
   border-radius: 6px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .navbar__title {

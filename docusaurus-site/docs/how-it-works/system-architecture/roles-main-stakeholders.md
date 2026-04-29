@@ -4,7 +4,7 @@
 
 ## Users
 
-Users are the central stakeholder in the idOS. Users can view their own data in the [User Data Dashboard](../functionality/user-data-dashboard.md). They can also add, share, review and revoke access to their data. Users [encrypt](../encryption.md) their data with their own self-generated public/private keypair. Users can ask data providers for [Verifiable Credentials](decentralized-storage/w3c-verifiable-credentials.md) to be added to their idOS account. Users can also chose to delete their data. Users can add one or multiple addresses to control their idOS account across multiple blockchain ecosystems. 
+Users are the central stakeholder in the idOS. Users can view their own data in the [User Data Dashboard](../functionality/user-data-dashboard.md). They can also add, share, review and revoke access to their data. Users [encrypt](../encryption.md) their data with their own self-generated public/private keypair. Users can ask data providers for [Verifiable Credentials](decentralized-storage/w3c-verifiable-credentials.md) to be added to their idOS account. Users can also choose to delete their data. Users can add one or multiple addresses to control their idOS account across multiple blockchain ecosystems. 
 
 ## Node operators
 

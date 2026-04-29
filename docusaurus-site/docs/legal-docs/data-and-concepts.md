@@ -1,9 +1,9 @@
 
 # Data and concepts
 
-### Self-sovereignty
+## Self-sovereignty
 
-At the heart of the idOS lies the principle of self-sovereignty, fostering that users have complete autonomy over their personal data. The idOS achieves this by implementing a user-centric control, meaning that users decide what data they store on the idOS and with whom they share it. They have the power to add, edit, or delete their data at any time via the [User Data Dashboard](../how-it-works/functionality/user-data-dashboard.md). At the same time, the [dStorage Network of Node](../how-it-works/system-architecture/decentralized-storage/)s in the idOS distributes data storage.
+At the heart of the idOS lies the principle of self-sovereignty, fostering that users have complete autonomy over their personal data. The idOS achieves this by implementing a user-centric control, meaning that users decide what data they store on the idOS and with whom they share it. They have the power to add, edit, or delete their data at any time via the [User Data Dashboard](../how-it-works/functionality/user-data-dashboard.md). At the same time, the [dStorage Network of Nodes](../how-it-works/system-architecture/decentralized-storage/) in the idOS distributes data storage.
 
 This not only enhances security but also ensures that users' data isn't under the control of a single centralized entity. [The Access Management Protocol](../how-it-works/system-architecture/decentralized-storage/access-control.md), backed by blockchain technology, records data access permissions transparently. As a result, users issue access grants (the permissions stored on a smart contract across any blockchain) and these grants define who can access their data (and in certain cases, for how long). The only information available on-chain is encrypted data-sharing between wallet addresses, allowing for user privacy.
 
@@ -11,7 +11,7 @@ Additionally, data within the idOS is encrypted using unique user self-generated
 
 In essence, the idOS is designed to empower users, giving them the tools and framework to be truly self-sovereign in the digital realm. It aims to ensure that users have the final say over their data, from storage to sharing, aligning with common standards of data protection and user autonomy.
 
-### Central vs. decentralized data storage
+## Central vs. decentralized data storage
 
 The idOS aims to serve as a platform for self-sovereign identity data storage, leveraging distributed nodes to store data encrypted with the user’s unique key pair, usually in the format of a [W3C Verifiable Credential](../how-it-works/system-architecture/decentralized-storage/w3c-verifiable-credentials.md). It is possible to store any information on the idOS, since users are the ones who have control over their idOS private profiles, meaning that users have the autonomy to determine the type of data stored in their idOS private profile, managed via the [User Data Dashboard](../how-it-works/functionality/user-data-dashboard.md).
 

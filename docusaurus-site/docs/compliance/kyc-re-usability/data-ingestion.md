@@ -1,6 +1,6 @@
 # Data ingestion
 
-#### What is Ingestion and Who is Involved?
+## What is Ingestion and Who is Involved?
 
 Ingestion is the KYC Re-usability mechanism within idOS. It allows data consumers to have access to a KYC data package within a credential, coming directly from the user upon an Access Grant, and verify it before making a decision to onboard the user. 
 
@@ -17,7 +17,7 @@ This solution is particularly suited for teams that conduct customer verificatio
 * **Credential Usage**: The Data Consumer has now access to the credential and its content and may verify the underlying data, including for example another liveness check at the time of onboarding. 
 * **Collection of Additional Data**: The Data Consumer (or its identity verification provider) can now request the user to share additional information, as well as issue those as credentials to the user's idOS profile (with the user's agreement once a Write Grant is given). 
 
-![](/assets/idOS_Gitbook_Data_Ingestion_Flow.jpg)
+![Data Ingestion Flow in idOS](/assets/idOS_Gitbook_Data_Ingestion_Flow.jpg)
 
 While Ingestion is not the primary solution for KYC Re-usability within idOS for regulated entities, it remains a powerful option. It allows for a seamless user experience by eliminating redundant data submissions while still enabling entities to meet their onboarding compliance requirements. The flexibility to verify the content of the credential in-house or via third-party providers ensures that Ingestion remains an effective tool for a broad range of organizations.
 

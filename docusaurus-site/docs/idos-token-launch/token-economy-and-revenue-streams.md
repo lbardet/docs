@@ -6,13 +6,13 @@
 
 Tokens are not just “fundraising mechanisms” or “incentive machines”. A token is how a decentralized protocol/network coordinates access, captures, and distributes value to become a self-sustainable system. We carefully designed the IDOS Token to become a key part of the protocol and contribute to the long-term vision of idOS: becoming the decentralized identity layer for the stablecoin economy.
 
-### The IDOS Token
+## The IDOS Token
 
 * Token: IDOS
 * Type: ERC-20
 * Network: Arbitrum One
 * Total Supply: 1,000,000,000 (fixed)
-* Security Audits: Nethermind ([see details](https://docs.idos.network/how-it-works/security))
+* Security Audits: Nethermind ([see details](../how-it-works/security))
 
 #### Utility, Key actors & Flows
 
@@ -39,7 +39,7 @@ These interactions are depicted in the flows below:
 
 ![](/assets/IDOS-Token-diagram-Full.jpg)
 
-### Revenue streams
+## Revenue streams
 
 First, it’s important to make something clear: idOS is not “creating” a new market - it’s drastically improving efficiency for the existing financial services user onboarding, verification & compliance market.
 
@@ -47,7 +47,7 @@ First, it’s important to make something clear: idOS is not “creating” a ne
 
 **Compliance is a regressive tax that hits stablecoin startups especially hard**. Thanks to DeFi’s composability, stablecoin neobanks benefit from combining different services, such as onramps, card providers, virtual accounts, and other financial modules under the same front end. This enables stablecoin neobanks to grow faster and more efficiently than their fintech counterparts building on traditional finance rails. However, **DeFi’s composability breaks the moment users cannot move between those modules**.
 
-People _loved_ neobanks for their UX. Going back to KYC’ing for each perceived ‘feature’ \*\*\*\*in one single app is not acceptable for mainstream users. If we want to scale beyond the niche, we need to solve the identity problem. **The inability to bridge people seamlessly from one provider to another without having to re-KYC each time is poised to become the biggest blocker for the stablecoin economy**.
+People _loved_ neobanks for their UX. Going back to KYC’ing for each perceived ‘feature’ in one single app is not acceptable for mainstream users. If we want to scale beyond the niche, we need to solve the identity problem. **The inability to bridge people seamlessly from one provider to another without having to re-KYC each time is poised to become the biggest blocker for the stablecoin economy**.
 
 The solution is clear: **seamless, compliant KYC re-usability**. This is the main focus of idOS today, our beachhead into the wider financial services user onboarding, verification & compliance market.
 
@@ -79,7 +79,7 @@ Beyond protocol fees, other institutions, such as Data Issuers, can generate rev
 
 idOS is a composable and permissionless network. Issuing and consuming Verifiable Credentials through idOS only requires the authorization of the user, and the idOS Association actively encourages other service providers to participate in the ecosystem.
 
-### Closing remarks
+## Closing remarks
 
 The digital identity market already generates over [$50bn annually](https://www.marketsandmarkets.com/PressReleases/digital-identity-solutions.asp), spanning KYC, biometrics, authentication, fraud prevention, and onboarding. Crucially, this figure reflects spending merely to _patch_ trust gaps in outdated architectures. As finance becomes modular and programmable, the number of “identity events” grows faster than the number of users - creating a compounding market dynamic rather than a linear one.
 

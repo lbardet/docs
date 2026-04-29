@@ -16,10 +16,10 @@ The initial identity verification provider, Fractal ID, will encrypt the content
 
 ## Derived key generation
 
-The idOS uses passwords as a common non-technical approach to derive keys that can be used for encryption by employing a [key derivation function](https://en.wikipedia.org/wiki/Key\_derivation\_function) like [scrypt](https://en.wikipedia.org/wiki/Scrypt). The following process is deployed to derive the key: 
+The idOS uses passwords as a common non-technical approach to derive keys that can be used for encryption by employing a [key derivation function](https://en.wikipedia.org/wiki/Key_derivation_function) like [scrypt](https://en.wikipedia.org/wiki/Scrypt). The following process is deployed to derive the key: 
 
 1. User is asked to choose a password
-2. Password is [normalize](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global\_Objects/String/normalize) it for consistency
+2. Password is [normalized](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize) for consistency
 3. Password is used with [Scrypt-js](https://github.com/ricmoo/scrypt-js) to derive a 32-byte key
 4. Password is used with [tweetnacl-js](https://github.com/dchest/tweetnacl-js) to generate a new asymmetric keypair (x25519-xsalsa20-poly1305)
 

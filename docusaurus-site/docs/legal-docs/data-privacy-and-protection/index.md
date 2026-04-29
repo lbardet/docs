@@ -7,7 +7,7 @@ With the emergence of self-sovereign identities, where users have the autonomy t
 
 Since the idOS prioritizes user privacy right from the outset, it allows for profile creation to be rooted in a valid legal basis, as further outlined in the [Legal basis for profile creation and management section](legal-basis-for-profile-creation-and-management.md).
 
-As presented under the[ Legal basis for sharing data](legal-basis-for-sharing-data.md) section, the idOS framework also ensures that any sharing of user data with third parties is grounded on a clear and lawful basis.
+As presented under the [Legal basis for sharing data](legal-basis-for-sharing-data.md) section, the idOS framework also ensures that any sharing of user data with third parties is grounded on a clear and lawful basis.
 
 It is additionally attuned to the geographical nuances of data protection, allowing for data processing activities to align with regional requirements at launch, as detailed under the [Data processing location](data-processing-location.md) section.
 

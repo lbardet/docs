@@ -13,6 +13,6 @@ When integrating as an Issuer or Consumer within idOS, you have the ability, for
 * The purpose of the personal data processing.
 * The legal basis for the personal data processing.
 
-Additionally, wallet signatures within idOS include an idOS' Terms & Conditions package which is a mandatory step that must not be obfuscated, bypassed, or removed by any integrating party. This step is an essential part of the user flow and must remain clearly visible and accessible.
+Additionally, wallet signatures within idOS include an idOS Terms & Conditions package which is a mandatory step that must not be obfuscated, bypassed, or removed by any integrating party. This step is an essential part of the user flow and must remain clearly visible and accessible.
 
 _This document is for informational purposes only and does not constitute legal advice. idOS provides tools for secure data storage and exchange but does not ensure compliance with legal or regulatory requirements. Integrating entities are solely responsible for determining their legal obligations and ensuring compliance. We strongly recommend consulting legal professionals before using idOS. idOS disclaims any liability for non-compliance arising from the use of its components, SDKs, or infrastructure. By integrating with idOS, you accept full responsibility for meeting all legal requirements applicable to you._
