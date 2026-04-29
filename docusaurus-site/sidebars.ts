@@ -170,13 +170,13 @@ const sidebars: SidebarsConfig = {
         "type": "doc",
         "id": "compliance/idos-compliance-partners",
         "label": "idOS Compliance partners"
+      },
+      {
+        "type": "doc",
+        "id": "legal-considerations",
+        "label": "Legal Considerations"
       }
     ]
-  },
-  {
-    "type": "doc",
-    "id": "legal-considerations",
-    "label": "Legal Considerations"
   },
   {
     "type": "category",
