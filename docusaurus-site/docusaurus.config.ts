@@ -42,6 +42,14 @@ const config: Config = {
 
   plugins: [
     [
+      "@signalwire/docusaurus-plugin-llms-txt",
+      {
+        content: {
+          enableMarkdownFiles: true,
+        },
+      },
+    ],
+    [
       "@easyops-cn/docusaurus-search-local",
       {
         hashed: true,
