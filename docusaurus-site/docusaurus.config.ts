@@ -107,23 +107,6 @@ const config: Config = {
     },
     footer: {
       style: "dark",
-      links: [
-        {
-          title: "idOS",
-          items: [
-            { label: "Website", href: "https://idos.network" },
-            { label: "Dashboard", href: "https://dashboard.idos.network" },
-            { label: "GitHub", href: "https://github.com/idos-network" },
-          ],
-        },
-        {
-          title: "Community",
-          items: [
-            { label: "Twitter / X", href: "https://twitter.com/idOS_network" },
-            { label: "Discord", href: "https://discord.gg/idos" },
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} idOS Association. Built with Docusaurus.`,
     },
     prism: {
