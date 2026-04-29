@@ -44,6 +44,22 @@ const config: Config = {
     locales: ["en"],
   },
 
+  plugins: [
+    [
+      "@easyops-cn/docusaurus-search-local",
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        docsRouteBasePath: "/",
+        language: ["en"],
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
+        searchResultContextMaxLength: 50,
+      },
+    ],
+  ],
+
   presets: [
     [
       "classic",
