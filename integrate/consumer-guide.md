@@ -3,7 +3,7 @@
 ### Required reading
 
 * [System design](../how-it-works/system-design.md)
-* [The Enclave](https://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.mdhttps://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.md)
+* [The Enclave](https://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.md)
 
 ### SDK feature overview
 
