@@ -34,10 +34,7 @@
 * [Compliance overview](compliance/compliance-overview/README.md)
   * [idOS & Regulatory frameworks](compliance/compliance-overview/idos-and-regulatory-frameworks.md)
 * [idOS Compliance partners](compliance/idos-compliance-partners.md)
-
-***
-
-* [Legal Considerations](legal-considerations.md)
+* [Legal Considerations](compliance/legal-considerations.md)
 
 ## IDOS Token Launch
 
