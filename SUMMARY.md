@@ -43,7 +43,7 @@
 
 * [Token Economy & Revenue Streams](idos-token-launch/token-economy-and-revenue-streams.md)
 * [Token Allocation & Distribution](idos-token-launch/token-allocation-and-distribution.md)
-* [FAQs - Token Launch](idos-token-launch/faqs-token-launch.md)
+* [FAQs - Token](idos-token-launch/faqs-token-launch.md)
 * [Official links](idos-token-launch/official-links.md)
 
 ## Integrate

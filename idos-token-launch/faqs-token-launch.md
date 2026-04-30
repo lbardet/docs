@@ -1,6 +1,6 @@
-# FAQs - Token Launch
+# FAQs - Token
 
-Everything you need to know for the IDOS Token Launch. If you happen to have any other questions, feel free to join our Telegram Group to talk directly you our team. Please check out [official-links.md](official-links.md "mention").
+Everything you need to know for the IDOS Token. If you happen to have any other questions, feel free to join our Telegram Group to talk directly you our team. Please check out [official-links.md](official-links.md "mention").
 
 This is an evolving page, and more FAQs will be added on an ongoing basis.
 
@@ -9,14 +9,6 @@ This is a marketing communication. White Paper [here](https://www.idos.network/b
 {% endhint %}
 
 ## IDOS Token
-
-<details>
-
-<summary>‘Wen Token?’</summary>
-
-The IDOS Token Launch will take place on March 5, 2026 after the Uniswap CCA sale. More details: [https://x.com/idOS\_network/status/2019410778877546909](https://x.com/idOS_network/status/2019410778877546909)
-
-</details>
 
 <details>
 
