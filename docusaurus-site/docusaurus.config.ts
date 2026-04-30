@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 import { gitbookRemarkPlugin } from "./gitbookRemarkPlugin";
 
 const githubEditUrl =
-  "https://github.com/idos-network/gitbook/edit/main/";
+  "https://github.com/idos-network/gitbook/edit/master/";
 
 const config: Config = {
   title: "idOS Documentation",
