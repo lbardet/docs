@@ -6,11 +6,11 @@ hidden: true
 
 The idOS SDK provides developers with a comprehensive toolkit for interacting with the idOS node network, allowing seamless integration of identity verification, access management, and encrypted data handling into applications. It is designed to be modular and flexible, enabling developers to choose which functionalities they need without unnecessary overhead.
 
-The SDK is broken into four parts, one of which is a core dependency with all necessary base functionality, and the other three of which are intended for integration by the relevant system actors.&#x20;
+The SDK is broken into four parts, one of which is a core dependency with all necessary base functionality, and the other three of which are intended for integration by the relevant system actors.
 
 1. **idOS Consumer SDK** - SDK for web applications (frontend or backend) that need to request access to and read idOS user data
-2. **idOS Issuer SDK: Frontend** - SDK for frontend applications that need to issue idOS credentials, optimized for front-end-driven use cases.&#x20;
-3. **idOS Issuer SDK: Server** - SDK for server-side applications that need to issue idOS credentials, optimized for backend-driven use cases.&#x20;
+2. **idOS Issuer SDK: Frontend** - SDK for frontend applications that need to issue idOS credentials, optimized for front-end-driven use cases.
+3. **idOS Issuer SDK: Server** - SDK for server-side applications that need to issue idOS credentials, optimized for backend-driven use cases.
 
 ## Core SDK
 
@@ -60,7 +60,7 @@ Once a user grants access, the SDK retrieves encrypted Verifiable Credentials fr
 
 ### Data Consumer SDK resources
 
-Technical documentation:&#x20;
+Technical documentation:
 
 Github: [https://github.com/idos-network/idos-sdk-js/tree/main/packages/consumer-sdk-js](https://github.com/idos-network/idos-sdk-js/tree/main/packages/consumer-sdk-js)
 
@@ -72,7 +72,7 @@ pnpm add @idos-network/idos-sdk-server-dapp ethers near-api-js
 
 ## <mark style="color:red;">Data Issuer SDK: Frontend</mark>
 
-The Data Issuer SDK: Frontend is designed for applications which are writing credentials into the idOS, such as regulated crypto neobanks, on-ramps, card issuers, and embedded bank account providers.&#x20;
+The Data Issuer SDK: Frontend is designed for applications which are writing credentials into the idOS, such as regulated crypto neobanks, on-ramps, card issuers, and embedded bank account providers.
 
 ### Key Features
 
@@ -90,7 +90,7 @@ Issuers can revoke credentials based on changes in a user’s status (e.g., expi
 
 ### Data Issuer SDK: Frontend resources
 
-Technical documentation:&#x20;
+Technical documentation:
 
 Github: [https://github.com/idos-network/idos-sdk-js/tree/main/packages/issuer-sdk-js](https://github.com/idos-network/idos-sdk-js/tree/main/packages/issuer-sdk-js)
 
@@ -102,7 +102,7 @@ pnpm add @idos-network/issuer-sdk-js ethers near-api-js
 
 ## <mark style="color:red;">Data Issuer SDK: Server</mark>
 
-The Data Issuer SDK: Server is designed for applications which are writing credentials into the idOS, such as regulated crypto neobanks, on-ramps, card issuers, and embedded bank account providers. In some flows, an identity verification provider (IVP, or otherwise just known as a KYC provider i.e. Sumsub, Veriff) will be the issuer on the backend, and so this SDK is designed for those server-side operations.&#x20;
+The Data Issuer SDK: Server is designed for applications which are writing credentials into the idOS, such as regulated crypto neobanks, on-ramps, card issuers, and embedded bank account providers. In some flows, an identity verification provider (IVP, or otherwise just known as a KYC provider i.e. Sumsub, Veriff) will be the issuer on the backend, and so this SDK is designed for those server-side operations.
 
 ### Key Features
 
@@ -120,7 +120,7 @@ Issuers can revoke credentials based on changes in a user’s status (e.g., expi
 
 ### Data Issuer SDK: Frontend resources
 
-Technical documentation:&#x20;
+Technical documentation:
 
 Github: [https://github.com/idos-network/idos-sdk-js/tree/main/packages/issuer-sdk-js](https://github.com/idos-network/idos-sdk-js/tree/main/packages/issuer-sdk-js)
 
@@ -129,4 +129,3 @@ NPM: [https://www.npmjs.com/package/@idos-network/issuer-sdk-js](https://www.npm
 ```
 pnpm add @idos-network/issuer-sdk-js ethers near-api-js
 ```
-

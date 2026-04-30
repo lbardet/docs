@@ -100,7 +100,7 @@ Users that take part in idOS’ incentive campaigns may be eligible to participa
 
 <summary>Who has access to my data and credentials in the idOS Profile?</summary>
 
-By default, only you. Data inside credentials in idOS is encrypted with your key pair. Only people to whom you have given an Access Grant are able to see the data inside a credential. You can manage your data and revoke access to a credential by clicking the 3 dots next to a credential in your profile. For more information on what and how your data is stored in idOS, check [#data-privacy-and-security](../how-it-works/faqs-users.md#data-privacy-and-security "mention").
+By default, only you. Data inside credentials in idOS is encrypted with your key pair. Only people to whom you have given an Access Grant are able to see the data inside a credential. You can manage your data and revoke access to a credential by clicking the 3 dots next to a credential in your profile. For more information on what and how your data is stored in idOS, check [#data-privacy--security](../how-it-works/faqs-users.md#data-privacy--security "mention").
 
 </details>
 

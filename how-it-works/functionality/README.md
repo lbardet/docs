@@ -5,4 +5,4 @@ While the architecture describes how the system works, the functionality describ
 1. [Compliant, decentralized data storage ](compliant-dstorage.md)
 2. [Standard identity formats and schemas ](standard-identity-formats.md)
 3. [Access Management](granting-data-access.md)
-4. [Data Management ](user-data-dashboard.md)&#x20;
+4. [Data Management ](user-data-dashboard.md)

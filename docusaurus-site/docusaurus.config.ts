@@ -1,11 +1,15 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import { gitbookRemarkPlugin } from "./gitbookRemarkPlugin";
+
+const githubEditUrl =
+  "https://github.com/idos-network/gitbook/edit/main/";
 
 const config: Config = {
   title: "idOS Documentation",
   tagline: "Identity Operating System — self-custodial data for the onchain economy",
-  favicon: "img/favicon.ico",
+  favicon: "img/idos.svg",
 
   future: {
     v4: true,
@@ -17,14 +21,15 @@ const config: Config = {
   organizationName: "idos-network",
   projectName: "gitbook",
 
-  // Warn rather than throw so a few stale GitBook internal refs don't block the build
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
+  onBrokenAnchors: "throw",
+  onDuplicateRoutes: "throw",
   markdown: {
     // Treat .md files as standard CommonMark (not MDX) to avoid JSX-parse
     // errors on GitBook content that uses bare {, <br>, etc.
     format: "detect",
     hooks: {
-      onBrokenMarkdownLinks: "warn",
+      onBrokenMarkdownLinks: "throw",
     },
   },
 
@@ -56,6 +61,7 @@ const config: Config = {
         indexDocs: true,
         indexBlog: false,
         docsRouteBasePath: "/",
+        docsDir: "..",
         language: ["en"],
         highlightSearchTermsOnTargetPage: true,
         searchResultLimits: 8,
@@ -69,10 +75,25 @@ const config: Config = {
       "classic",
       {
         docs: {
+          path: "..",
+          include: ["**/*.md"],
+          exclude: [
+            "docusaurus-site/**",
+            "node_modules/**",
+            ".git/**",
+            ".github/**",
+            ".gitbook/**",
+            "SUMMARY.md",
+            "how-it-works/bug-bounty-program.md",
+            "integrate/copy-of-idos-sdks.md",
+            "integrate/getting-started-with-the-sdks.md",
+          ],
           sidebarPath: "./sidebars.ts",
           // Serve docs at site root (no /docs/ prefix) to match GitBook URLs
           routeBasePath: "/",
-          editUrl: "https://github.com/idos-network/gitbook/edit/main/docusaurus-site/docs/",
+          editUrl: ({ docPath }) =>
+            `${githubEditUrl}${docPath.replace(/^\.\.\//, "")}`,
+          beforeDefaultRemarkPlugins: [gitbookRemarkPlugin],
         },
         blog: false,
         theme: {
@@ -91,8 +112,8 @@ const config: Config = {
       title: "idOS Documentation",
       logo: {
         alt: "idOS Logo",
-        src: "img/idos-logo.jpg",
-        srcDark: "img/idos-logo.jpg",
+        src: "img/idos.svg",
+        srcDark: "img/idos.svg",
       },
       items: [
         {

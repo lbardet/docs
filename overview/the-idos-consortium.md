@@ -6,7 +6,7 @@ Reach out, if you are an ecosystem interested in joining the idOS!
 
 <figure><img src="../.gitbook/assets/idOS_Consortium_Partners.jpg" alt=""><figcaption></figcaption></figure>
 
-## idOS Consortium Partners&#x20;
+## idOS Consortium Partners
 
 ### Arbitrum
 
@@ -26,7 +26,7 @@ Reach out, if you are an ecosystem interested in joining the idOS!
 
 ### Gnosis
 
-[Gnosis Chain](https://www.gnosis.io/) is one of the first Ethereum side chains. Secured by over 120k validators, Gnosis prioritizes credible neutrality and resiliency. Gnosis has also developed some of the most established tools and dApps in web3 for payments and real-word adoption like [Safe](https://safe.global/), [Monerium](https://monerium.com/) and [Gnosis Pay](https://gnosispay.com/). &#x20;
+[Gnosis Chain](https://www.gnosis.io/) is one of the first Ethereum side chains. Secured by over 120k validators, Gnosis prioritizes credible neutrality and resiliency. Gnosis has also developed some of the most established tools and dApps in web3 for payments and real-word adoption like [Safe](https://safe.global/), [Monerium](https://monerium.com/) and [Gnosis Pay](https://gnosispay.com/).
 
 ### Aleph Zero
 

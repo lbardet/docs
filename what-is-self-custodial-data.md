@@ -71,6 +71,6 @@ The idOS Storage Network operates as a permissioned network, meaning that only a
 
 ## Future Considerations: Progressive Decentralization
 
-We are actively exploring methods to further decentralize the network and enhance security and efficiency by exploring locality-based storage and sharding mechanisms. These approaches would allow data to be stored in geographically relevant regions while minimizing attack surfaces and improving performance. Sharding, in particular, enables distributed data segmentation, ensuring that even if one segment is compromised, the entire dataset remains secure.&#x20;
+We are actively exploring methods to further decentralize the network and enhance security and efficiency by exploring locality-based storage and sharding mechanisms. These approaches would allow data to be stored in geographically relevant regions while minimizing attack surfaces and improving performance. Sharding, in particular, enables distributed data segmentation, ensuring that even if one segment is compromised, the entire dataset remains secure.
 
 With these innovations, we aim to progressively decentralize the network while ensuring user data remains safe.

@@ -55,11 +55,11 @@ When receiving a signed request for data not owned by the signer, idOS nodes use
 ```sql
 action get_shared_credential ($id) public {
     $can_access = grants.has_grants(@caller, $id);
-	  
+
     SELECT CASE WHEN $can_access != 1
       THEN ERROR('caller does not have access')
     END;
-    
+
     SELECT * FROM credentials
     WHERE id = $id;
 }
@@ -84,7 +84,7 @@ action delete_credential ($id) public {
     $has_timelock = idos.has_timelock($id)
 
     SELECT CASE WHEN $has_timelock = 1 THEN ERROR("data is timelocked") END
-	
+
     DELETE FROM credentials
     WHERE //...
 }

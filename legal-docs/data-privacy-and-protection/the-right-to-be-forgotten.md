@@ -12,9 +12,9 @@ layout:
     visible: true
 ---
 
-# The right to be forgotten&#x20;
+# The right to be forgotten
 
-The 'right to be forgotten' is established under [Article 17](https://gdpr-info.eu/art-17-gdpr/) of the GDPR at an EU level but is also present in other data protection laws around the globe, such as the [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa). Focusing on GDPR, the latter states that data subjects shall have the right to obtain the erasure of personal data concerning them without undue delay if one of the situations described under the first number of the article applies, such as when the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed, or when the data subject withdraws consent on which the processing is based, for example.&#x20;
+The 'right to be forgotten' is established under [Article 17](https://gdpr-info.eu/art-17-gdpr/) of the GDPR at an EU level but is also present in other data protection laws around the globe, such as the [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa). Focusing on GDPR, the latter states that data subjects shall have the right to obtain the erasure of personal data concerning them without undue delay if one of the situations described under the first number of the article applies, such as when the personal data are no longer necessary in relation to the purposes for which they were collected or otherwise processed, or when the data subject withdraws consent on which the processing is based, for example.
 
 Although the idOS in itself is merely a platform that allows for data processing operations to take place, it has an embedded mechanism in place to allow users to delete the data being stored on their private profiles.
 
@@ -28,4 +28,4 @@ However, If after checking the smart contract the idOS indeed finds a valid acce
 
 In turn, the data that is encrypted with the viewer keys is not included in the deletion request, meaning this third-party viewer would continue to have access to it, until the expiration of the access grant. Currently, no automatic deletion of the data encrypted with the viewer keys takes place, but potentially this will change to allow users to set an automatic deletion of such data upon expiration of the access grant.
 
-If an access grant in turn is not time-bound and the user requests to delete data previously shared under this access grant, the data (both the original data as well as the duplicated data that is encrypted with the viewer keys) will be deleted in accordance with the consensus mechanism outlined above.&#x20;
+If an access grant in turn is not time-bound and the user requests to delete data previously shared under this access grant, the data (both the original data as well as the duplicated data that is encrypted with the viewer keys) will be deleted in accordance with the consensus mechanism outlined above.

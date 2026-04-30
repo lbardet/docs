@@ -96,9 +96,6 @@ While the idOS encryption system is already robust, the enclave further strength
 
 For more information see [https://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.md](https://github.com/idos-network/idos-sdk-js/blob/main/docs/enclave.md)
 
-## Encryption key storage via MPC&#x20;
+## Encryption key storage via MPC
 
-To improve UX and make the handling of idOS encryption keys simpler and more ergonomic, we have partnered with Partisia to add an MPC-TSS based capability for storing and retrieving idOS encryption keys with a simple wallet signature. Details on this can be found [here](../mpc-for-encryption-keys.md).&#x20;
-
-
-
+To improve UX and make the handling of idOS encryption keys simpler and more ergonomic, we have partnered with Partisia to add an MPC-TSS based capability for storing and retrieving idOS encryption keys with a simple wallet signature. Details on this can be found [here](../mpc-for-encryption-keys.md).

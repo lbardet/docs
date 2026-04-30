@@ -1,6 +1,6 @@
 # Decentralized storage
 
-The **dStorage Network of Nodes** is a key part of the idOS. The idOS' data is stored in a decentralized relational database, thanks to [Kwil](https://www.kwil.com/), one of the building partners. Nodes synchronize data using CometBFT.&#x20;
+The **dStorage Network of Nodes** is a key part of the idOS. The idOS' data is stored in a decentralized relational database, thanks to [Kwil](https://www.kwil.com/), one of the building partners. Nodes synchronize data using CometBFT.
 
 Kwil is a byzantine fault tolerant relational database with which developers can build high-throughput, data-intensive decentralized networks.  By handling problems like consensus, non-determinism, and access control out-of-the-box, Kwil provides data security, fair value accrual and interoperability with existing web3 tooling.
 

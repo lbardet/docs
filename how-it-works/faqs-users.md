@@ -342,4 +342,3 @@ No. We couldn’t even if we wanted too. Since data is always encrypted to your 
 The way idOS plans to sustain itself is by charging small protocol fees to the apps or parties transacting on the network (like a tiny fee when an issuer issues a credential or when an access grant is facilitated), not by exploiting user data. In summary, idOS is an infrastructure service, not a data broker or advertising platform.
 
 </details>
-

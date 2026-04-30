@@ -33,7 +33,7 @@ The [**European Digital Identity Wallet (EUDI Wallet)**](https://ec.europa.eu/di
 * The first phase launched in October 2023, allowing citizens to store and verify digital IDs.
 * The second phase expands QuarkID to additional services, such as driver’s licenses, medical records, and social benefits.
 
-### **BankID**&#x20;
+### **BankID**
 
 [**BankID**](https://www.bankid.com/en/) is an electronic identity verification system used across e.g. Sweden to authenticate users and enable KYC reusability for banking, financial services, and public sector applications.
 
@@ -48,4 +48,4 @@ The [**European Digital Identity Wallet (EUDI Wallet)**](https://ec.europa.eu/di
 * Over 8 million active users in Sweden alone.
 * Widely accepted for banking, digital signatures, tax filings, and public services.
 
-These case studies help demonstrate that KYC Re-usability is not a new concept, but rather evolving mechanisms grounded in international standards and national regulations. Governments and enterprises worldwide are increasingly implementing reusable identity solutions to streamline compliance, reduce friction, and enhance security. idOS aims to build upon these best practices, leveraging decentralized technology to enhance KYC Re-usability in a secure and compliant way.&#x20;
+These case studies help demonstrate that KYC Re-usability is not a new concept, but rather evolving mechanisms grounded in international standards and national regulations. Governments and enterprises worldwide are increasingly implementing reusable identity solutions to streamline compliance, reduce friction, and enhance security. idOS aims to build upon these best practices, leveraging decentralized technology to enhance KYC Re-usability in a secure and compliant way.

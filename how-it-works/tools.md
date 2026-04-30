@@ -11,4 +11,3 @@ The idOS command-line tool empowers developers with a convenient interface to th
 ## User Data Dashboard
 
 The [User Data Dashboard](functionality/user-data-dashboard.md) is a reference implementation of a user-facing idOS data management application. The User Data Dashboard is meant to be forked, improved and individualized by dApps and other parties utilizing the idOS. You can find the data dashboard source [on GitHub](https://github.com/idos-network/idos-sdk-js/tree/main/apps/idos-data-dashboard).
-

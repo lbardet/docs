@@ -153,7 +153,7 @@ const filteredCredentials: idOSCredential[] = await idOSClient.filterCredentials
       authPublicKey // the accepted issuer auth public key to filter credentials by
     }];
     // OPTIONAL. A list of public notes fields of a credential that should be picked or omitted.
-    publicNotesFieldFilters: { 
+    publicNotesFieldFilters: {
       pick: {};
       omit: {};
     };

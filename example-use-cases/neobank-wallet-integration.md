@@ -56,4 +56,3 @@ Integrating idOS delivers:
 * Simplified regulatory compliance via encrypted credential storage and transparent access management.
 * Privacy-focused infrastructure with user-controlled encryption.
 * Interoperability across chains and applications for broader ecosystem compatibility.
-

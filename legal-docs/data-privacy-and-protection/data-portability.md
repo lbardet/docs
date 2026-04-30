@@ -12,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Data portability&#x20;
+# Data portability
 
 The right to data portability is regulated by the GDPR under [Article 20](https://gdpr-info.eu/art-20-gdpr/). In short, it states that data subjects have the right to receive personal data concerning them in a structured, commonly used, and machine-readable format and have the right to transmit these data to another party if the situations described under its number one are fulfilled, including by having the right to have the personal data transmitted directly from one to another, where technically possible. Provisions with a similar effect can also be found under e.g. CCPA.
 

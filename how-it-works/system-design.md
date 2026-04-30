@@ -2,7 +2,7 @@
 
 ## Overview
 
-idOS is a decentralized identity system that enables secure storage, verification, and sharing of personal data through blockchain technology. It provides a framework for users to own their data while allowing trusted entities to store, access, and verify it in a privacy-preserving manner. It is composed of the idOS Storage Network, the idOS Economy Network, and a set of SDKs and application-layer tools for developers and users.&#x20;
+idOS is a decentralized identity system that enables secure storage, verification, and sharing of personal data through blockchain technology. It provides a framework for users to own their data while allowing trusted entities to store, access, and verify it in a privacy-preserving manner. It is composed of the idOS Storage Network, the idOS Economy Network, and a set of SDKs and application-layer tools for developers and users.
 
 Note that idOS is (currently) a permissioned network. While it's (almost) fully open-source, only authorized operators can participate in it. This ensures that consequences (economical, legal, or as appropriate) can be pursued for ill-behaving nodes, ensuring that all node operators are well-incentivized to protect users' privacy and data sovereignty.
 
@@ -12,7 +12,7 @@ Note that idOS is (currently) a permissioned network. While it's (almost) fully 
 
 > 🔭 Will change later on 🔭
 >
-> We'd rather not be a permissioned network. However, because storing encrypted text publicly is dangerous, until we find a secure way to do it, we're going to keep the network permissioned. When the idOS Economy Network is live, prospective node operators will be KYB'd by the idOS Association and added to the operator set based on stake-weight, and we are exploring ways to shard the idOS Storage Layer to enable fully permissionless validation of idOS.&#x20;
+> We'd rather not be a permissioned network. However, because storing encrypted text publicly is dangerous, until we find a secure way to do it, we're going to keep the network permissioned. When the idOS Economy Network is live, prospective node operators will be KYB'd by the idOS Association and added to the operator set based on stake-weight, and we are exploring ways to shard the idOS Storage Layer to enable fully permissionless validation of idOS.
 
 ### Key Actors
 
@@ -35,7 +35,7 @@ These are other parties that bear influence in the system, even though they're n
 
 ### idOS Storage Network
 
-User data in idOS is stored the idOS Storage Network, a decentralized layer 1 blockchain secured and run by the idOS Operators to ensure data privacy, security, and availability. The storage network handles authentication, consensus, data storage, encryption & signing and RPC load balancing for idOS, and consists of two major core components:&#x20;
+User data in idOS is stored the idOS Storage Network, a decentralized layer 1 blockchain secured and run by the idOS Operators to ensure data privacy, security, and availability. The storage network handles authentication, consensus, data storage, encryption & signing and RPC load balancing for idOS, and consists of two major core components:
 
 * **idOS Storage Network Nodes**: These nodes form the backbone of the idOS system, providing decentralized storage and retrieval of user data. They are built on [Kwil](https://www.kwil.com/), a decentralized database platform, and include idOS-specific extensions to support the system's unique requirements. These nodes operate according to a predefined schema, ensuring data consistency and integrity. Deployed behind a KGW controlled by the idOS Association, node operators talk to each other through AWS VPC peering. We're also open to supporting WireGuard.
   * **Relevant repos**:
@@ -47,7 +47,7 @@ User data in idOS is stored the idOS Storage Network, a decentralized layer 1 bl
   * **Deployments**:
     * _Production_: [https://nodes.idos.network/](https://nodes.idos.network/)
     * _Playground_: [https://nodes.playground.idos.network/](https://nodes.playground.idos.network/)
-* **Native modules (**&#xD83D;� Coming soon 🚧): idOS nodes will have specialized "sidecar" components implemented alongside the core network functionality for additional features like TSS-MPC based encryption/decryption and TEE-secured biometric authentication. &#x20;
+* **Native modules (**&#xD83D;� Coming soon 🚧): idOS nodes will have specialized "sidecar" components implemented alongside the core network functionality for additional features like TSS-MPC based encryption/decryption and TEE-secured biometric authentication.
 
 #### **Storage Network Data Architecture**
 
@@ -60,7 +60,7 @@ Here's an abridged visual representation of the key concepts and relationships i
 * **User**: The central identity entity in the system, representing a unique person or organization. Users control their profiles through their blockchain wallets and manage how their data is shared.
   * **User Profile**: This is an informal, nebulous, term to refer generally to all the information a user controls.
 * **Wallet**: Blockchain wallets that authenticate a user. A user can link multiple wallets across different chains (EVM, NEAR, etc) to their idOS profile to provide flexible authentication options.
-* **Credential**: Verified claims or attestations about a user.&#x20;
+* **Credential**: Verified claims or attestations about a user.
   * Notable credential fields are:
     * **User**: The individual to whom this credential was issued and whose information the credential verifies.
       * **Public Notes**: Readable metadata that is visible to any platform where the user logs in to idOS. Issuers can update these notes, for example, to reflect the credential's revocation status.
@@ -140,12 +140,12 @@ For cases where regulatory compliance requires specific retention periods, acces
 
 The idOS Storage Network utilizes [Kwil](https://www.kwil.com/), a decentralized relational database, for storing and managing identity data, and each idOS node run a customized implementation of Kwil's storage and consensus. This design enables key features for idOS as a decentralized personal identity cloud:
 
-* **Compliance with GDPR’s Right to Be Forgotten** – Unlike traditional immutable blockchain-based storage, Kwil-powered decentralized storage on idOS enables us to operate with a limited history of nodes. This allows us to ensure that data deletion requests don't simply unincentivize the storage of data or change state on a public blockchain transparently, but that they truly and verifiably delete data from all idOS nodes, giving idOS the ability to comply with right-to-be-forgotten privacy laws like GDPR.&#x20;
-* **Performant permissioned consensus:** Because not all specialized networks need fully permissionless validator sets (idOS Association will KYB all idOS Operators for the forseeable future until we progressively decentralize), our consensus mechanism, Kwil's [Roadrunner](https://docs.kwil.com/docs/node/consensus/motivation), is tailored towards validator sets that are selected by governance mechanisms, shedding overhead that traditional blockchain BFT algorithms require. It's inspired by both CometBFT and more classical distributed system consensus algorithms, taking the best from both and tailoring it for personal storage use cases like identity.&#x20;
+* **Compliance with GDPR’s Right to Be Forgotten** – Unlike traditional immutable blockchain-based storage, Kwil-powered decentralized storage on idOS enables us to operate with a limited history of nodes. This allows us to ensure that data deletion requests don't simply unincentivize the storage of data or change state on a public blockchain transparently, but that they truly and verifiably delete data from all idOS nodes, giving idOS the ability to comply with right-to-be-forgotten privacy laws like GDPR.
+* **Performant permissioned consensus:** Because not all specialized networks need fully permissionless validator sets (idOS Association will KYB all idOS Operators for the forseeable future until we progressively decentralize), our consensus mechanism, Kwil's [Roadrunner](https://docs.kwil.com/docs/node/consensus/motivation), is tailored towards validator sets that are selected by governance mechanisms, shedding overhead that traditional blockchain BFT algorithms require. It's inspired by both CometBFT and more classical distributed system consensus algorithms, taking the best from both and tailoring it for personal storage use cases like identity.
 
 #### Become a Node Operator
 
-Currently, all idOS nodes are operated by the idOS Association and a few trusted node operators ([Horizen](https://www.horizen.io/), [Meta Pool](https://www.metapool.app/)), ensuring stability and security in the early stages. We are actively onboarding more node operators, with a long-term goal of fully decentralizing the network. Initially the network will run an auction for 20 operator slots, and all operators will be KYB'd by the idOS Association.&#x20;
+Currently, all idOS nodes are operated by the idOS Association and a few trusted node operators ([Horizen](https://www.horizen.io/), [Meta Pool](https://www.metapool.app/)), ensuring stability and security in the early stages. We are actively onboarding more node operators, with a long-term goal of fully decentralizing the network. Initially the network will run an auction for 20 operator slots, and all operators will be KYB'd by the idOS Association.
 
 If you are interested in running a node and contributing to the privacy-preserving identity ecosystem, reach out to us to learn more about technical requirements and incentives for operators.
 
@@ -164,7 +164,7 @@ The idOS Economy Network is still under active development, with the objective o
 
 ## Integration Layer
 
-The idOS Association provides a number of ways for developers to interact with idOS.&#x20;
+The idOS Association provides a number of ways for developers to interact with idOS.
 
 ### SDKs
 
@@ -228,7 +228,7 @@ idOS provides several application-layer tools that serve different stakeholders 
 
 ## Wallets/signers and signature schemes
 
-idOS was designed to support any type of authenticators, as long as they're deterministic and self-contained. This enables us to quickly become compatible with chains that decided to have their own signing schemes. We currently have support for EVM (secp256k1) and NEAR (ed25519), and adding a new one is fairly straightforward. If you have a use case on an unsupported chain, please reach out to us at contact@idos.network.&#x20;
+idOS was designed to support any type of authenticators, as long as they're deterministic and self-contained. This enables us to quickly become compatible with chains that decided to have their own signing schemes. We currently have support for EVM (secp256k1) and NEAR (ed25519), and adding a new one is fairly straightforward. If you have a use case on an unsupported chain, please reach out to us at contact@idos.network.
 
 Currently supported by the SDK, and verifiable for auth with the idOS network (others to be added in the future):
 

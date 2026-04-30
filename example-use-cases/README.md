@@ -1,6 +1,6 @@
 # Example use cases
 
-While idOS is a completely generalized system for storage and secure sharing of user data, we've outlined a few specific flows to help explain how different integrations in the stablecoin/crypto fintech space will look, pursuant to our initial market focus on self-custodial, reusable KYC.&#x20;
+While idOS is a completely generalized system for storage and secure sharing of user data, we've outlined a few specific flows to help explain how different integrations in the stablecoin/crypto fintech space will look, pursuant to our initial market focus on self-custodial, reusable KYC.
 
 ***
 
@@ -19,5 +19,3 @@ The Financial Module Integration use case describes how financial service provid
 ## TradFi→ onchain Integration
 
 This integration scenario focuses on TradFi platforms (traditional financial institutions, fintechs, and centralized exchanges) looking to offer seamless onboarding and interoperability with Web3 ecosystems. By embedding the idOS directly into their existing infrastructures, these providers empower their users to securely migrate identity credentials and compliance data to Web3 applications and blockchain environments. This integration supports monetization opportunities through identity-based gating, allowing businesses to offer premium services based on verified credentials securely moved onto decentralized networks.
-
-

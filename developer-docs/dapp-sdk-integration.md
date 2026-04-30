@@ -4,7 +4,7 @@ The idOS Software Development Kit (SDK) has been developed to make it easier for
 
 As of today, idOS is only available in Ethereum, NEAR, Arbitrum, and Etherlink. If you are building in another ecosystem, please check the [new ecosystem integration docs](https://idos-association.notion.site/New-ecosystem-integration-11388c585fe0808f8119f88c4fd43783).
 
-Please also bear in mind the overview below is for Ethereum dApps. For more information on how to integrate the SDK in other available ecosystems or further details, please check the [detailed idOS SDK Documentation in GitHub](https://github.com/idos-network/idos-sdk-js/tree/main/packages/idos-sdk-js#installation).  &#x20;
+Please also bear in mind the overview below is for Ethereum dApps. For more information on how to integrate the SDK in other available ecosystems or further details, please check the [detailed idOS SDK Documentation in GitHub](https://github.com/idos-network/idos-sdk-js/tree/main/packages/idos-sdk-js#installation).
 
 ## 1. Install the idOS SDK and initialize it
 
@@ -50,7 +50,7 @@ More identity issuers will be listed in the near future once they integrate with
 if (!hasProfile) window.location = "http://kyc-provider.example.com/enroll";
 ```
 
-## 3. Connect and query the SDK&#x20;
+## 3. Connect and query the SDK
 
 To authenticate the current user, call:
 

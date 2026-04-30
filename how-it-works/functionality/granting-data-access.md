@@ -14,7 +14,7 @@ layout:
 
 # Granting data access
 
-The **Access Management Protocol** is the access rights management system of the idOS. It requires access requests to be authenticated and authorized. It governs who has access to data on the idOS.&#x20;
+The **Access Management Protocol** is the access rights management system of the idOS. It requires access requests to be authenticated and authorized. It governs who has access to data on the idOS.
 
 ## Authentication and Authorization
 
@@ -28,7 +28,6 @@ After establishing address ownership and ownership of the idOS, users can grant 
 
 ## Continuous, offline data availability and revocations
 
-Users have now established that they want the receiver to have access. This fact is written into an access grant smart contract on the [respective blockchain](../system-architecture/on-chain-access-grants.md). This access grant allows receivers to retrieve data at any point in the future, even if the user is offline, as long as the access grant is still active. This enables a data receiver to use the idOS as a customer relationship management tool (CRM), as they may keep the data in the idOS without downloading it as they have continuous data availability guarantees.&#x20;
+Users have now established that they want the receiver to have access. This fact is written into an access grant smart contract on the [respective blockchain](../system-architecture/on-chain-access-grants.md). This access grant allows receivers to retrieve data at any point in the future, even if the user is offline, as long as the access grant is still active. This enables a data receiver to use the idOS as a customer relationship management tool (CRM), as they may keep the data in the idOS without downloading it as they have continuous data availability guarantees.
 
-A user has the right to _revoke_ access at any time, disabling the ability of the receiver to access the data. Data grants can be time-locked in case regulatory reasons require data retention for five years. In these cases, an access grant can only be revoked after the time lock has expired. &#x20;
-
+A user has the right to _revoke_ access at any time, disabling the ability of the receiver to access the data. Data grants can be time-locked in case regulatory reasons require data retention for five years. In these cases, an access grant can only be revoked after the time lock has expired.

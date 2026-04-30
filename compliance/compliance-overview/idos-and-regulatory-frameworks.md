@@ -67,7 +67,7 @@ The decentralized architecture of idOS, powered by its dStorage Network of Nodes
 
 In the context of AML compliance, data cannot be arbitrarily deleted. Even if a User deletes their Credentials, idOS' built-in mechanisms ensure that Data Consumers retain access for the legally mandated retention periods, while also aligning with data protection standards. Once access is granted, Data Consumers can retrieve and decrypt the relevant encrypted data, and can effectively treat the dStorage Network of Nodes as a redundant storage layer, though they may also store it internally too.
 
-Through [Access Grants](/broken/pages/bZgdunkYCZkU5W8i8dI1), the duration of Credential access can be set through "Time Locks." This ensures Data Consumers can remain compliant with applicable retention periods resulting from e.g. AML regulations.
+Through [Access Grants](../../how-it-works/system-architecture/on-chain-access-grants.md), the duration of Credential access can be set through "Time Locks." This ensures Data Consumers can remain compliant with applicable retention periods resulting from e.g. AML regulations.
 
 Although idOS empowers Users and is built on the principle of User self-sovereignty, it also incorporates built-in safeguards to ensure compliance with record-keeping obligations. If a user requests data deletion while an active Time Lock exists, idOS prevents the removal of the re-encrypted Credential for the Data Consumer until the Time Lock expires. This guarantees that data remains accessible for the necessary period, even if the user is offline.
 

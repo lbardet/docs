@@ -6,7 +6,7 @@ hidden: true
 
 ## Getting Started Guides
 
-### Getting started with the idOS Client SDK&#x20;
+### Getting started with the idOS Client SDK
 
 ### Installation
 
@@ -589,7 +589,7 @@ pnpm build
 
 This will create a PRODUCTION build of the SDK using the `.env` file.
 
-### Getting started with the idOS Consumer Server SDK&#x20;
+### Getting started with the idOS Consumer Server SDK
 
 The idOS Consumer Server SDK is designed for application developers who need to access user credentials through access grants and verify them. This package caters specifically to backend needs. It provides an implementation for decrypting and processing credentials, and managing access grants.
 
@@ -730,7 +730,7 @@ const credentialId: id | null = await idos.getCredentialIdByContentHash('GRANT_H
 const grant: idOSGrant = await idos.getCredentialAccessGrant('CREDENTIAL_ID')
 ```
 
-### Getting started with the idOS Issuer Server SDK&#x20;
+### Getting started with the idOS Issuer Server SDK
 
 ### Installing
 

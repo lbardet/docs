@@ -4,7 +4,7 @@
 
 This document will take you on a long tour that'll encompass most of idOS's concepts and components.
 
-We strongly recommend you read the[ idOS Storage Network overview page ](/broken/pages/01Q42ZdxzPxrGQDwr0lO)first.
+We strongly recommend you read the [idOS Storage Network overview page](../how-it-works/system-architecture/decentralized-storage/) first.
 
 ### Cold Start Journey
 

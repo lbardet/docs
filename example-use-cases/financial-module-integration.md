@@ -29,4 +29,3 @@ Financial modules integrating with idOS generally do not manage user interaction
 * **Delegated Permissions:** Financial modules rely on delegated access, reducing complexity and clearly separating responsibilities.
 * **Built-in Compliance:** Immediate alignment with privacy and regulatory standards through idOS secure infrastructure.
 * **Scalable and Secure:** Leverages decentralized infrastructure, ensuring secure data handling and high availability.
-

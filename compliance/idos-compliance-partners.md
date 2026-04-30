@@ -4,7 +4,7 @@ We recognize that compliance in web3 is a collective effort, and we are not work
 
 #### Ongoing Collaboration & Industry Engagement
 
-idOS is a proud member of the [**European Crypto Initiative (EUCI)**](https://eu.ci/), a non-profit association committed to fostering a balanced and innovation-friendly regulatory environment for the crypto industry across the EU.&#x20;
+idOS is a proud member of the [**European Crypto Initiative (EUCI)**](https://eu.ci/), a non-profit association committed to fostering a balanced and innovation-friendly regulatory environment for the crypto industry across the EU.
 
 As a member, idOS benefits from direct engagement with policymakers and legal experts involved in shaping key frameworks in the EU. This participation allows us to stay ahead of evolving compliance standards and contribute to the development of practical, innovation-supportive rules for decentralized identity and Web3 infrastructure in Europe.
 
@@ -12,6 +12,6 @@ As a member, idOS benefits from direct engagement with policymakers and legal ex
 
 We also engage with legal, compliance, and regulatory experts through strategic events. One such initiative was our [**Compliance & Coffee event**](https://www.idos.network/blog/recap-compliance-and-coffee-meetup-by-idos) that took place during 2025's **Paris Blockchain Week**, where we discussed compliance in web3 alongside **EUCI**, **LexDAO**, and other key players in the space.
 
-Our goal is to build a strong community of compliance professionals who can drive innovation while ensuring that decentralized identity remains secure, transparent, and legally sound. **If you're a legal professional, compliance expert, or industry stakeholder looking to engage in these discussions, we invite you to be part of the movement**. Reach out to legal@idos.network.&#x20;
+Our goal is to build a strong community of compliance professionals who can drive innovation while ensuring that decentralized identity remains secure, transparent, and legally sound. **If you're a legal professional, compliance expert, or industry stakeholder looking to engage in these discussions, we invite you to be part of the movement**. Reach out to legal@idos.network.
 
-_For those seeking a more detailed understanding of our compliance work, we also offer access the in-depth assessment on our KYC Re-usability frameworks upon request._&#x20;
+_For those seeking a more detailed understanding of our compliance work, we also offer access the in-depth assessment on our KYC Re-usability frameworks upon request._

@@ -22,7 +22,6 @@
 * [MPC for encryption keys](how-it-works/mpc-for-encryption-keys.md)
 * [FAQs - Users](how-it-works/faqs-users.md)
 * [Security](how-it-works/security.md)
-* [Bug bounty program](how-it-works/bug-bounty-program.md)
 
 ## COMPLIANCE
 
@@ -49,5 +48,3 @@
 * [Consumer guide](integrate/consumer-guide.md)
 * [Issuer guide](integrate/issuer-guide.md)
 * [FAQs - Developers](integrate/faqs-developers.md)
-* [Copy of idOS SDKs](integrate/copy-of-idos-sdks.md)
-* [Getting Started With the SDKs](integrate/getting-started-with-the-sdks.md)
