@@ -14,7 +14,7 @@ This is a marketing communication. Read the [White Paper](https://www.idos.netwo
 
 <summary>‘Wen Token?’</summary>
 
-The IDOS Token Launch will take place on March 5, 2026 after the Uniswap CCA sale. More details: [https://x.com/idOS\_network/status/2019410778877546909](https://x.com/idOS_network/status/2019410778877546909)
+The IDOS Token Launch took place on March 5, 2026 after the Uniswap CCA sale. More details: [https://x.com/idOS\_network/status/2019410778877546909](https://x.com/idOS_network/status/2019410778877546909)
 
 </details>
 
@@ -74,7 +74,7 @@ For regulatory reasons, citizens and residents of countries in the [FATF](https:
 
 <details>
 
-<summary>Why can’t I access <a href="http://app.idos.network/">app.idos.network</a> through my phone?</summary>
+<summary>Why can’t I access <a href="https://app.idos.network/">app.idos.network</a> through my phone?</summary>
 
 idOS works across devices, but wallet connections for web apps are limited on mobile. For the smoothest experience, please use a desktop browser that supports wallet extensions (e.g. Chrome, Brave, Firefox).
 

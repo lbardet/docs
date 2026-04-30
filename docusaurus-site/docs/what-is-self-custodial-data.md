@@ -63,11 +63,11 @@ Access Grants will be publicly accessible via Network Explorer services in the i
 
 The idOS Storage Network operates as a permissioned network, meaning that only authorized nodes can participate in storing and processing data. This ensures that:
 
-• Data integrity is maintained, preventing unauthorized modifications.
+- Data integrity is maintained, preventing unauthorized modifications.
 
-• Network participants meet security and compliance requirements, making it viable for regulated industries.
+- Network participants meet security and compliance requirements, making it viable for regulated industries.
 
-• Users retain control over their information, with access granted on a need-to-know basis.
+- Users retain control over their information, with access granted on a need-to-know basis.
 
 ## Future Considerations: Progressive Decentralization
 

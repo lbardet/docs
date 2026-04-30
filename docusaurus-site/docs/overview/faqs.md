@@ -2,7 +2,7 @@
 
 ## _Is idOS live?_
 
-Yes it is! You can access your idOS profile at [dashboard.idos.network](https://dashboard.idos.network) and integrate [idOS SDK](../developer-docs/dapp-sdk-integration.md)today. Follow us on [socials](../community-and-marketing/community-and-social.md) and visit [idos.network](https://www.idos.network) for updates!
+Yes it is! You can access your idOS profile at [dashboard.idos.network](https://dashboard.idos.network) and integrate [idOS SDK](../developer-docs/dapp-sdk-integration.md) today. Follow us on [socials](../community-and-marketing/community-and-social.md) and visit [idos.network](https://www.idos.network) for updates!
 
 ## _What types of data can be added to idOS?_
 
@@ -26,8 +26,8 @@ We created idOS as we saw a gap in the web3 space that was directly affecting se
 
 ## _How is idOS different from <mark style="background-color:blue;">Identity verification providers</mark>?_
 
-idOS is a web3 open-source identity management infrastructure. The goal of idOS is to enable different identity and user data management solutions to become more decentralized and gain user adoption while giving data control back to the user. Identity verification providers (e.g. Fractal ID, BrightID, Worldcoin) play a critical role in the idOS ecosystem by issuing Verifiable Credentials, often in the form of attestations (e.g. KYC, Proof-of-personhood, etc.). In the foreseeable future, Identity verification providers will always be needed to onboard user data at scale into the internet, and idOS will enable them to issue credentials, and then allow users to store them and share access anywhere around web3. More information on the role of the idOS in the identity value chain can be found [here](what-is-idos.md#the-idos-in-the-identity-value-chain).
+idOS is a web3 open-source identity management infrastructure. The goal of idOS is to enable different identity and user data management solutions to become more decentralized and gain user adoption while giving data control back to the user. Identity verification providers (e.g. Fractal ID, BrightID, Worldcoin) play a critical role in the idOS ecosystem by issuing Verifiable Credentials, often in the form of attestations (e.g. KYC, Proof-of-personhood, etc.). In the foreseeable future, Identity verification providers will always be needed to onboard user data at scale into the internet, and idOS will enable them to issue credentials, and then allow users to store them and share access anywhere around web3. More information on the role of the idOS in the identity value chain can be found in [The idOS in the identity value chain](what-is-idos.md#the-idos-in-the-identity-value-chain).
 
 ## What is coming next for idOS?
 
-idOS has a plan for [progressive decentralization](../how-it-works/progressive-decentralization.md). We plan to deploy it across multiple blockchain ecosystems and ensure data is always secure and managed by the user. More details on the product roadmap for idOS can be found [here](../how-it-works/product-roadmap.md) (subject to change).
+idOS has a plan for [progressive decentralization](../how-it-works/progressive-decentralization.md). We plan to deploy it across multiple blockchain ecosystems and ensure data is always secure and managed by the user. More details on the product roadmap for idOS can be found in the [Product Roadmap](../how-it-works/product-roadmap.md) (subject to change).

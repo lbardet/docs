@@ -1,6 +1,6 @@
 # Roles (main stakeholders)
 
-![](/assets/idOS_Gitbook_Identity_Layer_Web3.png)
+![idOS as the identity layer of web3](/assets/idOS_Gitbook_Identity_Layer_Web3.png)
 
 ## Users
 
@@ -18,5 +18,5 @@ Users can also be asked for data access grants. In this scenario, the dApp would
 
 ## Identity verification providers {#issuers}
 
-Identity verification providers help users to add data that has been verified and dApps to trust data input. They usually support onboarding journeys that can be used by dApps to onboard users to the idOS. They supply verified data in the [W3C Verifiable Credential](decentralized-storage/w3c-verifiable-credentials.md) standard to allow for easy consumption of the data by dApps. Identity verification providers are the trust layer that confirms claims that users are making about them. 
+Identity verification providers help users to add data that has been verified and dApps to trust data input. They usually support onboarding journeys that can be used by dApps to onboard users to the idOS. They supply verified data in the [W3C Verifiable Credential](decentralized-storage/w3c-verifiable-credentials.md) standard to allow for easy consumption of the data by dApps. Identity verification providers are the trust layer that confirms claims that users are making about themselves. 
 

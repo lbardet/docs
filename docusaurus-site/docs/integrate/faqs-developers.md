@@ -17,14 +17,14 @@
 * How does a user access their idOS profile from multiple devices?
   * By using wallet addresses that are associated with their idOS profile, and by inserting the right password when prompted by the idOS Enclave. When we add our TSS key abstraction Native Module, users will be able to sign a message with their wallet on any device and access their idOS profile. 
 * What wallet signatures does idOS support? 
-  * pkoch: sekp256k1 and ed25519.
+  * secp256k1 and ed25519.
 * Why are there multiple SDKs? Which one should I use? 
   * To contain complexity and scope for developers. There are 3 SDKs:
     * idOS Client (for browser usage)
     * idOS Consumer Server
     * idOS Issuer Server
 * How do I integrate idOS if I don't use TypeScript?
-  * pkoch: On the browser side, you can just `npm install` the idOS Client. On the server side, you have a few options:
+  * On the browser side, you can just `npm install` the idOS Client. On the server side, you have a few options:
     * Re-implement the RPC calling and cryptography in your own language (laborious, error-prone; we recommend against this)
     * Package the idOS Consumer Server or the idOS Issuer Server as a microservice and call it (to get started, a few days of engineering work; For maintenance, it'll be mostly package bumps and maybe adding new end-points for new functionality).
     * Package the idOS Consumer Server or the idOS Issuer Server as a CLI tool, and call it (roughly the same burden as before).
@@ -69,7 +69,7 @@
 ## 4. Cost & Incentives
 
 * What are the ongoing costs as an application integrating idOS, and who pays for what? Who pays for gas?
-  * There are currently no ongoing costs, gas or otherwise, involved in integrating idOS. That will change in Q4 2025 when the idOS Economy Network and progressive node decentralization are live, where issuers and consumers will pay gas to node operators for reads and writes, and pay for access grants amongst each other to incentivize the issuance and re-use of verified credentials. When the idOS Economy Network is live, the idOS protocol will take a 25% cut of any access grant fees paid to network participants. 
+  * There are currently no ongoing costs, gas or otherwise, involved in integrating idOS. That will change when the idOS Economy Network and progressive node decentralization go live, where issuers and consumers will pay gas to node operators for reads and writes, and pay for access grants amongst each other to incentivize the issuance and re-use of verified credentials. When the idOS Economy Network is live, the idOS protocol will take a 25% cut of any access grant fees paid to network participants. 
 
 
 

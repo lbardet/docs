@@ -9,4 +9,3 @@ The main functionalities of the User Data Dashboard are:
 * Manage [access grants](granting-data-access.md) (create new ones, revoke old ones, see time locks)
 * Directing users to [data verification providers](../system-architecture/roles-main-stakeholders.md#issuers) to receive verified credentials 
 
-The demo of the User Data Dashboard will be released shortly.

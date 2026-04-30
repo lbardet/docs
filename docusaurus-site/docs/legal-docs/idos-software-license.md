@@ -8,4 +8,4 @@ However, there are certain stipulations: all redistributed versions must retain 
 
 This ensures that the original copyright and license details from the original idOS code remain intact. Importantly, the license dictates that the original code authors cannot be held legally accountable for any issues arising from the code.
 
-This MIT License aligns well with other licenses, such as the BSD license family. Furthermore, it generally meshes with the GNU GPL license family, ensuring broad compatibility.
+This MIT License aligns well with other licenses, such as the BSD license family. Furthermore, it generally meshes with the GNU GPL family, ensuring broad compatibility.

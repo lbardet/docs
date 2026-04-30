@@ -1,6 +1,6 @@
 # MPC for encryption keys
 
-Each user in idOS has their own encryption keys. This is one of the hallmarks of our defense in depth approach, and ensures that even if it were to happen, a data leak would leave an attacker holding on to a bunch of nothing.
+Each user in idOS has their own encryption keys. This is one of the hallmarks of our defense-in-depth approach, and ensures that even if it were to happen, a data leak would leave an attacker holding on to a bunch of nothing.
 
 We built the idOS Enclave to help users create and manage these keys. The idOS Enclave is a browser wallet for encryption: a secure browser-based environment for handling sensitive operations such as password input, key derivation, encryption, decryption, and looking through credentials' encrypted content.
 
@@ -29,14 +29,14 @@ idOS keys are derived using [scrypt](https://en.wikipedia.org/wiki/Scrypt) (an i
 
 Voilà, the Enclave now has an encryption keypair (private key + public key), and is now ready to serve encryption and decryption requests coming from the idOS SDK.
 
-Passwords, however, have a nasty habit of being poorly chosen and/or forgotten. This puts users unfamiliar with password managers would at risk of forgetting their password, which would lock them out of being able to decrypt their own idOS data. And so, with the help of our partner Partisia, we rolled out a new mechanism: MPC.
+Passwords, however, have a nasty habit of being poorly chosen and/or forgotten. This puts users unfamiliar with password managers at risk of forgetting their password, which would lock them out of being able to decrypt their own idOS data. And so, with the help of our partner Partisia, we rolled out a new mechanism: MPC.
 
 Instead of asking users to input a password, the Enclave uses high-quality entropy to generate a random key for them. It then splits this key into several shares using Shamir's Secret Sharing (which ensures each share is not only useless but also undecipherable in isolation). These shares are distributed among several MPC nodes, along with a list of the user's wallets that can sign a message authorizing their retrieval.
 
 ![MPC key generation and distribution process](/assets/image-6.png)
 
 1. **Key generation**
-   1. A random key is generated from high quality entropy
+   1. A random key is generated from high-quality entropy
    2. This key is split into shares using Shamir’s Secret Sharing
 2. **Payload creation**
    1. One payload per MPC node is created, each including a key share and the list of wallets that can retrieve it

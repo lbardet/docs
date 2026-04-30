@@ -53,7 +53,7 @@ User data in idOS is stored in the idOS Storage Network, a decentralized layer 1
 
 Here's an abridged visual representation of the key concepts and relationships in idOS:
 
-![](/assets/Screenshot-2025-05-05-at-18.32.01.png)
+![idOS Storage Network Data Architecture](/assets/Screenshot-2025-05-05-at-18.32.01.png)
 
 #### **Fundamental Data Structures**
 

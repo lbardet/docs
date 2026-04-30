@@ -24,7 +24,7 @@ idOS provides multiple ways for users to access, manage, and share their identit
 
 ## Granting another user access to data
 
-**(A) Granting access to a Data Consumer:** Alice grants Bob access to her data by (1) going to a integrated idOS Issuer or Consumer Application, optionally interacting with the idOS Isle (2), creating an access grant and (3) approving the transaction in her wallet. The Access Management Protocol is (4) updated, which in directly updates the idOS nodes. The encrypted credential is retrieved from the idOS, decrypted via the idOS enclave (5), reencrypted for the recipient (Charlie) and placed back into the idOS (6). Charlie can now see Alice's data on a dashboard, and/or get it from a node. (see next flow)
+**(A) Granting access to a Data Consumer:** Alice grants Charlie access to her data by (1) going to an integrated idOS Issuer or Consumer Application, optionally interacting with the idOS Isle (2), creating an access grant and (3) approving the transaction in her wallet. The Access Management Protocol is (4) updated, which in directly updates the idOS nodes. The encrypted credential is retrieved from the idOS, decrypted via the idOS enclave (5), reencrypted for the recipient (Charlie) and placed back into the idOS (6). Charlie can now see Alice's data on a dashboard, and/or get it from a node. (see next flow)
 
 **(B) Retrieving Credential via the idOS Data Dashboard:** Charlie can now (1) go to his data dashboard, (2) sign a message in his wallet and (3) see Alice's data that the dashboard dApp retrieved from the idOS (unless Alice revokes the grant or deletes the data before). The retrieved data needs to be decrypted (4).
 

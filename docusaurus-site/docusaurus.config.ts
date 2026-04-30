@@ -72,7 +72,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Serve docs at site root (no /docs/ prefix) to match GitBook URLs
           routeBasePath: "/",
-          editUrl: "https://github.com/idos-network/gitbook/edit/main/",
+          editUrl: "https://github.com/idos-network/gitbook/edit/main/docusaurus-site/docs/",
         },
         blog: false,
         theme: {

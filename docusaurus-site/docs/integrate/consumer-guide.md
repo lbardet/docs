@@ -71,10 +71,10 @@ pnpm add @idos-network/consumer
 
 ### \[ frontend ] Importing and initializing
 
-```js
+```ts
 import { createIDOSClient, type idOSClient } from "@idos-network/client";
 
-const idOSClient = createIDOSClient({
+let idOSClient = createIDOSClient({
   enclaveOptions: { container: "#idOS-enclave" },
 });
 ```
@@ -130,7 +130,7 @@ const grants: IdosGrant[] = (await idOSClient.getGrants()).grants.filter(g =>
 Access Grants queries can also be paginated:
 
 ```typescript
-const grants: IdosGrant[] = await idOSClient.getGrants({
+const { grants }: { grants: IdosGrant[] } = await idOSClient.getGrants({
   page: 1,
   size: 7,
 });
@@ -149,19 +149,21 @@ If you don’t have an access grant, you can proceed to filtering the user’s c
 Credential filtering is done by calling the method `filterCredentials` from the `idOSClient` and passing the filtering requirements:
 
 ```typescript
-const filteredCredentials: idOSCredential[] = await idOSClient.filterCredentials({acceptedIssuers: [{
-      authPublicKey // the accepted issuer auth public key to filter credentials by
-    }];
-    // OPTIONAL. A list of public notes fields of a credential that should be picked or omitted.
-    publicNotesFieldFilters: { 
-      pick: {};
-      omit: {};
-    };
-    // OPTIONAL. A list of private fields of a credential that should be picked or omitted.
-    privateFieldFilters: {
-      pick: {};
-      omit: {};
-    })
+const filteredCredentials: idOSCredential[] = await idOSClient.filterCredentials({
+  acceptedIssuers: [{
+    authPublicKey, // the accepted issuer auth public key to filter credentials by
+  }],
+  // OPTIONAL. A list of public notes fields of a credential that should be picked or omitted.
+  publicNotesFieldFilters: {
+    pick: {},
+    omit: {},
+  },
+  // OPTIONAL. A list of private fields of a credential that should be picked or omitted.
+  privateFieldFilters: {
+    pick: {},
+    omit: {},
+  },
+});
 ```
 
 ### \[ frontend ] Requesting access grant

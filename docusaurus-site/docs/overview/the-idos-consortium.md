@@ -4,7 +4,7 @@
 
 Reach out, if you are an ecosystem interested in joining the idOS!
 
-![](/assets/idOS_Consortium_Partners.jpg)
+![idOS Consortium Partners](/assets/idOS_Consortium_Partners.jpg)
 
 ## idOS Consortium Partners 
 
@@ -14,7 +14,7 @@ Reach out, if you are an ecosystem interested in joining the idOS!
 
 ### Circle
 
-[Circle](https://www.circle.com/en/) is a financial technology company that offers USDC, a fully reserved and regulated US dollar stablecoin, which provides secure and transparent digital transactions. They also provide a suite of Web3 services, including programmable wallets and a smart contract platform, enabling developers to integrate blockchain technology into their applications seamlessly​
+[Circle](https://www.circle.com/en/) is a financial technology company that offers USDC, a fully reserved and regulated US dollar stablecoin, which provides secure and transparent digital transactions. They also provide a suite of Web3 services, including programmable wallets and a smart contract platform, enabling developers to integrate blockchain technology into their applications seamlessly
 
 ### Ripple
 

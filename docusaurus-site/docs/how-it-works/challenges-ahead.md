@@ -1,6 +1,6 @@
 # Challenges ahead
 
-The following is a list of technical challenges that we see ahead and a few words on how we plan to approach them. Building idOS is not an easy endeavor, and we will continuously seek to attract the best teams to build with us. in the spirit of decentralization and 'open-sourceness' (is that a word?), if you think you can contribute to any of these challenges, or if you see any other important ones, please do not hesitate to [reach to us](../community-and-marketing/community-and-social.md).
+The following is a list of technical challenges that we see ahead and a few words on how we plan to approach them. Building idOS is not an easy endeavor, and we will continuously seek to attract the best teams to build with us. In the spirit of decentralization and open-source principles, if you think you can contribute to any of these challenges, or if you see any other important ones, please do not hesitate to [reach out to us](../community-and-marketing/community-and-social.md).
 
 ## Enhanced privacy-preserving data sharing
 

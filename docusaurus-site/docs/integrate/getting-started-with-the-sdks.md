@@ -110,7 +110,7 @@ After importing the SDK, you initialize it with a selector string for a DOM node
 
 This container will be used by the SDK to load the idOS secure enclave during initialization. The [`📁 idos-enclave`](https://github.com/idos-network/idos-sdk-js/tree/main/apps/idos-enclave) is a sandboxed browser context, used to safekeep a keyring for cryptographic operations users need to perform. When the enclave requires user interaction, it uses this container to render UI such as the **`🔓 Unlock idOS`** button.
 
-[![](https://raw.githubusercontent.com/idos-network/idos-sdk-js/main/packages/idos-sdk-js/assets/readme-container-1.png)](https://raw.githubusercontent.com/idos-network/idos-sdk-js/main/packages/idos-sdk-js/assets/readme-container-1.png)
+[![idOS enclave container example](https://raw.githubusercontent.com/idos-network/idos-sdk-js/main/packages/idos-sdk-js/assets/readme-container-1.png)](https://raw.githubusercontent.com/idos-network/idos-sdk-js/main/packages/idos-sdk-js/assets/readme-container-1.png)
 
 To avoid surprising your UI, the SDK doesn't make itself visible and sets no CSS properties. Instead, it toggles the `visible` class on this container. This means you retain control over your UI, and need to define what "visible" means, for example:
 
@@ -128,7 +128,7 @@ This barebones setup is enough to get you started, but you can naturally style a
 
 Our [`📁 idos-example-dapp`](https://github.com/idos-network/idos-sdk-js/tree/main/examples/idos-example-dapp) shows an example of blending this into a UI. It wraps the container and floats it over the page, and animates its opacity when the `visible` class is applied. You can see it below (pulsating forcefully to illustrate the point):
 
-[![](https://raw.githubusercontent.com/idos-network/idos-sdk-js/main/packages/idos-sdk-js/assets/readme-container-2.gif)](https://raw.githubusercontent.com/idos-network/idos-sdk-js/main/packages/idos-sdk-js/assets/readme-container-2.gif)
+[![idOS enclave container animation](https://raw.githubusercontent.com/idos-network/idos-sdk-js/main/packages/idos-sdk-js/assets/readme-container-2.gif)](https://raw.githubusercontent.com/idos-network/idos-sdk-js/main/packages/idos-sdk-js/assets/readme-container-2.gif)
 
 The main reason the SDK controls this HTML element is to remove the burden of opening up a new top-level window without being blocked by the browser because it was identified as an unwanted pop-up. Since all SDK users would need to go through the delicate process of getting these details right, we implemented it in the SDK.
 
@@ -1170,7 +1170,7 @@ A previously created credential can be revoked by the issuer by calling the `edi
 import { editCredential } from "@idos-network/issuer-sdk-js";
 import issuerConfig from "./issuer-config.js";
 
-await editCredential(issuer, {
+await editCredential(issuerConfig, {
     publicNotesId: id, // the `id` of the credential to be revoked that is stored in the `publicNotes` field.
     publicNotes: JSON.stringify({
       ...publicNotes,

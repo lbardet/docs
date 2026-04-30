@@ -18,13 +18,13 @@ Here’s a transparent look at how the IDOS token supply will be allocated, vest
 
 ‍
 
-###  Allocation Overview
+### Allocation Overview
 
 
 
 The IDOS Token allocation is designed to keep the majority of the supply focused on ecosystem growth, security through staking, and community participation over the coming decade.
 
-![](/assets/Token_Allocation_IDOS-1.2pct-InfoFi.jpg)
+![IDOS Token Allocation Overview](/assets/Token_Allocation_IDOS-1.2pct-InfoFi.jpg)
 
 ‍
 
@@ -76,7 +76,7 @@ The IDOS Token allocation is designed to keep the majority of the supply focused
 
 ### Optimizing for Community Distribution, Transparency and Alignment
 
-![](/assets/image-1.png)
+![IDOS Token Distribution Optimization](/assets/image-1.png)
 
 We designed IDOS to have utility from day one. To achieve that, we are releasing more than 1/3rd of the total token supply on TDE, and allocating a large portion of it to our community, to encourage early usage and contribution. **41.3% of the total IDOS supply is planned to be distributed to the community.**
 
@@ -90,7 +90,7 @@ The IDOS token exists to align incentives between **users, builders, integrators
 
 **‍**Please notice the Staking Rewards bucket goes beyond the 5-year schedule
 
-![](/assets/image-29.png)
+![IDOS 5-Year Token Distribution Schedule](/assets/image-29.png)
 
 
 
@@ -112,6 +112,6 @@ Over time, staking rewards are expected to be complemented by sustainable fees a
 
 Rewards will accrue daily and can be claimed at any time.
 
-####  Important notices
+#### Important notices
 
 _Points and Mindshare have no monetary/cash value, cannot be traded, redeemed, transferred, or exchanged, in any form, and do not confer any rights to receive any asset, cash, tokens (including IDOS), goods, or services. Points are only issued for social reputation building, linked to reusing credentials and interaction with the idOS. Mindshare is a social engagement metric only, controlled and operated by Wallchain (third-party terms may apply). Participation in IDOS Staking program is entirely at your own risk and may result in the loss of all staked assets. Rewards are not guaranteed. Airdrops are discretionary and not guaranteed. Participation is voluntary and carries significant risk. All such programs may change and/or be discontinued. You are not eligible if you are a citizen, resident of, or located in a Restricted Jurisdiction (as defined under the_ [_Terms_](https://www.idos.network/legal/user-agreement)_) or if in your jurisdiction such programs would be illegal._ [_Terms_](https://www.idos.network/legal/user-agreement) _apply to all such programs._

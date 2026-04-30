@@ -6,7 +6,7 @@ Moving carefully to align with data protection laws compliance means that idOS w
 
 ![idOS network of nodes setup showing EU data processing locations](/assets/idOS-Network-of-Nodes-setup.png)
 
-Node providers to this Network of Nodes will need to accept standard terms, including for alignment with data protection laws (e.g. adherence to [Standard Contractual Clauses](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc\_en) (SCCs)). 
+Node providers to this Network of Nodes will need to accept standard terms, including for alignment with data protection laws (e.g. adherence to [Standard Contractual Clauses](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) (SCCs)). 
 
 This means that at launch, the Network of Nodes allows for personal data to be stored only within the EU or, and even in the case that it is not, the same level of protection is assured due to the establishment of the SCCs, which is a recognized mechanism to transfer personal data from the EU to third countries.
 

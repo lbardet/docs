@@ -12,7 +12,7 @@ idOS brings **portable identity to the stablecoin economy**. Allowing users to o
 
 
 
-[The idOS Storage Network](how-it-works/system-design.md) (L1) enables private and self-sovereign data storage, and allow users to share access to their encrypted data with applications and businesses across the internet. The idOS Economy Network (coming soon, an Arbitrum Orbit chain) implements a flexible data economy in smart contracts and meters the usage of the Storage Network. Applications can use the idOS SDK to perform all core functions they'd need to interact with idOS. 
+[The idOS Storage Network](how-it-works/system-design.md) (L1) enables private and self-sovereign data storage, and allows users to share access to their encrypted data with applications and businesses across the internet. The idOS Economy Network (coming soon, an Arbitrum Orbit chain) implements a flexible data economy in smart contracts and meters the usage of the Storage Network. Applications can use the idOS SDK to perform all core functions they'd need to interact with idOS. 
 
 ![idOS Architecture Overview](/assets/idOS-Architecture-Simplified.jpg)
 
@@ -20,7 +20,7 @@ idOS brings **portable identity to the stablecoin economy**. Allowing users to o
 
 idOS is an open-source, composable and chain-agnostic network that was founded and funded by an industry-wide [consortium of ecosystems and industry players](the-idos-consortium.md) to finally unlock self-custodial data and decentralized identity. The idOS Storage Network is its own chain, but seamlessly connects to any other ecosystem and supports all leading blockchain ecosystem wallet signatures. 
 
-Effectively bring financial applications and users onchain requires a self-custodial way to store and share data, to yank it out of walled gardens and enable reusability. The idOS Consortium partners came together to settle on a joint and composable stack instead of each building their own. 
+Effectively bringing financial applications and users onchain requires a self-custodial way to store and share data, to yank it out of walled gardens and enable reusability. The idOS Consortium partners came together to settle on a joint and composable stack instead of each building their own. 
 
 
 

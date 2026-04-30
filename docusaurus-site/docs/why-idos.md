@@ -12,11 +12,11 @@ Self-custody of data puts users in control of what is stored and who has access 
 
 The onchain economy is finally starting to take off. Stablecoin infrastructure is the next frontier to bring user onchain. Nearly half a billion users are using crypto today, but are they onchain? [Our thesis](market-focus.md) is that we need to solve the most pressing and hardest problem first for the industry to finally switch the equilibrium to adopt decentralized identity. That problem is KYC-resharing.
 
-Centralized data/user onboarding flows also means walled gardens and platform risks. Permissionless infrastructure is the antidote that allows an open source, composable ecosystem to thrive.  Applying this concept to user data is necessary to equip builders with the same convenient user flow, with the same high level of compliance to simply connect modules. That is why we built idOS to satisfy [financial market and data privacy regulations](/compliance/compliance-overview), so that businesses can actually use it. 
+Centralized data/user onboarding flows also mean walled gardens and platform risks. Permissionless infrastructure is the antidote that allows an open-source, composable ecosystem to thrive.  Applying this concept to user data is necessary to equip builders with the same convenient user flow, with the same high level of compliance to simply connect modules. That is why we built idOS to satisfy [financial market and data privacy regulations](/compliance/compliance-overview), so that businesses can actually use it. 
 
 ## Because we need human-centered systems on the internet
 
-There is no _second life_, but one life that is more and more online. We do not have the notion of being a human online. That quality should not depend on a network of friends, the distinct quality of being human should be enough. That is why we enable decentralized easily accessible biometric systems for uniqueness. We need accountability if we want to build systems for everyday use. We need to be able to distinguish between artificial intelligence and a human being. And we need governance system that put humans at it's center. 
+There is no _second life_, but one life that is more and more online. We do not have the notion of being a human online. That quality should not depend on a network of friends, the distinct quality of being human should be enough. That is why we enable decentralized easily accessible biometric systems for uniqueness. We need accountability if we want to build systems for everyday use. We need to be able to distinguish between artificial intelligence and a human being. And we need governance systems that put humans at their center. 
 
 ## Because a data settlement layer is needed for composability
 
@@ -30,7 +30,7 @@ We are inviting the whole industry to add applications that everyone can use, li
 
 idOS was founded by individuals that have been in the web3 identity space since 2017. Our mission has always been to help actual business onboard actual users. We held ourselves accountable to not just build infrastructure, but actual products people could use today to nudge forward towards decentralized, self-sovereign identity. We have learned, sometimes the hard way, what works and what doesn't work. We became uncompromising when we saw that a gentle nudge isn't enough to push data in self-custody and keep data secure.  
 
-It is time to demand that individuals own and manage their data in a self-custodial way, but at the same time enabling actual usage in today's world, in compliance with existing regulations. We are not here to compete with other decentralize identity or data privacy solutions, but rather to act like an open-source secure decentralized storage layer where existing solutions can be integrated in a composable way. We really care, not just theoretically, but very practically, today. 
+It is time to demand that individuals own and manage their data in a self-custodial way, but at the same time enabling actual usage in today's world, in compliance with existing regulations. We are not here to compete with other decentralized identity or data privacy solutions, but rather to act like an open-source secure decentralized storage layer where existing solutions can be integrated in a composable way. We really care, not just theoretically, but very practically, today. 
 
 ## We are collaboration maximalists
 

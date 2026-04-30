@@ -10,7 +10,7 @@ The concept of decentralized identity has been around since projects like Ethere
 
 The Stablecoin Economy (AKA OpenFi, Embedded finance, PayFi, etc.) can be summarized as ['Composable Money for Everyday Use'](https://youtu.be/RVe5H5OqVcw?si=Z9-RyvYO8R1V-abs). It represents the natural evolution of DeFi into a composable, inclusive, and user-centric financial system for real-world use cases. Unlike legacy financial systems that are monolithic and closed, Stablecoin applications collaborate on a composable way to build better products faster, and put the user in control of their funds and their data. Stablecoin apps include neobanks, onramp/payments solutions, self-custodial debit cards and bank accounts, lending solutions, and more.
 
-![](/assets/image-9.png)
+![Stablecoin Economy potential diagram](/assets/image-9.png)
 
 The potential of Stablecoin apps lies in its ability to lower transaction costs for users - up to 10x compared to traditional systems - while enabling faster and cheaper innovation cycles for builders (composability = lower capex, opex and permissionless innovation) and increasing financial inclusion across the world. Stablecoin apps provide programmable financial tools that empower developers, businesses, and users to create and interact with financial solutions seamlessly. With its focus on bridging crypto and fiat systems, Stablecoin apps are set to bring blockchain technology to mainstream adoption. For further details, read the full article: [Programmable Money for Everyday Use](https://medium.com/idos-publication/openfi-programmable-money-for-everyday-use-77d9353e13fb).
 
@@ -30,7 +30,7 @@ While there are many relevant use cases within Stablecoin apps, idOS is mainly f
 
 idOS is core infrastructure for stablecoin apps. idOS serves as the backbone of the stablecoin economy by enabling identity data reusability and orchestration, seamless user onboarding and compliance by extending the composable nature of DeFi to real world use cases. In the TradFi world, companies have built monolithic systems providing multiple (licensed services) under a single entity umbrella. While this approach is slow and requires a high initial investment (i.e. obtaining country-specific licenses for each service offered), it only requires user to verify their data once, to use all services.
 
-![](/assets/image-11.png)
+![idOS as core infrastructure for stablecoin apps](/assets/image-11.png)
 
 ## Our first product: Seamless onboarding and KYC orchestration for stablecoin neobanks
 
@@ -38,4 +38,4 @@ Stablecoin applications are and will keep disrupting traditional (financial) sys
 
 Our first solution, built on top of idOS, enables stablecoin neobanks to offer end-to-end decentralized user onboarding and data management, without compromising on UX, compliance or security. Interested? Learn more [here](https://www.figma.com/proto/RZgdjcbfxJH0pj1WORZV34/idOS-%E2%80%93-Sales-One-Pager?page-id=0%3A1\&node-id=153-108\&viewport=-1438%2C245%2C0.25\&t=JFiI6YGRxu47f4dN-8\&scaling=scale-down-width\&content-scaling=fixed\&hide-ui=1).
 
-![](/assets/image-12.png)
+![idOS neobank onboarding solution](/assets/image-12.png)

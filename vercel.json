@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd docusaurus-site && npm ci && npm run build",
-  "outputDirectory": "docusaurus-site/build",
-  "installCommand": "echo 'deps installed in buildCommand'"
+  "installCommand": "cd docusaurus-site && npm ci",
+  "buildCommand": "cd docusaurus-site && npm run build",
+  "outputDirectory": "docusaurus-site/build"
 }

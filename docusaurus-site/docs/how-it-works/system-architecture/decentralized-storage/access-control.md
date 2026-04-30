@@ -24,4 +24,4 @@ action get_credentials ($type, $issuer) public {
 }
 ```
 
-**Grantees** can read any record they’ve been granted access to. This is configurable on a smart contract that nodes monitor. See [on-chain-access-grants.md](../on-chain-access-grants.md "mention") for more information.
+**Grantees** can read any record they’ve been granted access to. This is configurable on a smart contract that nodes monitor. See [on-chain-access-grants.md](../on-chain-access-grants.md) for more information.

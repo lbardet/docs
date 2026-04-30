@@ -4,7 +4,7 @@ As the identity layer of web3, idOS is designed to enable users to confidently m
 
 By providing secure, self-encrypted, and transparent mechanisms for data storage and access, idOS bridges the gap between regulatory compliance and the decentralized ethos of web3. The remainder of this section will explore in further detail key selected regulatory frameworks while its subsection [idOS & Regulatory Frameworks](/compliance/compliance-overview/idos-and-regulatory-frameworks) goes over how idOS implements them to support both users and organizations in navigating the regulatory landscape of decentralized self-sovereign identity management. 
 
-### **Data Protection Frameworks**
+## **Data Protection Frameworks**
 
 In today's digital landscape, data protection and privacy have become paramount, leading to the establishment of various regulatory frameworks worldwide. These regulations aim to safeguard individuals' personal information and ensure that organizations handle data responsibly. Among the most prominent are for example, the European GDPR, the United States' CCPA, the United Kingdom's UK GDPR ("UK GDPR"), and the Brazilian Lei Geral de Proteção de Dados ("LGPD").
 
@@ -20,7 +20,7 @@ In today's digital landscape, data protection and privacy have become paramount,
 
 While these regulations share common goals of protecting personal data and granting individuals control over their information, they also present differences, whether in scope, definitions, or specific requirements. Organizations operating across multiple jurisdictions usually navigate these differences carefully to ensure compliance. Understanding the nuances of each law is a crucial step in implementing effective data protection strategies and maintaining trust with users globally. 
 
-### **Anti-Money Laundering Frameworks**
+## **Anti-Money Laundering Frameworks**
 
 Anti-Money Laundering (AML) frameworks are an essential piece in the global effort to prevent illicit financial activities, including money laundering and terrorist financing. These frameworks establish guidelines and regulations that financial institutions and other obligated entities must follow to detect, prevent, and report suspicious activities. Key AML frameworks include:
 
@@ -34,7 +34,7 @@ Anti-Money Laundering (AML) frameworks are an essential piece in the global effo
 
 These regulations are typically enforced by financial regulators and government agencies, making them a crucial part of the broader financial regulatory frameworks.
 
-### Other Key Regulatory Frameworks 
+## Other Key Regulatory Frameworks 
 
 In the evolving landscape of digital finance and web3, regulatory frameworks are being established globally to ensure the integrity and security of such markets. Certain jurisdictions have begun enforcing regulations tailored to web3 technologies, while others have provided guidance or are still in the process of formulating regulatory frameworks.
 

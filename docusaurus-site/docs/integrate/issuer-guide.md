@@ -262,7 +262,7 @@ const id = "z6MkszZtxCmA2Ce4vUV132PCuLQmwnaDD5mw2L23fGNnsiX3";
 const issuer = "https://vc-issuers.cool.id/idos";
 
 const credentialFields = {
-  id: `${issuerName}/credentials/${id}`,
+  id: `${issuer}/credentials/${id}`,
   level: "human",
   issued: new Date(),
   approvedAt: new Date(),
@@ -294,7 +294,7 @@ const credentialSubject = {
   residentialAddressProofDateOfIssue: new Date(),
 }
 
-const issuer = {
+const issuerKey = {
   id: `${issuer}/keys/1`,
   controller: `${issuer}/issuer/1`,
   publicKeyMultibase: multibaseSigningKeyPair.publicKey,
@@ -304,7 +304,7 @@ const issuer = {
 const credential = await idOSIssuer.buildCredentials(
   credentialFields,
   credentialSubject,
-  issuer,
+  issuerKey,
 );
 ```
 

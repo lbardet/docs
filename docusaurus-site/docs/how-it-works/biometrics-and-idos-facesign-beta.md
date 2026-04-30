@@ -12,7 +12,7 @@ Let's walk through it to see how it works. First, your device captures some info
 
 The first time the TEE sees your face, it uses a cryptography grade entropy source to generate a random signing key for you. This key is returned to your device, which it can then use to sign messages like a regular wallet does.
 
-![](/assets/image-3.png)
+![FaceSign user flow diagram](/assets/image-3.png)
 
 ## ➡️ User flow
 
