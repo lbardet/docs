@@ -6,6 +6,7 @@
 * [Why idOS?](why-idos.md)
 * [What is self-custodial data?](what-is-self-custodial-data.md)
 * [Market focus](market-focus.md)
+* [ROI calculator](roi-calculator.md)
 * [Example use cases](example-use-cases/README.md)
   * [Neobank/wallet integration](example-use-cases/neobank-wallet-integration.md)
   * [Financial module integration](example-use-cases/financial-module-integration.md)
