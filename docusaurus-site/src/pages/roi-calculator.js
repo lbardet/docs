@@ -1,4 +1,3 @@
-import React from 'react';
 import Layout from '@theme/Layout';
 
 /**
@@ -11,7 +10,7 @@ export default function RoiCalculator() {
     <Layout title="ROI calculator" description="Estimate your ROI with idOS" noFooter>
       <div style={{
         position: 'fixed',
-        top: 60,
+        top: 'var(--ifm-navbar-height, 60px)',
         left: 0,
         right: 0,
         bottom: 0,
@@ -20,6 +19,7 @@ export default function RoiCalculator() {
           src="/roi-calculator.html"
           style={{ width: '100%', height: '100%', border: 'none', display: 'block' }}
           title="idOS ROI Calculator"
+          sandbox="allow-scripts allow-same-origin"
         />
       </div>
     </Layout>
