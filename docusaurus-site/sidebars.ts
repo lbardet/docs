@@ -28,6 +28,11 @@ const sidebars: SidebarsConfig = {
           label: "Market focus",
         },
         {
+          type: "link",
+          href: "/roi-calculator",
+          label: "ROI calculator",
+        },
+        {
           type: "category",
           label: "Example use cases",
           link: {
