@@ -1,10 +1,10 @@
 # The idOS Consortium
 
-<figure><img src=".gitbook/assets/idOS -Consortium-December 2025.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/idOS_Consortium_2026.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Introducing the idOS Consortium
 
-The idOS Consortium brings together leading ecosystems and projects ([Arbitrum](https://arbitrum.io/), [Circle](https://www.circle.com/en/), [Ripple](https://ripple.com/), [NEAR](https://near.org/), [Starknet](https://www.starknet.io/), [Horizen Labs](https://horizenlabs.io/), [Tezos](https://tezos.com/), [Radix](https://www.radixdlt.com/), [Aleph Zero](https://alephzero.org/) and [PartisiaBlockchain](https://partisiablockchain.com/)). We are building idOS as a collaborative, open-source effort. Building the decentralized identity layer of the internet is a challenge that requires the support of multiple leading organizations in the space, contrary to building closed standalone standards.
+The idOS Consortium brings together leading ecosystems and projects ([Arbitrum](https://arbitrum.io/), [Circle](https://www.circle.com/en/), [Ripple](https://ripple.com/), [NEAR](https://near.org/), [Sumsub](https://sumsub.com/), [Starknet](https://www.starknet.io/), [Horizen Labs](https://horizenlabs.io/), [Tezos](https://tezos.com/), [Radix](https://www.radixdlt.com/), [Aleph Zero](https://alephzero.org/) and [PartisiaBlockchain](https://partisiablockchain.com/)). We are building idOS as a collaborative, open-source effort. Building the decentralized identity layer of the internet is a challenge that requires the support of multiple leading organizations in the space, contrary to building closed standalone standards.
 
 **The idOS Consortium is not just marketing optics**. Consortium members are **directly engaged in idOS' governance** (both in the idOS Association General Assembly as well as the Governance Committee) and have direct impact on how idOS is built. **idOS Consortium members directly contributed in the** [**Consortium Round**](https://x.com/idOS_network/status/1810584640098304416) **of idOS at its seed stage**.
 
